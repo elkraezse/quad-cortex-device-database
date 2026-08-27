@@ -21982,13 +21982,77 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Sens",
+          "type": "knob",
+          "range": "dB",
+          "default": 20.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "time",
+          "range": "ms",
+          "default": 20.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "time",
+          "range": "ms",
+          "default": 250.0,
+          "page": 1
+        },
+        {
+          "name": "LP/BP/HP",
+          "type": "knob",
+          "range": "-1 to 1 (blend: Low Pass/Band Pass/High Pass)",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Freq Depth",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3500,
+          "page": 1
+        },
+        {
+          "name": "Reso",
+          "type": "knob",
+          "range": "0-10",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted -- confirmed by user to be identical to 'Envelope Filter' (mono) per the same-device pattern-inference rule. Caveat: on other blocks (e.g. Legendary 87), the (S/C) sidechain variant has been observed to add an extra 'Source' routing dropdown not present on the mono version -- this has NOT been independently confirmed for Env. filter (S/C), so treat that possibility as open if a screenshot ever surfaces.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "foog",

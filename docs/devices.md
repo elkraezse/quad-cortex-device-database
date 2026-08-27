@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**394 devices**: 380 verified, 6 unverified (wiki-sourced), 8 still missing controls.
+**394 devices**: 381 verified, 6 unverified (wiki-sourced), 7 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -412,7 +412,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
 | Cory Wong The Postal Service |  | Archetype: Cory Wong X | 3.2.0 | verified | Range (Hz, default 1150, p1); Sensitivity (dB, default 36.0, p1); Attack (ms, default 550, p1); Decay (ms, default 550, p1) |
-| Env. filter (S/C) |  |  | 3.0.0 | missing |  |
+| Env. filter (S/C) |  |  | 3.0.0 | verified | Sens (dB, default 20.0, p1); Attack (time, ms, default 20.0, p1); Decay (time, ms, default 250.0, p1); LP/BP/HP (-1 to 1 (blend: Low Pass/Band Pass/High Pass), default 0.0, p1); Level (dB, default 3.0, p1); Freq (Hz, default 50, p1); Freq Depth (Hz, default 3500, p1); Reso (0-10, default 8.0, p1); Mix (0-100 %, default 100.0, p1) |
 | Envelope Filter |  |  | 1.0.0 | verified | Sens (dB, default 20.0, p1); Attack (time, ms, default 20.0, p1); Decay (time, ms, default 250.0, p1); LP/BP/HP (-1 to 1 (blend: Low Pass/Band Pass/High Pass), default 0.0, p1); Level (dB, default 3.0, p1); Freq (Hz, default 50, p1); Freq Depth (Hz, default 3500, p1); Reso (0-10, default 8.0, p1); Mix (0-100 %, default 100.0, p1) |
 | Foog | Moog Moogerfooger MF-101 |  | 1.0.0 | verified | Drive (0-10, default 4.0, p1); Decay (switch, Smooth/Fast, default Smooth, p1); Env Amount (0-10, default 10.0, p1); Cutoff (0-10, default 3.5, p1); Resonance (0-10, default 7.7, p1); Mix (0-100 %, default 100, p1); Filter (switch, 2-Pole/4-Pole, default 2-Pole, p1); Level (dB, default 0.0, p1) |
 | Love Meat | Lovetone Meatball |  | 1.0.0 | verified | Sensitivity (0-10, default 10.0, p1); Attack (0-10, default 1.6, p1); Decay (0-10, default 4.0, p1); Color (0-10, default 10.0, p1); Intensity (0-10, default 10.0, p1); Blend (0-10, default 10.0, p1); Trig Direction (switch, Up/Down, default Up, p1); Trigger Mode (select, detented (shown: Full), default Full, p1); Filter Cutoff (select, detented, lettered positions (shown: B), default B, p1); Filter Type (select, detented (shown: Lowpass), default Lowpass, p1); Level (dB, default 0.0, p2) |
