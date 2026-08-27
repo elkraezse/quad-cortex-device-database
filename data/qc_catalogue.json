@@ -17653,13 +17653,20 @@
           "range": "Off, 0-100 %",
           "default": "Off",
           "page": 1
+        },
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
         }
       ],
       "verified": true,
       "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": 1,
-      "notes": null,
+      "pages": 2,
+      "notes": "Page 2 (Volume knob) captured in a later screenshot batch than page 1; page 1 controls unchanged from prior verification.",
       "coros_verified_on": "4.1.0"
     },
     {
@@ -17684,13 +17691,63 @@
       "based_on": "TC Electronic Dreamscape",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Speed",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "select",
+          "range": "CHO1/CHO2",
+          "default": "CHO1",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Mono variant. Mode switches between CHO1/CHO2 vibrato-chorus modes (Roland Dimension-style). Captured from a screenshot whose sidebar highlight actually read 'Chief DC2W (ST)' during an auditioning transition -- the editor panel's blue device-name header read 'Dream Chorus (M)*', which is treated as authoritative here. Chief DC2W (ST) and Dream Chorus (ST) parameters not yet captured.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "dual_chorus",
@@ -17699,13 +17756,70 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 60.0,
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "select",
+          "range": "Vibe/Chorus",
+          "default": "Chorus",
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-100",
+          "default": 50,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Tone is displayed without a '%' suffix in Cortex Control unlike its sibling controls -- kept as a plain 0-100 range to reflect that.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "flanger_engine",
@@ -17714,13 +17828,161 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay",
+          "type": "time",
+          "range": "ms",
+          "default": 0.72,
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Thr Zero",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 40,
+          "page": 1
+        },
+        {
+          "name": "Waveform",
+          "type": "select",
+          "range": "Sine/Triangle/Square/Saw Up/Saw Dn",
+          "default": "Sine",
+          "page": 1
+        },
+        {
+          "name": "Duty Cycle",
+          "type": "knob",
+          "range": "0-1",
+          "default": 0.26,
+          "page": 1
+        },
+        {
+          "name": "Skew",
+          "type": "knob",
+          "range": "-1 to 1",
+          "default": -0.36,
+          "page": 2
+        },
+        {
+          "name": "Smoothing",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 2
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 12000,
+          "page": 2
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 80,
+          "page": 2
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 10,
+          "page": 2
+        },
+        {
+          "name": "Resonance",
+          "type": "select",
+          "range": "detented (shown: Full)",
+          "default": "Full",
+          "page": 2
+        },
+        {
+          "name": "Color",
+          "type": "select",
+          "range": "detented (shown: Natural)",
+          "default": "Natural",
+          "page": 2
+        },
+        {
+          "name": "Intensity",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 2
+        },
+        {
+          "name": "Drive Type",
+          "type": "select",
+          "range": "Soft/Edgy/Hard/Off",
+          "default": "Soft",
+          "page": 2
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 2
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 3
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 3,
+      "notes": "Resonance and Color are detented dials -- only their currently-displayed value (Full/Natural respectively) was visible in the captured screenshots, not their full option lists. Needs another screenshot cycling through those dials to confirm the complete range.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "flangerish",
@@ -17729,13 +17991,70 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "harmonic_tremolo",
@@ -17744,13 +18063,112 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Sync On",
+          "type": "select",
+          "range": "Highs/Lows",
+          "default": "Lows",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Waveform",
+          "type": "select",
+          "range": "Sine/Triangle/Square/Saw Up/Saw Dn",
+          "default": "Sine",
+          "page": 1
+        },
+        {
+          "name": "Duty Cycle",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Smoothing",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "LFO Active",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Fade In",
+          "type": "time",
+          "range": "ms",
+          "default": 1000,
+          "page": 1
+        },
+        {
+          "name": "Fade Out",
+          "type": "time",
+          "range": "ms",
+          "default": 1000,
+          "page": 2
+        },
+        {
+          "name": "Boost",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 2
+        },
+        {
+          "name": "LP Xover",
+          "type": "knob",
+          "range": "Hz",
+          "default": 144,
+          "page": 2
+        },
+        {
+          "name": "HP Xover",
+          "type": "knob",
+          "range": "Hz",
+          "default": 636,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 2,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "micro_processor_st",
@@ -17759,13 +18177,140 @@
       "based_on": "Eventide Micropitch Delay",
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25,
+          "page": 1
+        },
+        {
+          "name": "Delay Time A",
+          "type": "time",
+          "range": "ms",
+          "default": 80,
+          "page": 1
+        },
+        {
+          "name": "Sync Note A",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Pitch A",
+          "type": "knob",
+          "range": "cents",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "A/B Pitch Mix",
+          "type": "select",
+          "range": "A-B blend/pan-like",
+          "default": "A/B",
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Delay Time B",
+          "type": "time",
+          "range": "ms",
+          "default": 140,
+          "page": 1
+        },
+        {
+          "name": "Sync Note B",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/8",
+          "page": 1
+        },
+        {
+          "name": "Pitch B",
+          "type": "knob",
+          "range": "cents",
+          "default": -10,
+          "page": 1
+        },
+        {
+          "name": "X-Feedback",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Mod Source",
+          "type": "select",
+          "range": "LFO/LFO Stereo/+Envelope/-Envelope",
+          "default": "LFO",
+          "page": 2
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 2
+        },
+        {
+          "name": "LFO Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 1.5,
+          "page": 2
+        },
+        {
+          "name": "Env Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "X-Feedback, Mod Source and Env Gain all show info (i) tooltips in Cortex Control.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "mx_flanger",
@@ -17774,13 +18319,70 @@
       "based_on": "MXR Flanger M117R",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Manual",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Speed",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Regen",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "mx_phase_95",
@@ -17789,28 +18391,135 @@
       "based_on": "MXR Phase 95",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Speed",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Type",
+          "type": "select",
+          "range": "45/90",
+          "default": "90",
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "select",
+          "range": "Script/Block",
+          "default": "Block",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "mx_vibes",
-      "name": "MX Vibes",
+      "name": "MX Vibe",
       "category": "Modulation",
       "based_on": "MXR UniVibe",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Vibe",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Speed",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Catalogue id kept as 'mx_vibes' (pre-existing) but display name corrected to 'MX Vibe' (singular) to match the actual Cortex Control sidebar spelling.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "nuvibes",
@@ -17834,13 +18543,84 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Steps",
+          "type": "knob",
+          "range": "stepper, +/- (shown: 8)",
+          "default": 8,
+          "page": 1
+        },
+        {
+          "name": "Step Pattern",
+          "type": "select",
+          "range": "16-slot per-step level grid, live-editable",
+          "default": "8 active steps shown w/ varying levels, remaining slots empty",
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Swing",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Smooth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Ping Pong",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Retrigger",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Step-sequencer-style tremolo. 'Steps' is a +/- stepper setting how many of the 16 available step slots are active; 'Step Pattern' represents the live-editable per-step level grid as a single descriptive control rather than 16 individually enumerated ones. Retrigger shows an info (i) tooltip.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "phaser",
@@ -17849,13 +18629,84 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 75.0,
+          "page": 1
+        },
+        {
+          "name": "Speed",
+          "type": "knob",
+          "range": "unitless in this screenshot -- possibly Hz, needs re-confirmation",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Manual",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Resonance",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Speed's unit was not legible in the captured screenshot -- likely Hz by analogy with other modulation blocks, but flagged as needing re-confirmation.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "rotary",
@@ -17864,13 +18715,91 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Speed",
+          "type": "select",
+          "range": "Fast/Slow",
+          "default": "Slow",
+          "page": 1
+        },
+        {
+          "name": "Slow Speed",
+          "type": "knob",
+          "range": "Hz",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Fast Speed",
+          "type": "knob",
+          "range": "Hz",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Slow Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Fast Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/16",
+          "page": 1
+        },
+        {
+          "name": "Acceleration",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 20,
+          "page": 1
+        },
+        {
+          "name": "Speaker Balance",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Brightness",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Horn Mic Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 75,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 2,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "tremolo",
