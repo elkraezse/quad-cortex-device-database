@@ -3320,22 +3320,70 @@
       "based_on": "EVH 5150 IIIS EL34",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Resonance",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Resonance",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ev101iiis_red_6l6_100w",
@@ -3416,22 +3464,70 @@
       "based_on": "EVH 5150 IIIS EL34",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Resonance",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Resonance",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted -- confirmed by user to be identical to 'EV101IIIS Blue EL34 100W' (same physical device family: EVH 5150 IIIS EL34, Blue/Red are channel-color variants). Per user instruction, channel/variant siblings of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "freeman_100_clean",
@@ -4329,18 +4425,42 @@
       "based_on": "Vox AC30",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Bright switch",
-        "Volume",
-        "Tone Cut",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Tone Cut",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "uk_c30_topboost",
@@ -4349,20 +4469,42 @@
       "based_on": "Vox AC30",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume (=Drive)",
-        "Boost switch",
-        "Bass",
-        "Treble",
-        "Tone Cut",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Tone Cut",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted -- confirmed by user to be identical to 'UK C30 Normal' (same physical device family: Vox AC30, Normal/TopBoost are channel variants). Per user instruction, channel/variant siblings of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even though on the real Vox AC30 the Top Boost channel normally exposes a different (2-band) tone stack than the Normal channel's single Tone Cut knob.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_dlx_64_vintage",
@@ -5160,20 +5302,56 @@
       "based_on": "Fender Twin Reverb",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume",
-        "Bright switch",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_twn_vibrato",
@@ -5182,20 +5360,56 @@
       "based_on": "Fender Twin Reverb",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume",
-        "Bright switch",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted -- confirmed by user to be identical to 'US TWN Normal' (same physical device family: Fender Twin Reverb, Normal/Vibrato are channel variants). Per user instruction, channel/variant siblings of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "victor_squid_ch1",
@@ -5276,13 +5490,70 @@
       "based_on": "Victory Kraken Ch2",
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Focus",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Tube",
+          "type": "switch",
+          "range": "EL34/6L6",
+          "default": "EL34",
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Tube shows an info (i) tooltip; it's a 2-position selector between EL34/6L6 power-tube voicings, default EL34. Only Ch2 exists for this device (no other channel variants in the catalogue).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "watt_d103_bright",
@@ -17574,18 +17845,61 @@
     },
     {
       "id": "legendary_87",
-      "name": "Legendary 87",
+      "name": "Legendary 87 (M)",
       "category": "Compressor",
       "based_on": "Universal Audio 1176",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Input",
+          "type": "knob",
+          "range": "dB",
+          "default": -15.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "select",
+          "range": "detented (shown: 12)",
+          "default": "12",
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 0.8,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "s",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Catalogue id kept as 'legendary_87' but display name corrected to 'Legendary 87 (M)' to match the actual Cortex Control sidebar spelling (sits alongside (S/C) and (ST) siblings). Ratio is a detented dial with an info tooltip; only its default position (12) was visible, full range not confirmed. Gain Reduction is a live readout/meter, not an adjustable control, so it's omitted here.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "legendary_87_st",
@@ -17594,13 +17908,56 @@
       "based_on": "Universal Audio 1176",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Input",
+          "type": "knob",
+          "range": "dB",
+          "default": -15.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "select",
+          "range": "detented (shown: 12)",
+          "default": "12",
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 0.8,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "s",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Stereo-linked ('ST') variant of Legendary 87 (M) -- confirmed via direct screenshot to have an identical control set to (M), no additional stereo-link controls exposed. Gain Reduction is a live readout/meter, not an adjustable control.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "legendary_87_s_c",
@@ -17609,13 +17966,63 @@
       "based_on": "Universal Audio 1176",
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Input",
+          "type": "knob",
+          "range": "dB",
+          "default": -15.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "select",
+          "range": "detented (shown: 12)",
+          "default": "12",
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 0.8,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "s",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Source",
+          "type": "select",
+          "range": "Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB input 5/USB input 6/USB input 7/USB input 8/USB input 5-6/USB input 7-8",
+          "default": "Off",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": "Screenshot so far only showed the input-routing dropdown (Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB inputs 5-8/USB 5-6/USB 7-8), not the actual compressor controls (Threshold/Ratio/Attack/Release/Makeup/Mix etc.). Still needs a real parameter screenshot before it can be verified.",
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Sidechain ('S/C') variant of Legendary 87 (M) -- identical Input/Ratio/Attack/Release/Makeup/Mix controls, plus an added Source dropdown for routing an external sidechain trigger. Source's option list assumed to match the routing-source list confirmed elsewhere (Doubler/Blend Trigger/Source dropdowns) since it wasn't independently expanded in this screenshot -- flagged as presumed, not confirmed. Gain Reduction is a live readout/meter, not an adjustable control.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "opto_comp",
