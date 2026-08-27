@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**394 devices**: 311 verified, 38 unverified (wiki-sourced), 45 still missing controls.
+**394 devices**: 322 verified, 38 unverified (wiki-sourced), 34 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -446,19 +446,19 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Adaptive Gate |  |  | 1.0.0 | missing |  |
+| Adaptive Gate |  |  | 1.0.0 | verified | Noise Reduction (0-100 %, default 30.0, p1) |
 | Adaptive Gate (S/C) |  |  | 3.0.0 | missing |  |
-| Doubler |  |  | 3.0.0 | missing |  |
-| Gain |  |  | 1.0.0 | missing |  |
+| Doubler |  |  | 3.0.0 | verified | Spread (time, ms, default 6.0, p1); Dry Level (dB, default 0.0, p1); FX Level (dB, default 0.0, p1); Trigger (select, Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB input 5/USB input 6/USB input 7/USB input 8/USB input 5-6/USB input 7-8, default Off, p1); Input (switch, Right/Mono/Left, default Mono, p1) |
+| Gain |  |  | 1.0.0 | verified | Level (dB, default 0.0, p1); Pan (L-C-R, default C, p1); Phase Invert (switch, Inverted/Normal, default Normal, p1) |
 | Petrucci Volume |  | Archetype: Petrucci X | 4.1.0 | verified | Level (0-100 %, default 100.0, p1); Mid-Point (0-100 %, default 15, p1) |
-| Phase Doctor | Little Labs IBP |  | 4.0.0 | missing |  |
-| Plugin Blend |  |  | 3.0.0 | missing |  |
-| Plugin Doubler |  |  | 3.0.0 | missing |  |
-| Plugin Gate |  |  | 3.0.0 | missing |  |
-| Simple Gate |  |  | 1.0.0 | missing |  |
-| Transparent Blend |  |  | 3.0.0 | missing |  |
-| Utility Gate |  |  | 1.0.0 | missing |  |
-| Volume |  |  | 2.1.0 | missing |  |
+| Phase Doctor | Little Labs IBP |  | 4.0.0 | verified | Ø Polarity (switch, Inverted/Normal, default Normal, p1); Ø Adjust (select, detented (shown: Bypass), default Bypass, p1); Ø Center (switch, Hi Freq/Lo Freq, default Hi Freq, p1); Ø Shift (0-100 %, default 0, p1); Stereo Link (switch, Linked/Unlinked, default Linked, p1); Ø Polarity R (switch, Inverted/Normal, default Normal, p1); Ø Adjust R (select, detented (shown: Bypass), default Bypass, p1); Ø Center R (switch, Hi Freq/Lo Freq, default Hi Freq, p1); Ø Shift R (0-100 %, default 0, p1) |
+| Plugin Blend |  |  | 3.0.0 | verified | Blend (0-100 %, default 0.0, p1); Output (dB, default 0.0, p1); Source (select, Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB input 5/USB input 6/USB input 7/USB input 8/USB input 5-6/USB input 7-8, default Off, p1); Blend Level (dB, default 0.0, p1) |
+| Plugin Doubler |  |  | 3.0.0 | verified | Spread (time, ms, default 6.0, p1); Trigger (select, Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB input 5/USB input 6/USB input 7/USB input 8/USB input 5-6/USB input 7-8, default Off, p1); Input (switch, Right/Mono/Left, default Mono, p1) |
+| Plugin Gate |  |  | 3.0.0 | verified | Threshold (dB, default -80.0, p1) |
+| Simple Gate |  |  | 1.0.0 | verified | Threshold (dB, default -60.0, p1) |
+| Transparent Blend |  |  | 3.0.0 | verified | Blend (0-100 %, default 0.0, p1); Output (dB, default 0.0, p1); Source (select, Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB input 5/USB input 6/USB input 7/USB input 8/USB input 5-6/USB input 7-8, default Off, p1); Blend Level (dB, default 0.0, p1) |
+| Utility Gate |  |  | 1.0.0 | verified | Threshold (dB, default -80.0, p1); Attack (time, ms, default 1, p1); Hold (time, ms, default 10, p1); Release (time, ms, default 40, p1); Range (Off, dB, default Off, p1) |
+| Volume |  |  | 2.1.0 | verified | Level (0-100 %, default 100.0, p1); Curve (switch, Log/Linear, default Log, p1) |
 
 ## Synth
 

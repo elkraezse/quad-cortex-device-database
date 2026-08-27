@@ -20698,13 +20698,21 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Noise Reduction",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Single-knob adaptive noise gate -- no Threshold/Attack/Release knobs like the manual gates, just one Noise Reduction amount.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "adaptive_gate_s_c",
@@ -20728,13 +20736,35 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Phase Invert",
+          "type": "switch",
+          "range": "Inverted/Normal",
+          "default": "Normal",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "simple_gate",
@@ -20743,13 +20773,21 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -60.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Single-knob simplified gate -- just Threshold, no Attack/Hold/Release/Range like Utility Gate. Default Threshold (-60.0dB) differs from Plugin Gate's (-80.0dB).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "utility_gate",
@@ -20758,13 +20796,49 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -80.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "time",
+          "range": "ms",
+          "default": 1,
+          "page": 1
+        },
+        {
+          "name": "Hold",
+          "type": "time",
+          "range": "ms",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "time",
+          "range": "ms",
+          "default": 40,
+          "page": 1
+        },
+        {
+          "name": "Range",
+          "type": "knob",
+          "range": "Off, dB",
+          "default": "Off",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Full manual noise gate -- Threshold/Attack/Hold/Release plus a Range knob (how much the gated signal is attenuated), defaulting to Off.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "volume",
@@ -20773,13 +20847,28 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Curve",
+          "type": "switch",
+          "range": "Log/Linear",
+          "default": "Log",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "phase_doctor",
@@ -20788,13 +20877,77 @@
       "based_on": "Little Labs IBP",
       "plugin": null,
       "added_in_coros": "4.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Ø Polarity",
+          "type": "switch",
+          "range": "Inverted/Normal",
+          "default": "Normal",
+          "page": 1
+        },
+        {
+          "name": "Ø Adjust",
+          "type": "select",
+          "range": "detented (shown: Bypass)",
+          "default": "Bypass",
+          "page": 1
+        },
+        {
+          "name": "Ø Center",
+          "type": "switch",
+          "range": "Hi Freq/Lo Freq",
+          "default": "Hi Freq",
+          "page": 1
+        },
+        {
+          "name": "Ø Shift",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Stereo Link",
+          "type": "switch",
+          "range": "Linked/Unlinked",
+          "default": "Linked",
+          "page": 1
+        },
+        {
+          "name": "Ø Polarity R",
+          "type": "switch",
+          "range": "Inverted/Normal",
+          "default": "Normal",
+          "page": 1
+        },
+        {
+          "name": "Ø Adjust R",
+          "type": "select",
+          "range": "detented (shown: Bypass)",
+          "default": "Bypass",
+          "page": 1
+        },
+        {
+          "name": "Ø Center R",
+          "type": "switch",
+          "range": "Hi Freq/Lo Freq",
+          "default": "Hi Freq",
+          "page": 1
+        },
+        {
+          "name": "Ø Shift R",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Phase-alignment utility. All 5 left-channel controls (and Stereo Link) show info (i) tooltips. Ø Center and Ø Shift are grayed out/inactive while Ø Adjust is in its default 'Bypass' position -- their real effect only applies once Adjust is moved off Bypass, and Ø Adjust's full range beyond 'Bypass' was not captured. The entire *R (right-channel) row is grayed out/mirrors the left row while Stereo Link is 'Linked' (the default); it only becomes independently editable when Stereo Link is set to 'Unlinked', which was not captured.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "plugin_gate",
@@ -20803,13 +20956,21 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -80.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Single-knob simplified gate -- just Threshold, no Attack/Hold/Release/Range like Utility Gate.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "doubler",
@@ -20818,13 +20979,49 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Spread",
+          "type": "time",
+          "range": "ms",
+          "default": 6.0,
+          "page": 1
+        },
+        {
+          "name": "Dry Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "FX Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Trigger",
+          "type": "select",
+          "range": "Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB input 5/USB input 6/USB input 7/USB input 8/USB input 5-6/USB input 7-8",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Input",
+          "type": "switch",
+          "range": "Right/Mono/Left",
+          "default": "Mono",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Trigger's full dropdown option list confirmed via an expanded-dropdown screenshot. Input is a 3-position switch (Right/Mono/Left), default Mono.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "plugin_doubler",
@@ -20833,13 +21030,35 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Spread",
+          "type": "time",
+          "range": "ms",
+          "default": 6.0,
+          "page": 1
+        },
+        {
+          "name": "Trigger",
+          "type": "select",
+          "range": "Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB input 5/USB input 6/USB input 7/USB input 8/USB input 5-6/USB input 7-8",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Input",
+          "type": "switch",
+          "range": "Right/Mono/Left",
+          "default": "Mono",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "'Plugin' variant of Doubler -- same Spread/Trigger/Input controls, but lacks Doubler's Dry Level and FX Level knobs.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "plugin_blend",
@@ -20848,13 +21067,42 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Blend",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Source",
+          "type": "select",
+          "range": "Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB input 5/USB input 6/USB input 7/USB input 8/USB input 5-6/USB input 7-8",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Blend Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "'Plugin' variant of Transparent Blend -- identical control layout and defaults.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "transparent_blend",
@@ -20863,13 +21111,42 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Blend",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Source",
+          "type": "select",
+          "range": "Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB input 5/USB input 6/USB input 7/USB input 8/USB input 5-6/USB input 7-8",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Blend Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Same control layout as Plugin Blend (Blend/Output/Source/Blend Level).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "mono_synth",
