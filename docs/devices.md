@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**344 devices**: 0 verified, 59 unverified (wiki-sourced), 285 still missing controls.
+**348 devices**: 11 verified, 59 unverified (wiki-sourced), 278 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -72,10 +72,10 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Matchmore D30 Ch1 | Matchless DC30 Ch1 |  | 2.1.0 | missing |  |
 | Matchmore D30 Ch2 | Matchless DC30 Ch2 |  | 2.1.0 | missing |  |
 | Matchmore Jefe | Matchless Chieftain |  | 2.1.0 | missing |  |
-| Nolly Clean |  | Archetype: Nolly X | 3.2.0 | missing |  |
-| Nolly Crunch |  | Archetype: Nolly X | 3.2.0 | missing |  |
-| Nolly Lead |  | Archetype: Nolly X | 3.2.0 | missing |  |
-| Nolly Rhythm |  | Archetype: Nolly X | 3.2.0 | missing |  |
+| Nolly Clean |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bright (switch, Off/On, default Off, p1); Master (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
+| Nolly Crunch |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bright (switch, Off/On, default Off, p1); Presence (0-10, default 5.0, p1); Depth (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
+| Nolly Lead |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 6.0, p1); Bass (0-10, default 3.9, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 4.4, p1); Master (0-10, default 4.0, p1); Output (dB, default 0.0, p1) |
+| Nolly Rhythm |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Resonance (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
 | Piezo |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | PV-505 Lead | Peavey 6505 |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Master, Presence, Depth, Output |
 | PV-505 Rhythm | Peavey 6505 |  | 1.0.0 | unverified | _unverified:_ Gain, Bright switch, Bass, Middle, Treble, Master, Presence, Depth, Output |
@@ -181,10 +181,14 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Match D30 Sig B | Matchless DC30 Sig B |  | 2.1.0 | missing |  |
 | Match Jefe Sig 02 | Matchless Chieftain Sig 02 |  | 2.1.0 | missing |  |
 | Match Jefe V30 02 | Matchless Chieftain V30 02 |  | 2.1.0 | missing |  |
-| Nolly Cab 1 (M) & (ST) |  | Archetype: Nolly X | 3.2.0 | missing |  |
-| Nolly Cab 2 (M) & (ST) |  | Archetype: Nolly X | 3.2.0 | missing |  |
-| Nolly Cab 3 (M) & (ST) |  | Archetype: Nolly X | 3.2.0 | missing |  |
-| Nolly Cab 4 (M) & (ST) |  | Archetype: Nolly X | 3.2.0 | missing |  |
+| Nolly Cab 1 (M) |  | Archetype: Nolly X | 3.2.0 | missing | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1) |
+| Nolly Cab 1 (ST) |  | Archetype: Nolly X | 3.2.0 | missing | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1) |
+| Nolly Cab 2 (M) |  | Archetype: Nolly X | 3.2.0 | missing | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1) |
+| Nolly Cab 2 (ST) |  | Archetype: Nolly X | 3.2.0 | missing | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1) |
+| Nolly Cab 3 (M) |  | Archetype: Nolly X | 3.2.0 | missing | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1) |
+| Nolly Cab 3 (ST) |  | Archetype: Nolly X | 3.2.0 | missing | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1) |
+| Nolly Cab 4 (M) |  | Archetype: Nolly X | 3.2.0 | missing | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1) |
+| Nolly Cab 4 (ST) |  | Archetype: Nolly X | 3.2.0 | missing | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1) |
 
 ## Guitar overdrive
 
@@ -211,8 +215,8 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | MK3 Silicon Fuzz | JHS Bender 1973 London |  | 2.1.0 | missing |  |
 | Myth Drive | Klon Centaur |  | 1.0.0 | missing |  |
 | No-Bell OD1 | Nobels ODR-1 |  | 1.4.0 | missing |  |
-| Nolly Overdrive-1 |  | Archetype: Nolly X | 3.2.0 | missing |  |
-| Nolly Overdrive-2 |  | Archetype: Nolly X | 3.2.0 | missing |  |
+| Nolly Overdrive-1 |  | Archetype: Nolly X | 3.2.0 | verified | Drive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Bright (switch, Off/On, default Off, p1) |
+| Nolly Overdrive-2 |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 1.5, p1); Bass (0-10, default 4.2, p1); Treble (0-10, default 4.3, p1); Level (0-10, default 5.6, p1) |
 | Obsessive Drive | Fulltone OCD |  | 1.0.0 | missing |  |
 | OD250 | DOD Overdrive Preamp 250 |  | 1.0.0 | missing |  |
 | Overdrive |  | Archetype: Petrucci X | 4.1.0 | missing |  |
@@ -234,7 +238,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Legendary 87 | Universal Audio 1176 |  | 1.0.0 | missing |  |
 | Legendary 87 (S/C) | Universal Audio 1176 |  | 3.0.0 | missing |  |
 | Legendary 87 (ST) | Universal Audio 1176 |  | 1.4.0 | missing |  |
-| Nolly Compressor |  | Archetype: Nolly X | 3.2.0 | missing |  |
+| Nolly Compressor |  | Archetype: Nolly X | 3.2.0 | verified | Comp (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Attack (switch, Snappy/Smooth, default Snappy, p1); Gain Reduction (meter, dB, p1) |
 | Opto Comp |  |  | 1.0.0 | missing |  |
 | Opto Comp (S/C) |  |  | 3.0.0 | missing |  |
 | Opto Comp (ST) |  |  | 1.4.0 | missing |  |
@@ -251,7 +255,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 |---|---|---|---|---|---|
 | Graphic-9 |  |  | 1.0.0 | missing |  |
 | Low-High Cut |  |  | 1.0.0 | missing |  |
-| Nolly Graphic-9 |  | Archetype: Nolly X | 3.2.0 | missing |  |
+| Nolly Graphic-9 |  | Archetype: Nolly X | 3.2.0 | verified | Band 1 (75Hz) (dB, default 0.0, p1); Band 2 (150Hz) (dB, default 0.0, p1); Band 3 (250Hz) (dB, default 0.0, p1); Band 4 (400Hz) (dB, default 0.0, p1); Band 5 (800Hz) (dB, default 0.0, p1); Band 6 (1.5kHz) (dB, default 0.0, p1); Band 7 (4.5kHz) (dB, default 0.0, p1); Band 8 (8kHz) (dB, default 0.0, p1); Band 9 (12kHz) (dB, default 0.0, p1); HPF (Hz, default OFF, p1); LPF (Hz, default OFF, p1); Nolly's Mod (switch, Off/On, default Off, p1); Output (dB, default 0.0, p1) |
 | Parametric-3 |  |  | 1.0.0 | missing |  |
 | Parametric-8 |  |  | 1.0.0 | missing |  |
 | Plugin Graphic-9 |  |  | 3.0.0 | missing |  |
@@ -271,8 +275,8 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Dual Delay |  |  | 1.4.0 | missing |  |
 | Dual Reverse Delay |  |  | 2.1.0 | missing |  |
 | Gojira DLY (ST) |  | Archetype: Gojira X | 3.0.0 | missing |  |
-| Nolly Delay-1 (M) |  | Archetype: Nolly X | 3.2.0 | missing |  |
-| Nolly Delay-2 |  | Archetype: Nolly X | 3.2.0 | missing |  |
+| Nolly Delay-1 (M) |  | Archetype: Nolly X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Feedback (0-100 %, default 20.0, p1); Sync (switch, Off/On, default On, p1); Sync Note (select, note values, default 1/4, p1); Delay Time (time, ms, default 80, p1); Trails (switch, Off/On, default On, p1); Tone (0-100 %, default 50, p1) |
+| Nolly Delay-2 |  | Archetype: Nolly X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Feedback (0-100 %, default 25.0, p1); Delay Time (time, ms, default 500, p1); Sync (switch, Off/On, default On, p1); Sync Note (select, note values, default 1/4, p1); High Pass (Hz, default 60, p1); Low Pass (Hz, default 5000, p1); Ping Pong (switch, Off/On, default On, p1); Mod (0-100 %, default 50.0, p1); Trails (switch, Off/On, default On, p1) |
 | Reverse Delay |  |  | 2.1.0 | missing |  |
 | Simple Delay |  |  | 2.1.0 | missing |  |
 | Simple Ping Pong Delay |  |  | 1.0.0 | missing |  |
@@ -293,7 +297,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Hall |  |  | 1.0.0 | missing |  |
 | Mind Hall |  |  | 1.2.0 | missing |  |
 | Modulated |  |  | 1.0.0 | missing |  |
-| Nolly Reverb |  | Archetype: Nolly X | 3.2.0 | missing |  |
+| Nolly Reverb |  | Archetype: Nolly X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (s, default 3.0, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Nordic Concert Hall (ST) | Inspired by Valhalla VintageVerb Concert Hall |  | 4.0.0 | missing |  |
 | Plate |  |  | 1.2.0 | missing |  |
 | Plate Lush |  |  | 1.2.0 | missing |  |
