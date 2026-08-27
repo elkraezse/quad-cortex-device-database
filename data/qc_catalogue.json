@@ -13858,7 +13858,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -13922,18 +13922,145 @@
     },
     {
       "id": "digital_delay",
-      "name": "Digital Delay",
+      "name": "Digital Delay (M)",
       "category": "Delay",
       "based_on": null,
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3000,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 500,
+          "page": 1
+        },
+        {
+          "name": "Mod Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 40,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Dyn Depth",
+          "type": "knob",
+          "range": "dB",
+          "default": 10.0,
+          "page": 2
+        },
+        {
+          "name": "Dyn Mode",
+          "type": "select",
+          "range": "Off/Duck/Gate",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -24.0,
+          "page": 2
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 200,
+          "page": 2
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "ms",
+          "default": 500,
+          "page": 2
+        },
+        {
+          "name": "Knee",
+          "type": "knob",
+          "range": "dB",
+          "default": 4.0,
+          "page": 2
+        },
+        {
+          "name": "Feedback Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 80,
+          "page": 2
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Mono variant. Page 2 is a ducking/dynamics section (Dyn Depth/Mode/Threshold/Attack/Release/Knee/Feedback Depth) plus a Gain Reduction meter. See 'Digital Delay (ST)' for the stereo sibling.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "dual_delay",
@@ -13942,13 +14069,84 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 64.1,
+          "page": 1
+        },
+        {
+          "name": "Sync L",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note L",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay Time L",
+          "type": "time",
+          "range": "ms",
+          "default": 500,
+          "page": 1
+        },
+        {
+          "name": "Feedback L",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 45.0,
+          "page": 1
+        },
+        {
+          "name": "X-Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 60,
+          "page": 1
+        },
+        {
+          "name": "Sync R",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note R",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/2T",
+          "page": 1
+        },
+        {
+          "name": "Delay Time R",
+          "type": "time",
+          "range": "ms",
+          "default": 700,
+          "page": 1
+        },
+        {
+          "name": "Feedback R",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 45.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 3,
+      "notes": "Block has 3 parameter pages; only page 1 (independent L/R mix, sync, delay time, feedback, plus cross-feedback) has been captured so far. Pages 2 and 3 still need screenshots.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "dual_reverse_delay",
@@ -14057,7 +14255,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4D",
           "page": 1
         },
@@ -14192,7 +14390,7 @@
         {
           "name": "Tap 1 Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/8",
           "page": 1
         },
@@ -14227,7 +14425,7 @@
         {
           "name": "Tap 2 Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -14262,7 +14460,7 @@
         {
           "name": "Tap 3 Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/2",
           "page": 1
         },
@@ -14290,7 +14488,7 @@
         {
           "name": "FB Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/1",
           "page": 1
         },
@@ -14390,14 +14588,14 @@
         {
           "name": "Sync Note L",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/8",
           "page": 1
         },
         {
           "name": "Sync Note R",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -16147,7 +16345,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         }
@@ -16205,7 +16403,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         }
@@ -16458,7 +16656,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -17110,7 +17308,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         }
@@ -17189,14 +17387,14 @@
         {
           "name": "Sync Note L",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
         {
           "name": "Sync Note R",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -17481,7 +17679,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -17553,7 +17751,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -18256,7 +18454,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -18328,7 +18526,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -18739,14 +18937,14 @@
         {
           "name": "Sync Note L",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
         {
           "name": "Sync Note R",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -24356,7 +24554,7 @@
         {
           "name": "Sync Note",
           "type": "select",
-          "range": "note values",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
           "default": "1/4",
           "page": 1
         },
@@ -24408,6 +24606,162 @@
       "verified": true,
       "source": "Cortex Control 4.1.0 screenshot",
       "notes": "Stereo sibling of Analog Delay (M) -- adds Ping Pong (page 1) and Width (page 2); Drive moves to page 2 here.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "digital_delay_st",
+      "name": "Digital Delay (ST)",
+      "category": "Delay",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3000,
+          "page": 1
+        },
+        {
+          "name": "Ping Pong",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 500,
+          "page": 1
+        },
+        {
+          "name": "Mod Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 40,
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 60,
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        },
+        {
+          "name": "Dyn Depth",
+          "type": "knob",
+          "range": "dB",
+          "default": 10.0,
+          "page": 2
+        },
+        {
+          "name": "Dyn Mode",
+          "type": "select",
+          "range": "Off/Duck/Gate",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -24.0,
+          "page": 2
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 200,
+          "page": 2
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "ms",
+          "default": 500,
+          "page": 2
+        },
+        {
+          "name": "Knee",
+          "type": "knob",
+          "range": "dB",
+          "default": 4.0,
+          "page": 2
+        },
+        {
+          "name": "Feedback Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 80,
+          "page": 2
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 2
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 2,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Stereo sibling of Digital Delay (M) -- adds Ping Pong (page 1) and Width (page 2); same ducking/dynamics section on page 2.",
       "coros_verified_on": "4.1.0"
     }
   ]
