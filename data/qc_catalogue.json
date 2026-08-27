@@ -18808,13 +18808,98 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Waveform",
+          "type": "select",
+          "range": "Sine/Triangle/Square/Saw Up/Saw Dn",
+          "default": "Sine",
+          "page": 1
+        },
+        {
+          "name": "Duty Cycle",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Smoothing",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "LFO Active",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Fade In",
+          "type": "time",
+          "range": "ms",
+          "default": 1000,
+          "page": 1
+        },
+        {
+          "name": "Fade Out",
+          "type": "time",
+          "range": "ms",
+          "default": 1000,
+          "page": 2
+        },
+        {
+          "name": "Boost",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 2,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "vibrato",
@@ -18823,13 +18908,70 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 20,
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 60,
+          "page": 1
+        },
+        {
+          "name": "LFO Active",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Fade In",
+          "type": "time",
+          "range": "ms",
+          "default": 1000,
+          "page": 1
+        },
+        {
+          "name": "Fade Out",
+          "type": "time",
+          "range": "ms",
+          "default": 1000,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Single page (no page 2 tab, unlike Tremolo/Harmonic Tremolo). Simpler than Tremolo -- no Waveform/Duty Cycle/Smoothing/Boost.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "vintage_chorus",
@@ -18838,13 +18980,77 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 60.0,
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "switch",
+          "range": "Vibrato/Chorus",
+          "default": "Vibrato",
+          "page": 1
+        },
+        {
+          "name": "Chr Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.7,
+          "page": 1
+        },
+        {
+          "name": "Vib Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Vib Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Chr Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Vib Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/8",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Mode's current toggle position in the captured screenshot was ambiguous between Vibrato/Chorus -- defaulted to 'Vibrato' here based on the switch indicator position, but worth reconfirming against a clearer screenshot. Chr Note and Vib Note both show info (i) tooltips and are grayed while Sync is Off.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "bit_crusher_st",
@@ -18853,13 +19059,63 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Bit Depth",
+          "type": "knob",
+          "range": "1-16 bits (detented)",
+          "default": 8,
+          "page": 1
+        },
+        {
+          "name": "Resampler",
+          "type": "knob",
+          "range": "Hz",
+          "default": 48000,
+          "page": 1
+        },
+        {
+          "name": "Shape",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "Hz",
+          "default": 20000,
+          "page": 1
+        },
+        {
+          "name": "Wet",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Dry",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Stereo variant. Bit Depth range confirmed by Adam as 1-16 bits. Bit Depth/Resampler/Shape all show info (i) tooltips.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "bit_crusher_engine_m",
@@ -18868,13 +19124,84 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Bit Depth",
+          "type": "knob",
+          "range": "1-16 bits (detented)",
+          "default": 8,
+          "page": 1
+        },
+        {
+          "name": "Pitch Tracking",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Resampler",
+          "type": "knob",
+          "range": "Hz",
+          "default": 48000,
+          "page": 1
+        },
+        {
+          "name": "Freq. Multi",
+          "type": "knob",
+          "range": "x (detented)",
+          "default": 2,
+          "page": 1
+        },
+        {
+          "name": "Dissonance",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Shape",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "Hz",
+          "default": 20000,
+          "page": 1
+        },
+        {
+          "name": "Wet",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Dry",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Mono variant -- more advanced engine than Bit-Crusher (ST): adds Pitch Tracking, Freq. Multi and Dissonance. Resampler appears grayed out while Pitch Tracking is On, same graying pattern seen on other synced/dependent controls elsewhere. Bit Depth/Resampler/Freq. Multi/Dissonance/Shape all show info (i) tooltips.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "freeze",
@@ -18883,13 +19210,70 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Freeze",
+          "type": "button",
+          "range": null,
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Momentary",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "time",
+          "range": "ms",
+          "default": 250,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "time",
+          "range": "ms",
+          "default": 250,
+          "page": 1
+        },
+        {
+          "name": "Dry Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Freeze Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Freeze is a momentary trigger button; Momentary switch changes whether holding the footswitch is required. High Pass/Low Pass follow the same 'Off, Hz' display pattern as Minivoicer's filters.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "phase_locked_loop",
@@ -18898,13 +19282,112 @@
       "based_on": "EarthQuaker Devices Data Corrupter",
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Unison Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Mul. Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Multiplier",
+          "type": "knob",
+          "range": "detented multiplier list",
+          "default": "x8",
+          "page": 1
+        },
+        {
+          "name": "Mul. Source",
+          "type": "select",
+          "range": "Unison/-1 Octave/-2 Octaves",
+          "default": "-1 Octave",
+          "page": 1
+        },
+        {
+          "name": "Response",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 40,
+          "page": 1
+        },
+        {
+          "name": "Dry Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Div. Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70,
+          "page": 1
+        },
+        {
+          "name": "Divider",
+          "type": "knob",
+          "range": "detented",
+          "default": 2,
+          "page": 1
+        },
+        {
+          "name": "Div. Source",
+          "type": "select",
+          "range": "Unison/Multiplier",
+          "default": "Unison",
+          "page": 1
+        },
+        {
+          "name": "Stability",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -60.0,
+          "page": 2
+        },
+        {
+          "name": "Trails Gate",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        },
+        {
+          "name": "Instrument",
+          "type": "switch",
+          "range": "Bass/Guitar",
+          "default": "Guitar",
+          "page": 2
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "All page-1 controls show info (i) tooltips, as do Threshold/Trails Gate/Instrument on page 2. Multiplier and Divider are detented dials; only their currently-displayed values were captured. Mul. Source full option list (Unison/-1 Octave/-2 Octaves) and Div. Source full option list (Unison/Multiplier) were confirmed via their expanded dropdowns in the screenshots.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "glitch",
@@ -18913,13 +19396,105 @@
       "based_on": "free version from Archetype: Misha Mansoor X",
       "plugin": null,
       "added_in_coros": "4.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mode",
+          "type": "select",
+          "range": "Sequence/Pitch Delay/Interfere/Texturizer",
+          "default": "Texturizer",
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Filter",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30,
+          "page": 1
+        },
+        {
+          "name": "Loop Length",
+          "type": "knob",
+          "range": "detented note-length list",
+          "default": "1/2 Bar",
+          "page": 1
+        },
+        {
+          "name": "Read Point",
+          "type": "knob",
+          "range": "detented",
+          "default": "1/32",
+          "page": 1
+        },
+        {
+          "name": "Grain Length",
+          "type": "knob",
+          "range": "detented",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "G. Occurrence",
+          "type": "knob",
+          "range": "detented",
+          "default": "1/8",
+          "page": 1
+        },
+        {
+          "name": "Pitch Amt.",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Pitch Pattern",
+          "type": "knob",
+          "range": "detented pattern list",
+          "default": "Up Down",
+          "page": 1
+        },
+        {
+          "name": "Chaos",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Sync Source",
+          "type": "switch",
+          "range": "Block/Global",
+          "default": "Block",
+          "page": 2
+        },
+        {
+          "name": "Block Tempo",
+          "type": "knob",
+          "range": "BPM",
+          "default": 120,
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Mode/Filter/Loop Length/Read Point/Pitch Amt./Chaos all show info (i) tooltips. Block Tempo appeared grayed out in the captured screenshot despite Sync Source being set to Block -- worth reconfirming. Loop Length, Read Point, Grain Length, G. Occurrence and Pitch Pattern are detented dials; only their currently-displayed values were captured, not their full option lists.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ring_modulator",
@@ -18928,28 +19503,135 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "4.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Pitch Tracker",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 440,
+          "page": 1
+        },
+        {
+          "name": "Multiplier",
+          "type": "knob",
+          "range": "detented multiplier list",
+          "default": "x1",
+          "page": 1
+        },
+        {
+          "name": "Offset",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Multiplier and Offset show info (i) tooltips.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "env_filter",
-      "name": "Env. Filter",
+      "name": "Envelope Filter",
       "category": "Filter",
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Sens",
+          "type": "knob",
+          "range": "dB",
+          "default": 20.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "time",
+          "range": "ms",
+          "default": 20.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "time",
+          "range": "ms",
+          "default": 250.0,
+          "page": 1
+        },
+        {
+          "name": "LP/BP/HP",
+          "type": "knob",
+          "range": "-1 to 1 (blend: Low Pass/Band Pass/High Pass)",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Freq Depth",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3500,
+          "page": 1
+        },
+        {
+          "name": "Reso",
+          "type": "knob",
+          "range": "0-10",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Catalogue id 'env_filter' kept, display name expanded from 'Env. Filter' to the full 'Envelope Filter' seen in the actual Cortex Control sidebar. LP/BP/HP is a single blend knob crossfading between filter types rather than a discrete select. Envelope Filter (S/C) sidebar sibling not yet screenshotted.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "env_filter_s_c",
@@ -18973,13 +19655,70 @@
       "based_on": "Moog Moogerfooger MF-101",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "switch",
+          "range": "Smooth/Fast",
+          "default": "Smooth",
+          "page": 1
+        },
+        {
+          "name": "Env Amount",
+          "type": "knob",
+          "range": "0-10",
+          "default": 10.0,
+          "page": 1
+        },
+        {
+          "name": "Cutoff",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.5,
+          "page": 1
+        },
+        {
+          "name": "Resonance",
+          "type": "knob",
+          "range": "0-10",
+          "default": 7.7,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Filter",
+          "type": "switch",
+          "range": "2-Pole/4-Pole",
+          "default": "2-Pole",
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "love_meat",
@@ -19358,18 +20097,313 @@
     },
     {
       "id": "mono_synth",
-      "name": "Mono Synth",
+      "name": "Overlord Synth",
       "category": "Synth",
       "based_on": "free version of Overlord Synth from Archetype: Rabea X",
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Arpeggiator",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Arp Pattern",
+          "type": "select",
+          "range": "detented pattern list (shown: Up)",
+          "default": "Up",
+          "page": 1
+        },
+        {
+          "name": "Root",
+          "type": "select",
+          "range": "Off/chromatic note",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Scale",
+          "type": "select",
+          "range": "scale list (shown: Harmonic Minor)",
+          "default": "Harmonic Minor",
+          "page": 1
+        },
+        {
+          "name": "Octave",
+          "type": "knob",
+          "range": "-N to N (slider)",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Notes",
+          "type": "select",
+          "range": "8-step scale-degree toggle grid (Root,2,3,4,5,6,7,8)",
+          "default": "all active",
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/8",
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Tuning",
+          "type": "knob",
+          "range": "Hz",
+          "default": 440,
+          "page": 1
+        },
+        {
+          "name": "Osc 1",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Osc 1 Waveform",
+          "type": "select",
+          "range": "Sine/Triangle/Saw/Square/Noise/... (shown: Triangle)",
+          "default": "Triangle",
+          "page": 1
+        },
+        {
+          "name": "Osc 2",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Osc 2 Waveform",
+          "type": "select",
+          "range": "Sine/Triangle/Saw/Square/Noise/... (shown: Saw)",
+          "default": "Saw",
+          "page": 1
+        },
+        {
+          "name": "Unison Source",
+          "type": "select",
+          "range": "OSC1/OSC2",
+          "default": "OSC1",
+          "page": 1
+        },
+        {
+          "name": "O1 Steps",
+          "type": "knob",
+          "range": "semitones",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "U. Amount",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2,
+          "page": 1
+        },
+        {
+          "name": "O2 Steps",
+          "type": "knob",
+          "range": "semitones",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "O1 Detune",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "U. Detune",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 5,
+          "page": 1
+        },
+        {
+          "name": "O2 Detune",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "O1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "U. Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "O2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Filter",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Slope",
+          "type": "select",
+          "range": "6/12/18/24 dB",
+          "default": "6",
+          "page": 1
+        },
+        {
+          "name": "Cutoff",
+          "type": "knob",
+          "range": "Hz",
+          "default": 5000,
+          "page": 1
+        },
+        {
+          "name": "Resonance",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Env. Amount",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Decay/Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "F.E. Sustain",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 0,
+          "page": 2
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 2
+        },
+        {
+          "name": "Sensitivity",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 2
+        },
+        {
+          "name": "Env. Retrigger",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        },
+        {
+          "name": "Gate",
+          "type": "knob",
+          "range": "dB",
+          "default": -50.0,
+          "page": 2
+        },
+        {
+          "name": "S/C Source",
+          "type": "select",
+          "range": "Off/... (shown Off)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Glide",
+          "type": "knob",
+          "range": "ms",
+          "default": 0,
+          "page": 2
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": -5.0,
+          "page": 2
+        },
+        {
+          "name": "Decay/Attack",
+          "type": "knob",
+          "range": "ms (Amp env, distinct from Filter's Decay/Attack)",
+          "default": 0,
+          "page": 2
+        },
+        {
+          "name": "Env. Sustain",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 2
+        },
+        {
+          "name": "MIDI Ch.",
+          "type": "select",
+          "range": "Off/1-16",
+          "default": "Off",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "The free version of Overlord Synth from Archetype: Rabea X (based_on field already noted this pre-existing placeholder mapping). Extremely dense block laid out as 3 side-by-side panels (Arpeggiator/Oscillator/Filter) under a 'Parameters' tab, plus a second 'Global & Amp' tab (modeled here as page 2) -- these are tabs, not swipeable pages like most other blocks. Given the density, this transcription is best-effort and should be re-verified against clearer/zoomed screenshots: exact Arp Pattern/Scale/waveform option lists were not fully expanded, the Octave slider's range wasn't confirmed, and the Notes control is a scale-degree toggle grid rather than a simple knob/switch. Page 1's Filter section has its own 'Decay/Attack' (filter envelope) distinct from page 2's 'Decay/Attack' (amp envelope) -- both captured as separate controls of the same name.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "gojira_wow_archetype_gojira_x",

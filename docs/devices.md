@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**384 devices**: 282 verified, 32 unverified (wiki-sourced), 70 still missing controls.
+**384 devices**: 294 verified, 32 unverified (wiki-sourced), 58 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -386,9 +386,9 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Petrucci Phaser |  | Archetype: Petrucci X | 4.1.0 | verified | Rate (0-100 %, default 50, p1); Mode (switch, Vibe/Phase, default Phase, p1); Output (dB, default 0.0, p1) |
 | Phaser |  |  | 1.0.0 | verified | Mix (0-100 %, default 75.0, p1); Speed (unitless in this screenshot -- possibly Hz, needs re-confirmation, default 5.0, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1); Width (0-100 %, default 0, p1); Drive (0-100 %, default 0, p1); Depth (0-100 %, default 50, p1); Manual (0-100 %, default 50, p1); Resonance (0-100 %, default 30, p1); Output (dB, default 0.0, p1) |
 | Rotary |  |  | 1.0.0 | verified | Speed (select, Fast/Slow, default Slow, p1); Slow Speed (Hz, default 1.0, p1); Fast Speed (Hz, default 5.0, p1); Sync (switch, Off/On, default Off, p1); Slow Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1); Fast Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/16, p1); Acceleration (0-100 %, default 20, p1); Speaker Balance (0-100 %, default 0, p1); Drive (0-100 %, default 0, p1); Brightness (0-100 %, default 50, p1); Horn Mic Width (0-100 %, default 75, p2) |
-| Tremolo |  |  | 1.0.0 | missing |  |
-| Vibrato |  |  | 1.0.0 | missing |  |
-| Vintage Chorus |  |  | 1.0.0 | missing |  |
+| Tremolo |  |  | 1.0.0 | verified | Rate (Hz, default 5.0, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1); Depth (0-100 %, default 50, p1); Waveform (select, Sine/Triangle/Square/Saw Up/Saw Dn, default Sine, p1); Duty Cycle (0-100 %, default 0, p1); Width (0-100 %, default 0, p1); Smoothing (0-100 %, default 0, p1); LFO Active (switch, Off/On, default On, p1); Fade In (time, ms, default 1000, p1); Fade Out (time, ms, default 1000, p2); Boost (0-100 %, default 0, p2) |
+| Vibrato |  |  | 1.0.0 | verified | Rate (Hz, default 5.0, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1); Depth (0-100 %, default 20, p1); Width (0-100 %, default 60, p1); LFO Active (switch, Off/On, default On, p1); Fade In (time, ms, default 1000, p1); Fade Out (time, ms, default 1000, p1) |
+| Vintage Chorus |  |  | 1.0.0 | verified | Mix (0-100 %, default 60.0, p1); Mode (switch, Vibrato/Chorus, default Vibrato, p1); Chr Rate (Hz, default 0.7, p1); Vib Rate (Hz, default 5.0, p1); Vib Depth (0-100 %, default 50, p1); Width (0-100 %, default 70, p1); Sync (switch, Off/On, default Off, p1); Chr Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1); Vib Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/8, p1) |
 
 ## Pitch
 
@@ -412,9 +412,9 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
 | Cory Wong The Postal Service |  | Archetype: Cory Wong X | 3.2.0 | verified | Range (Hz, default 1150, p1); Sensitivity (dB, default 36.0, p1); Attack (ms, default 550, p1); Decay (ms, default 550, p1) |
-| Env. Filter |  |  | 1.0.0 | missing |  |
 | Env. filter (S/C) |  |  | 3.0.0 | missing |  |
-| Foog | Moog Moogerfooger MF-101 |  | 1.0.0 | missing |  |
+| Envelope Filter |  |  | 1.0.0 | verified | Sens (dB, default 20.0, p1); Attack (time, ms, default 20.0, p1); Decay (time, ms, default 250.0, p1); LP/BP/HP (-1 to 1 (blend: Low Pass/Band Pass/High Pass), default 0.0, p1); Level (dB, default 3.0, p1); Freq (Hz, default 50, p1); Freq Depth (Hz, default 3500, p1); Reso (0-10, default 8.0, p1); Mix (0-100 %, default 100.0, p1) |
+| Foog | Moog Moogerfooger MF-101 |  | 1.0.0 | verified | Drive (0-10, default 4.0, p1); Decay (switch, Smooth/Fast, default Smooth, p1); Env Amount (0-10, default 10.0, p1); Cutoff (0-10, default 3.5, p1); Resonance (0-10, default 7.7, p1); Mix (0-100 %, default 100, p1); Filter (switch, 2-Pole/4-Pole, default 2-Pole, p1); Level (dB, default 0.0, p1) |
 | Love Meat | Lovetone Meatball |  | 1.0.0 | missing |  |
 
 ## Wah
@@ -434,12 +434,12 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Bit-Crusher (ST) |  |  | 3.3.0 | missing |  |
-| Bit-Crusher Engine (M) |  |  | 3.3.0 | missing |  |
-| Freeze |  |  | 1.3.0 | missing |  |
-| Glitch | free version from Archetype: Misha Mansoor X |  | 4.1.0 | missing |  |
-| Phase-Locked Loop | EarthQuaker Devices Data Corrupter |  | 3.3.0 | missing |  |
-| Ring Modulator |  |  | 4.1.0 | missing |  |
+| Bit-Crusher (ST) |  |  | 3.3.0 | verified | Bit Depth (1-16 bits (detented), default 8, p1); Resampler (Hz, default 48000, p1); Shape (0-100 %, default 0, p1); Tone (Hz, default 20000, p1); Wet (0-100 %, default 100, p1); Dry (0-100 %, default 0, p1); Output (dB, default 0.0, p1) |
+| Bit-Crusher Engine (M) |  |  | 3.3.0 | verified | Bit Depth (1-16 bits (detented), default 8, p1); Pitch Tracking (switch, Off/On, default On, p1); Resampler (Hz, default 48000, p1); Freq. Multi (x (detented), default 2, p1); Dissonance (0-100 %, default 0, p1); Shape (0-100 %, default 0, p1); Tone (Hz, default 20000, p1); Wet (0-100 %, default 100, p1); Dry (0-100 %, default 0, p1); Output (dB, default 0.0, p1) |
+| Freeze |  |  | 1.3.0 | verified | Freeze (button, p1); Momentary (switch, Off/On, default Off, p1); Attack (time, ms, default 250, p1); Release (time, ms, default 250, p1); Dry Gain (dB, default 0.0, p1); Freeze Gain (dB, default 0.0, p1); High Pass (Off, Hz, default Off, p1); Low Pass (Off, Hz, default Off, p1) |
+| Glitch | free version from Archetype: Misha Mansoor X |  | 4.1.0 | verified | Mode (select, Sequence/Pitch Delay/Interfere/Texturizer, default Texturizer, p1); Mix (0-100 %, default 50, p1); Filter (0-100 %, default 30, p1); Loop Length (detented note-length list, default 1/2 Bar, p1); Read Point (detented, default 1/32, p1); Grain Length (detented, default 1/4, p1); G. Occurrence (detented, default 1/8, p1); Pitch Amt. (0-100 %, default 50, p1); Pitch Pattern (detented pattern list, default Up Down, p1); Chaos (0-100 %, default 50, p1); Sync Source (switch, Block/Global, default Block, p2); Block Tempo (BPM, default 120, p2); Trails (switch, Off/On, default On, p2) |
+| Phase-Locked Loop | EarthQuaker Devices Data Corrupter |  | 3.3.0 | verified | Unison Level (0-100 %, default 50, p1); Mul. Level (0-100 %, default 100, p1); Multiplier (detented multiplier list, default x8, p1); Mul. Source (select, Unison/-1 Octave/-2 Octaves, default -1 Octave, p1); Response (0-100 %, default 40, p1); Dry Level (0-100 %, default 0, p1); Div. Level (0-100 %, default 70, p1); Divider (detented, default 2, p1); Div. Source (select, Unison/Multiplier, default Unison, p1); Stability (0-100 %, default 100, p1); Threshold (dB, default -60.0, p2); Trails Gate (switch, Off/On, default On, p2); Instrument (switch, Bass/Guitar, default Guitar, p2); Output (dB, default 0.0, p2) |
+| Ring Modulator |  |  | 4.1.0 | verified | Mix (0-100 %, default 50, p1); Pitch Tracker (switch, Off/On, default Off, p1); Frequency (Hz, default 440, p1); Multiplier (detented multiplier list, default x1, p1); Offset (0-100 %, default 0, p1); Output (dB, default 0.0, p1) |
 
 ## Utility
 
@@ -463,7 +463,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Mono Synth | free version of Overlord Synth from Archetype: Rabea X |  | 3.3.0 | missing |  |
+| Overlord Synth | free version of Overlord Synth from Archetype: Rabea X |  | 3.3.0 | verified | Arpeggiator (switch, Off/On, default Off, p1); Arp Pattern (select, detented pattern list (shown: Up), default Up, p1); Root (select, Off/chromatic note, default Off, p1); Scale (select, scale list (shown: Harmonic Minor), default Harmonic Minor, p1); Octave (-N to N (slider), default 0, p1); Notes (select, 8-step scale-degree toggle grid (Root,2,3,4,5,6,7,8), default all active, p1); Rate (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/8, p1); Sync (switch, Off/On, default On, p1); Tuning (Hz, default 440, p1); Osc 1 (switch, Off/On, default On, p1); Osc 1 Waveform (select, Sine/Triangle/Saw/Square/Noise/... (shown: Triangle), default Triangle, p1); Osc 2 (switch, Off/On, default On, p1); Osc 2 Waveform (select, Sine/Triangle/Saw/Square/Noise/... (shown: Saw), default Saw, p1); Unison Source (select, OSC1/OSC2, default OSC1, p1); O1 Steps (semitones, default 0, p1); U. Amount (0-10, default 2, p1); O2 Steps (semitones, default 0, p1); O1 Detune (0-100 %, default 0, p1); U. Detune (0-100 %, default 5, p1); O2 Detune (0-100 %, default 0, p1); O1 Level (dB, default 0.0, p1); U. Width (0-100 %, default 100, p1); O2 Level (dB, default 0.0, p1); Filter (switch, Off/On, default On, p1); Slope (select, 6/12/18/24 dB, default 6, p1); Cutoff (Hz, default 5000, p1); Resonance (0-100 %, default 0, p1); Drive (0-100 %, default 0, p1); Env. Amount (0-100 %, default 0, p1); Decay/Attack (ms, default 0, p1); F.E. Sustain (0-100 %, default 50, p1); Attack (ms, default 0, p2); Mix (0-100 %, default 100, p2); Sensitivity (0-100 %, default 50, p2); Env. Retrigger (switch, Off/On, default On, p2); Gate (dB, default -50.0, p2); S/C Source (select, Off/... (shown Off), default Off, p2); Glide (ms, default 0, p2); Output (dB, default -5.0, p2); Decay/Attack (ms (Amp env, distinct from Filter's Decay/Attack), default 0, p2); Env. Sustain (0-100 %, default 100, p2); MIDI Ch. (select, Off/1-16, default Off, p2) |
 
 ## Bass overdrive
 
