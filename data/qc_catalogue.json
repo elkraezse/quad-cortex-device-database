@@ -14649,13 +14649,56 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Size",
+          "type": "select",
+          "range": "Small/Med/Large",
+          "default": "Med",
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-100 ms",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 80,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 6000,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Size is a detented 3-position dial (Small/Med/Large), not a continuous knob. Pre Delay range is shorter here (0-100ms) than the Decay-family reverbs.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "blossom_st",
@@ -14664,13 +14707,112 @@
       "based_on": "Inspired by Strymon BigSky Bloom mode",
       "plugin": null,
       "added_in_coros": "4.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0.5-20 s",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 200,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 2800,
+          "page": 1
+        },
+        {
+          "name": "Extra E.R.",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "E.R. Length",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Diffusion",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "dB",
+          "default": -3.0,
+          "page": 1
+        },
+        {
+          "name": "Ducking",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 2
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "Modulation",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 2,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "cave",
@@ -14679,13 +14821,63 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0.5-20 s",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 80.0,
+          "page": 1
+        },
+        {
+          "name": "Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 80,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 6000,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "hall",
@@ -14694,13 +14886,56 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0.5-20 s",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 20.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 80,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 6000,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "mind_hall",
@@ -14709,13 +14944,63 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.2.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70.0,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 60.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 200,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 3100,
+          "page": 1
+        },
+        {
+          "name": "Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Decay is percentage-based here (not seconds like Hall/Cave/Room).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "modulated",
@@ -14724,13 +15009,70 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0.5-20 s",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 20.0,
+          "page": 1
+        },
+        {
+          "name": "Mod Speed",
+          "type": "knob",
+          "range": "Hz",
+          "default": 1.2,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 40.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 80,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 6000,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "nordic_concert_hall_st",
@@ -14739,13 +15081,126 @@
       "based_on": "Inspired by Valhalla VintageVerb Concert Hall",
       "plugin": null,
       "added_in_coros": "4.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 20.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0.5-20 s",
+          "default": 2.4,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Size",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "H-Shelf Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": -24.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 8000,
+          "page": 1
+        },
+        {
+          "name": "Bass Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 470,
+          "page": 1
+        },
+        {
+          "name": "Bass Mult",
+          "type": "knob",
+          "range": "x",
+          "default": 1.5,
+          "page": 1
+        },
+        {
+          "name": "H-Shelf Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 6000,
+          "page": 1
+        },
+        {
+          "name": "Rev Attack",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 2
+        },
+        {
+          "name": "Early Diff",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 2
+        },
+        {
+          "name": "Late Diff",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 2
+        },
+        {
+          "name": "Mod Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 2.5,
+          "page": 2
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 38.0,
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Size, H-Shelf Gain/Freq, Bass Freq/Mult and Rev Attack all show info (i) tooltips in Cortex Control explaining their effect on the algorithm.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "plate",
@@ -14754,13 +15209,77 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.2.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70.0,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 60.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 200,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 3100,
+          "page": 1
+        },
+        {
+          "name": "LF Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "HF Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Decay is percentage-based here (not seconds).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "plate_lush",
@@ -14769,13 +15288,77 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.2.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70.0,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 60.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 200,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 3100,
+          "page": 1
+        },
+        {
+          "name": "LF Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "HF Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Not individually screenshotted -- inferred to share Plate's control layout (same names/types/ranges) since it's a tonal variant of the same algorithm. Default values shown are copied from Plate and NOT independently confirmed for this variant; replace once a real screenshot comes in.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "plate_tight",
@@ -14784,13 +15367,77 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.2.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70.0,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 60.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 200,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 3100,
+          "page": 1
+        },
+        {
+          "name": "LF Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "HF Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Not individually screenshotted -- inferred to share Plate's control layout (same names/types/ranges) since it's a tonal variant of the same algorithm. Default values shown are copied from Plate and NOT independently confirmed for this variant; replace once a real screenshot comes in.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "room",
@@ -14799,13 +15446,56 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0.5-20 s",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 10.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 80,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 6000,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "shimmer",
@@ -14814,13 +15504,98 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0.5-20 s",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Brightness",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 40.0,
+          "page": 1
+        },
+        {
+          "name": "Pitch",
+          "type": "knob",
+          "range": "semitones",
+          "default": 12,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 15,
+          "page": 1
+        },
+        {
+          "name": "Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 80,
+          "page": 1
+        },
+        {
+          "name": "Rand Pitch",
+          "type": "knob",
+          "range": "cents",
+          "default": 11,
+          "page": 1
+        },
+        {
+          "name": "Mod Speed",
+          "type": "knob",
+          "range": "Hz",
+          "default": 1.3,
+          "page": 2
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 10.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 2,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "spring_m",
@@ -14829,13 +15604,49 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 28,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Boing",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Mono variant. Spring (ST) not yet screenshotted -- may add a Width-style control like the other M/ST pairs.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "spring_st",
@@ -14859,13 +15670,91 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30,
+          "page": 1
+        },
+        {
+          "name": "Tank Type",
+          "type": "select",
+          "range": "Vintage/Short/Mid/Long",
+          "default": "Vintage",
+          "page": 1
+        },
+        {
+          "name": "Input Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": -12.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 80,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 4500,
+          "page": 1
+        },
+        {
+          "name": "Chirp Decay",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30,
+          "page": 1
+        },
+        {
+          "name": "Diff Decay",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 15,
+          "page": 1
+        },
+        {
+          "name": "Chirp Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70,
+          "page": 1
+        },
+        {
+          "name": "Diff Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Output Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 12.0,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Mono variant -- a more detailed physically-modeled spring tank (Tank Type select, separate Chirp/Diffusion decay+level, Input/Output Gain) vs. the simpler Spring (M) block. Spring Reverb Engine (ST) not yet screenshotted.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "spring_reverb_engine_st",
@@ -14889,13 +15778,126 @@
       "based_on": "Lexicon PCM70 Rich Plate",
       "plugin": null,
       "added_in_coros": "4.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0.5-20 s",
+          "default": 1.2,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "0-500 ms",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Size",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 75,
+          "page": 1
+        },
+        {
+          "name": "H-Shelf Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": -12.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 7000,
+          "page": 1
+        },
+        {
+          "name": "Bass Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 470,
+          "page": 1
+        },
+        {
+          "name": "Bass Mult",
+          "type": "knob",
+          "range": "x",
+          "default": 1.5,
+          "page": 1
+        },
+        {
+          "name": "H-Shelf Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 5000,
+          "page": 1
+        },
+        {
+          "name": "Rev Attack",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 2
+        },
+        {
+          "name": "Early Diff",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 75,
+          "page": 2
+        },
+        {
+          "name": "Late Diff",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 75,
+          "page": 2
+        },
+        {
+          "name": "Mod Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 2.5,
+          "page": 2
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 38.0,
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Shares the same page layout/control set as Nordic Concert Hall (ST), just different factory defaults and character (plate vs. hall).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "vintage_digital",
@@ -14904,13 +15906,84 @@
       "based_on": "Oto Machines Bam Space Generator",
       "plugin": null,
       "added_in_coros": "4.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 40.0,
+          "page": 1
+        },
+        {
+          "name": "Pre Delay",
+          "type": "time",
+          "range": "ms",
+          "default": 1,
+          "page": 1
+        },
+        {
+          "name": "Size",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Modulation",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 120.0,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 20000,
+          "page": 1
+        },
+        {
+          "name": "HF Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 20.0,
+          "page": 1
+        },
+        {
+          "name": "Freeze",
+          "type": "button",
+          "range": null,
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Freeze is a momentary button (infinite-sustain freeze), not a knob or switch.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "chief_cs3",

@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**378 devices**: 227 verified, 32 unverified (wiki-sourced), 119 still missing controls.
+**378 devices**: 243 verified, 32 unverified (wiki-sourced), 103 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -327,31 +327,31 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Ambience |  |  | 1.0.0 | missing |  |
-| Blossom (ST) | Inspired by Strymon BigSky Bloom mode |  | 4.0.0 | missing |  |
-| Cave |  |  | 1.0.0 | missing |  |
+| Ambience |  |  | 1.0.0 | verified | Mix (0-100 %, default 35.0, p1); Size (select, Small/Med/Large, default Med, p1); Pre Delay (time, 0-100 ms, default 5.0, p1); High Pass (20-800 Hz, default 80, p1); Low Pass (800-12000 Hz, default 6000, p1); Trails (switch, Off/On, default On, p1) |
+| Blossom (ST) | Inspired by Strymon BigSky Bloom mode |  | 4.0.0 | verified | Mix (0-100 %, default 70.0, p1); Decay (0.5-20 s, default 0.5, p1); Pre Delay (time, 0-500 ms, default 0, p1); High Pass (20-800 Hz, default 200, p1); Low Pass (800-12000 Hz, default 2800, p1); Extra E.R. (switch, Off/On, default On, p1); E.R. Length (0-100 %, default 100, p1); Diffusion (0-100 %, default 100, p1); Bass (dB, default 0.0, p1); Treble (dB, default -3.0, p1); Ducking (0-100 %, default 0, p2); Gain Reduction (dB (meter), default 0.0, p2); Modulation (0-100 %, default 50.0, p2); Trails (switch, Off/On, default On, p2) |
+| Cave |  |  | 1.0.0 | verified | Mix (0-100 %, default 35.0, p1); Decay (0.5-20 s, default 8.0, p1); Pre Delay (time, 0-500 ms, default 80.0, p1); Damping (0-100 %, default 50, p1); High Pass (20-800 Hz, default 80, p1); Low Pass (800-12000 Hz, default 6000, p1); Trails (switch, Off/On, default On, p1) |
 | Cory Wong The Wash |  | Archetype: Cory Wong X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (0-100 %, default 50, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Cory Wong The Wash Shimmer |  | Archetype: Cory Wong X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (0-100 %, default 50, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Gojira REV |  | Archetype: Gojira X | 3.0.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (0-100 %, default 50, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Gojira REV Shimmer |  | Archetype: Gojira X | 3.0.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (0-100 %, default 50, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
-| Hall |  |  | 1.0.0 | missing |  |
-| Mind Hall |  |  | 1.2.0 | missing |  |
-| Modulated |  |  | 1.0.0 | missing |  |
+| Hall |  |  | 1.0.0 | verified | Mix (0-100 %, default 35.0, p1); Decay (0.5-20 s, default 4.0, p1); Pre Delay (time, 0-500 ms, default 20.0, p1); High Pass (20-800 Hz, default 80, p1); Low Pass (800-12000 Hz, default 6000, p1); Trails (switch, Off/On, default On, p1) |
+| Mind Hall |  |  | 1.2.0 | verified | Mix (0-100 %, default 35.0, p1); Decay (0-100 %, default 70.0, p1); Pre Delay (time, 0-500 ms, default 60.0, p1); High Pass (20-800 Hz, default 200, p1); Low Pass (800-12000 Hz, default 3100, p1); Damping (0-100 %, default 50.0, p1); Trails (switch, Off/On, default On, p1) |
+| Modulated |  |  | 1.0.0 | verified | Mix (0-100 %, default 35.0, p1); Decay (0.5-20 s, default 4.0, p1); Pre Delay (time, 0-500 ms, default 20.0, p1); Mod Speed (Hz, default 1.2, p1); Mod Depth (0-100 %, default 40.0, p1); High Pass (20-800 Hz, default 80, p1); Low Pass (800-12000 Hz, default 6000, p1); Trails (switch, Off/On, default On, p1) |
 | Nolly Reverb |  | Archetype: Nolly X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (s, default 3.0, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
-| Nordic Concert Hall (ST) | Inspired by Valhalla VintageVerb Concert Hall |  | 4.0.0 | missing |  |
+| Nordic Concert Hall (ST) | Inspired by Valhalla VintageVerb Concert Hall |  | 4.0.0 | verified | Mix (0-100 %, default 20.0, p1); Decay (0.5-20 s, default 2.4, p1); Pre Delay (time, 0-500 ms, default 0, p1); Size (0-100 %, default 100, p1); H-Shelf Gain (dB, default -24.0, p1); High Pass (20-800 Hz, default 120, p1); Low Pass (800-12000 Hz, default 8000, p1); Bass Freq (Hz, default 470, p1); Bass Mult (x, default 1.5, p1); H-Shelf Freq (Hz, default 6000, p1); Rev Attack (0-100 %, default 50, p2); Early Diff (0-100 %, default 100, p2); Late Diff (0-100 %, default 100, p2); Mod Rate (Hz, default 2.5, p2); Mod Depth (0-100 %, default 38.0, p2); Trails (switch, Off/On, default On, p2) |
 | Petrucci Reverb |  | Archetype: Petrucci X | 4.1.0 | verified | Mix (0-100 %, default 50.0, p1); Pre-Delay (ms, default 64.0, p1); Decay (0-100 %, default 50.0, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Petrucci Reverb Shimmer |  | Archetype: Petrucci X | 4.1.0 | verified | Mix (0-100 %, default 50.0, p1); Pre-Delay (ms, default 15.0, p1); Decay (0-100 %, default 50, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
-| Plate |  |  | 1.2.0 | missing |  |
-| Plate Lush |  |  | 1.2.0 | missing |  |
-| Plate Tight |  |  | 1.2.0 | missing |  |
-| Room |  |  | 1.0.0 | missing |  |
-| Shimmer |  |  | 1.1.0 | missing |  |
-| Spring (M) |  |  | 1.0.0 | missing |  |
+| Plate |  |  | 1.2.0 | verified | Mix (0-100 %, default 35.0, p1); Decay (0-100 %, default 70.0, p1); Pre Delay (time, 0-500 ms, default 60.0, p1); High Pass (20-800 Hz, default 200, p1); Low Pass (800-12000 Hz, default 3100, p1); LF Damping (0-100 %, default 50.0, p1); HF Damping (0-100 %, default 50.0, p1); Mod Depth (0-100 %, default 50.0, p1); Trails (switch, Off/On, default On, p1) |
+| Plate Lush |  |  | 1.2.0 | verified | Mix (0-100 %, default 35.0, p1); Decay (0-100 %, default 70.0, p1); Pre Delay (time, 0-500 ms, default 60.0, p1); High Pass (20-800 Hz, default 200, p1); Low Pass (800-12000 Hz, default 3100, p1); LF Damping (0-100 %, default 50.0, p1); HF Damping (0-100 %, default 50.0, p1); Mod Depth (0-100 %, default 50.0, p1); Trails (switch, Off/On, default On, p1) |
+| Plate Tight |  |  | 1.2.0 | verified | Mix (0-100 %, default 35.0, p1); Decay (0-100 %, default 70.0, p1); Pre Delay (time, 0-500 ms, default 60.0, p1); High Pass (20-800 Hz, default 200, p1); Low Pass (800-12000 Hz, default 3100, p1); LF Damping (0-100 %, default 50.0, p1); HF Damping (0-100 %, default 50.0, p1); Mod Depth (0-100 %, default 50.0, p1); Trails (switch, Off/On, default On, p1) |
+| Room |  |  | 1.0.0 | verified | Mix (0-100 %, default 35.0, p1); Decay (0.5-20 s, default 1.0, p1); Pre Delay (time, 0-500 ms, default 10.0, p1); High Pass (20-800 Hz, default 80, p1); Low Pass (800-12000 Hz, default 6000, p1); Trails (switch, Off/On, default On, p1) |
+| Shimmer |  |  | 1.1.0 | verified | Mix (0-100 %, default 35.0, p1); Decay (0.5-20 s, default 8.0, p1); Brightness (0-100 %, default 50.0, p1); Feedback (0-100 %, default 40.0, p1); Pitch (semitones, default 12, p1); Trails (switch, Off/On, default On, p1); Pre Delay (time, 0-500 ms, default 15, p1); Damping (0-100 %, default 50.0, p1); High Pass (20-800 Hz, default 80, p1); Rand Pitch (cents, default 11, p1); Mod Speed (Hz, default 1.3, p2); Mod Depth (0-100 %, default 10.0, p2) |
+| Spring (M) |  |  | 1.0.0 | verified | Mix (0-100 %, default 35.0, p1); Damping (0-100 %, default 28, p1); Tone (0-100 %, default 50, p1); Boing (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Spring (ST) |  |  | 1.0.0 | missing |  |
-| Spring Reverb Engine (M) |  |  | 3.3.0 | missing |  |
+| Spring Reverb Engine (M) |  |  | 3.3.0 | verified | Mix (0-100 %, default 30, p1); Tank Type (select, Vintage/Short/Mid/Long, default Vintage, p1); Input Gain (dB, default -12.0, p1); High Pass (20-800 Hz, default 80, p1); Low Pass (800-12000 Hz, default 4500, p1); Chirp Decay (0-100 %, default 30, p1); Diff Decay (0-100 %, default 15, p1); Chirp Level (0-100 %, default 70, p1); Diff Level (0-100 %, default 50, p1); Output Gain (dB, default 12.0, p1); Trails (switch, Off/On, default On, p2) |
 | Spring Reverb Engine (ST) |  |  | 3.3.0 | missing |  |
-| Studio Plate 70 (ST) | Lexicon PCM70 Rich Plate |  | 4.0.0 | missing |  |
-| Vintage Digital | Oto Machines Bam Space Generator |  | 4.1.0 | missing |  |
+| Studio Plate 70 (ST) | Lexicon PCM70 Rich Plate |  | 4.0.0 | verified | Mix (0-100 %, default 30.0, p1); Decay (0.5-20 s, default 1.2, p1); Pre Delay (time, 0-500 ms, default 0, p1); Size (0-100 %, default 75, p1); H-Shelf Gain (dB, default -12.0, p1); High Pass (20-800 Hz, default 120, p1); Low Pass (800-12000 Hz, default 7000, p1); Bass Freq (Hz, default 470, p1); Bass Mult (x, default 1.5, p1); H-Shelf Freq (Hz, default 5000, p1); Rev Attack (0-100 %, default 50, p2); Early Diff (0-100 %, default 75, p2); Late Diff (0-100 %, default 75, p2); Mod Rate (Hz, default 2.5, p2); Mod Depth (0-100 %, default 38.0, p2); Trails (switch, Off/On, default On, p2) |
+| Vintage Digital | Oto Machines Bam Space Generator |  | 4.1.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (0-100 %, default 40.0, p1); Pre Delay (time, ms, default 1, p1); Size (0-100 %, default 50.0, p1); Modulation (0-100 %, default 0.0, p1); High Pass (Hz, default 120.0, p1); Low Pass (Hz, default 20000, p1); HF Damping (0-100 %, default 20.0, p1); Freeze (button, p1); Trails (switch, Off/On, default On, p1) |
 
 ## Modulation
 
