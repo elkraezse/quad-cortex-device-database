@@ -21435,7 +21435,7 @@
       "id": "amped_flip_top_6464",
       "name": "Amped Flip-Top 6464",
       "category": "Bass amps",
-      "based_on": "Ampeg B-15N Flip-Top (Portaflex)",
+      "based_on": "Ampeg Heritage B15N",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -21479,7 +21479,7 @@
       "id": "amped_super_valve",
       "name": "Amped Super Valve",
       "category": "Bass amps",
-      "based_on": "Ampeg SVT (Super Valve Technology)",
+      "based_on": "Ampeg Heritage SVT-CL",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -21558,7 +21558,7 @@
       "id": "brit_bass_50_bright",
       "name": "Brit Bass 50 Bright",
       "category": "Bass amps",
-      "based_on": "Marshall Super Bass",
+      "based_on": "Marshall Super Bass 50",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -21616,7 +21616,7 @@
       "id": "brit_bass_50_patch",
       "name": "Brit Bass 50 Patch",
       "category": "Bass amps",
-      "based_on": "Marshall Super Bass",
+      "based_on": "Marshall Super Bass 50",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -21681,7 +21681,7 @@
       "id": "brit_bass_50_normal",
       "name": "Brit Bass 50 Normal",
       "category": "Bass amps",
-      "based_on": "Marshall Super Bass",
+      "based_on": "Marshall Super Bass 50",
       "plugin": null,
       "added_in_coros": null,
       "controls": null,
@@ -21846,7 +21846,7 @@
       "id": "g800k",
       "name": "G800K",
       "category": "Bass amps",
-      "based_on": "Gallien-Krueger 800RB",
+      "based_on": "Gallien Krueger 800RB",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -21932,7 +21932,7 @@
       "id": "watt_bass_mod_bright",
       "name": "Watt Bass Mod Bright",
       "category": "Bass amps",
-      "based_on": "Hiwatt bass amplifier",
+      "based_on": "Hiwatt DR103 Mod",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -21990,14 +21990,14 @@
       "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
       "pages": 1,
-      "notes": "\"Hiwatt bass amplifier\" based_on is inferred from the Watt=Hiwatt naming convention used elsewhere in this catalogue; the exact real-world model is unconfirmed.",
+      "notes": "Real-world model confirmed as Hiwatt DR103 Mod via neuraldsp.com/device-list, superseding the earlier naming-convention guess.",
       "coros_verified_on": "4.1.0"
     },
     {
       "id": "watt_bass_mod_normal",
       "name": "Watt Bass Mod Normal",
       "category": "Bass amps",
-      "based_on": "Hiwatt bass amplifier",
+      "based_on": "Hiwatt DR103 Mod",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -22055,14 +22055,14 @@
       "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
       "pages": 1,
-      "notes": "Controls and defaults are identical to Watt Bass Mod Bright in the screenshots — confirmed directly, not inferred; unusual for a Bright/Normal pair but that's what both screenshots show.",
+      "notes": "Real-world model confirmed as Hiwatt DR103 Mod via neuraldsp.com/device-list. Controls and defaults are identical to Watt Bass Mod Bright in the screenshots — confirmed directly, not inferred; unusual for a Bright/Normal pair but that is what both screenshots show.",
       "coros_verified_on": "4.1.0"
     },
     {
       "id": "amped_flip_top_6466",
       "name": "Amped Flip-Top 6466",
       "category": "Bass amps",
-      "based_on": "Ampeg B-15N Flip-Top (Portaflex)",
+      "based_on": "Ampeg Heritage B15N",
       "plugin": null,
       "added_in_coros": null,
       "controls": null,
@@ -22077,7 +22077,7 @@
       "id": "amped_flip_top_6664",
       "name": "Amped Flip-Top 6664",
       "category": "Bass amps",
-      "based_on": "Ampeg B-15N Flip-Top (Portaflex)",
+      "based_on": "Ampeg Heritage B15N",
       "plugin": null,
       "added_in_coros": null,
       "controls": null,
@@ -22092,7 +22092,7 @@
       "id": "amped_flip_top_6666",
       "name": "Amped Flip-Top 6666",
       "category": "Bass amps",
-      "based_on": "Ampeg B-15N Flip-Top (Portaflex)",
+      "based_on": "Ampeg Heritage B15N",
       "plugin": null,
       "added_in_coros": null,
       "controls": null,
@@ -22107,7 +22107,7 @@
       "id": "115_amped_modern",
       "name": "115 Amped Modern",
       "category": "Bass cabinets",
-      "based_on": "Ampeg bass cabinet (modern-voiced 1x15)",
+      "based_on": "Ampeg SVT-115HE",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -22249,7 +22249,7 @@
       "id": "210_douglas_ceramic",
       "name": "210 Douglas Ceramic",
       "category": "Bass cabinets",
-      "based_on": null,
+      "based_on": "Darkglass D210C (custom Eminence ceramic drivers)",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -22384,14 +22384,14 @@
       "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
       "pages": 2,
-      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160). Real-world brand behind \"Douglas\" is unconfirmed.",
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160). Real-world brand confirmed as Darkglass via neuraldsp.com/device-list.",
       "coros_verified_on": "4.1.0"
     },
     {
       "id": "212_douglas_neodymium",
       "name": "212 Douglas Neodymium",
       "category": "Bass cabinets",
-      "based_on": null,
+      "based_on": "Darkglass DG212N (custom Eminence neodymium drivers)",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -22526,14 +22526,14 @@
       "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
       "pages": 2,
-      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160). Real-world brand behind \"Douglas\" is unconfirmed.",
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160). Real-world brand confirmed as Darkglass via neuraldsp.com/device-list.",
       "coros_verified_on": "4.1.0"
     },
     {
       "id": "410_amped_b410_90s",
       "name": "410 Amped B410 90s",
       "category": "Bass cabinets",
-      "based_on": "Ampeg B-410HLF (4x10, 90s)",
+      "based_on": "Ampeg B-410HE (90s Speakers)",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -22675,7 +22675,7 @@
       "id": "410_us_basslad_p10q_16",
       "name": "410 US Basslad P10Q 16",
       "category": "Bass cabinets",
-      "based_on": "Fender Bassman 4x10 (Eminence P10Q speakers)",
+      "based_on": "Fender Bassman (Jensen P10Q drivers)",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -22817,7 +22817,7 @@
       "id": "412_brit_35a_gb55hz_75",
       "name": "412 Brit 35A GB55Hz 75",
       "category": "Bass cabinets",
-      "based_on": "British-voiced 4x12 bass cabinet (GB 55Hz speakers, 1975)",
+      "based_on": "Marshall 1935A (Celestion G12M25 drivers)",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -22959,7 +22959,7 @@
       "id": "810_amped_vt_90s",
       "name": "810 Amped VT 90s",
       "category": "Bass cabinets",
-      "based_on": "Ampeg SVT-810E (8x10, 90s)",
+      "based_on": "Ampeg SVT-810 (90s Eminence Speakers)",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -23101,7 +23101,7 @@
       "id": "810_amped_vt_aln_70s",
       "name": "810 Amped VT Aln 70s",
       "category": "Bass cabinets",
-      "based_on": "Ampeg SVT-810E (8x10, Alnico speakers, 70s)",
+      "based_on": "Ampeg SVT-810 (custom Eminence ceramic drivers)",
       "plugin": null,
       "added_in_coros": null,
       "controls": [
@@ -23236,7 +23236,7 @@
       "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
       "pages": 2,
-      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160).",
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160). neuraldsp.com/device-list lists this as ceramic drivers despite the \"Aln\" (Alnico) in the device name; recorded verbatim from the official source.",
       "coros_verified_on": "4.1.0"
     }
   ]
