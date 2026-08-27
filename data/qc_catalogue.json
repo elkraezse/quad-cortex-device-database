@@ -349,13 +349,63 @@
       "based_on": "Marshall JCM900 4100",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Brit 900 Clean' (same physical device family: Marshall JCM900 4100). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "brit_plexi_100_bright",
@@ -422,13 +472,56 @@
       "based_on": "Marshall Super Lead 100",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Brit Plexi 100 Bright' (same physical device family: Marshall Super Lead 100). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "brit_plexi_100_patch",
@@ -560,13 +653,56 @@
       "based_on": "Marshall Lead 50",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": null,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Inferred from Brit Plexi 100 Bright screenshot (Cortex Control 4.1.0), confirmed by elkraezse",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Brit Plexi 50 Bright' (same physical device family: Marshall Lead 50). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "brit_plexi_50_patch",
@@ -575,13 +711,56 @@
       "based_on": "Marshall Lead 50",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": null,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": null,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Inferred from Brit Plexi 100 Bright screenshot (Cortex Control 4.1.0), confirmed by elkraezse",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Brit Plexi 50 Bright' (same physical device family: Marshall Lead 50). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "brit_tm45_bright",
@@ -648,13 +827,56 @@
       "based_on": "Marshall JTM 45",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Brit TM45 Bright' (same physical device family: Marshall JTM 45). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "brit_tm45_patch",
@@ -800,22 +1022,70 @@
       "based_on": "Marshall Silver Jubilee",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Input Gain",
-        "Lead Master",
-        "Output Master",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Input Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Lead Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Brit UBL Lead' (same physical device family: Marshall Silver Jubilee). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ca_1star_clean_100w_normal",
@@ -896,22 +1166,70 @@
       "based_on": "Mesa Boogie Lone Star",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Bass",
-        "Middle",
-        "Treble",
-        "Eq",
-        "Gain",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "EQ",
+          "type": "select",
+          "range": "Normal/Tweed",
+          "default": "Normal",
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'CA 1Star Clean 100W Normal' (same physical device family: Mesa Boogie Lone Star). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ca_1star_clean_50w_normal",
@@ -920,22 +1238,70 @@
       "based_on": "Mesa Boogie Lone Star",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Bass",
-        "Middle",
-        "Treble",
-        "Eq",
-        "Gain",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "EQ",
+          "type": "select",
+          "range": "Normal/Tweed",
+          "default": "Normal",
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'CA 1Star Clean 100W Normal' (same physical device family: Mesa Boogie Lone Star). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ca_1star_clean_50w_tweed",
@@ -944,22 +1310,70 @@
       "based_on": "Mesa Boogie Lone Star",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Bass",
-        "Middle",
-        "Treble",
-        "Eq",
-        "Gain",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "EQ",
+          "type": "select",
+          "range": "Normal/Tweed",
+          "default": "Normal",
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'CA 1Star Clean 100W Normal' (same physical device family: Mesa Boogie Lone Star). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ca_1star_drive_100w_normal",
@@ -1047,23 +1461,70 @@
       "based_on": "Mesa Boogie Lone Star",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Bass",
-        "Middle",
-        "Treble",
-        "Drive",
-        "Eq",
-        "Gain",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "EQ",
+          "type": "select",
+          "range": "Normal/Tweed",
+          "default": "Normal",
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'CA 1Star Clean 100W Normal' (same physical device family: Mesa Boogie Lone Star). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ca_1star_drive_50w_normal",
@@ -1072,23 +1533,70 @@
       "based_on": "Mesa Boogie Lone Star",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Bass",
-        "Middle",
-        "Treble",
-        "Drive",
-        "Eq",
-        "Gain",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "EQ",
+          "type": "select",
+          "range": "Normal/Tweed",
+          "default": "Normal",
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'CA 1Star Clean 100W Normal' (same physical device family: Mesa Boogie Lone Star). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ca_1star_drive_50w_tweed",
@@ -1097,23 +1605,70 @@
       "based_on": "Mesa Boogie Lone Star",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Bass",
-        "Middle",
-        "Treble",
-        "Drive",
-        "Eq",
-        "Gain",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "EQ",
+          "type": "select",
+          "range": "Normal/Tweed",
+          "default": "Normal",
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'CA 1Star Clean 100W Normal' (same physical device family: Mesa Boogie Lone Star). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ca_duo_ch3_modern",
@@ -1187,21 +1742,63 @@
       "based_on": "Mesa Boogie Dual Rectifier",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Presence",
-        "Master",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'CA Duo Ch3 Modern' (same physical device family: Mesa Boogie Dual Rectifier). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ca_duo_ch3_vintage",
@@ -1210,21 +1807,63 @@
       "based_on": "Mesa Boogie Dual Rectifier",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Presence",
-        "Master",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'CA Duo Ch3 Modern' (same physical device family: Mesa Boogie Dual Rectifier). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ca_john_s_2c_ch1",
@@ -1640,21 +2279,63 @@
       "based_on": "Mesa Boogie Trem-O-Verb",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Mid",
-        "Treble",
-        "Presence",
-        "Master",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'CA Tremo Orange' (same physical device family: Mesa Boogie Trem-O-Verb). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "captain_50",
@@ -1807,22 +2488,70 @@
       "based_on": "Diezel VH4",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Volume",
-        "Bass",
-        "Mid",
-        "Treble",
-        "Presence (4kHz)",
-        "Deep (80Hz)",
-        "Bright switch (not on Ch3/Ch4)"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Deep",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'D-Cell H4 Ch1 Bright' (same physical device family: Diezel VH4). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "d_cell_h4_ch2_bright",
@@ -1831,22 +2560,70 @@
       "based_on": "Diezel VH4",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Volume",
-        "Bass",
-        "Mid",
-        "Treble",
-        "Presence (4kHz)",
-        "Deep (80Hz)",
-        "Bright switch (not on Ch3/Ch4)"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Deep",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'D-Cell H4 Ch1 Bright' (same physical device family: Diezel VH4). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "d_cell_h4_ch2_normal",
@@ -1855,22 +2632,70 @@
       "based_on": "Diezel VH4",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Volume",
-        "Bass",
-        "Mid",
-        "Treble",
-        "Presence (4kHz)",
-        "Deep (80Hz)",
-        "Bright switch (not on Ch3/Ch4)"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Deep",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'D-Cell H4 Ch1 Bright' (same physical device family: Diezel VH4). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "d_cell_h4_ch3",
@@ -1879,22 +2704,70 @@
       "based_on": "Diezel VH4",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Volume",
-        "Bass",
-        "Mid",
-        "Treble",
-        "Presence (4kHz)",
-        "Deep (80Hz)",
-        "Bright switch (not on Ch3/Ch4)"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Deep",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'D-Cell H4 Ch1 Bright' (same physical device family: Diezel VH4). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "d_cell_h4_ch4",
@@ -1903,22 +2776,70 @@
       "based_on": "Diezel VH4",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Volume",
-        "Bass",
-        "Mid",
-        "Treble",
-        "Presence (4kHz)",
-        "Deep (80Hz)",
-        "Bright switch (not on Ch3/Ch4)"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Deep",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'D-Cell H4 Ch1 Bright' (same physical device family: Diezel VH4). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "d_cell_hisbert_ch1",
@@ -2423,22 +3344,70 @@
       "based_on": "EVH 5150 III 100S 6L6",
       "plugin": null,
       "added_in_coros": "1.2.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Resonance",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Resonance",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'EV101IIIS Blue 6L6 100W' (same physical device family: EVH 5150 III 100S 6L6). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ev101iiis_red_el34_100w",
@@ -2622,25 +3591,56 @@
       "based_on": "Friedman HBE100",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Fat switch",
-        "C45 switch",
-        "Gain",
-        "Voice switch",
-        "Sat switch",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "select",
+          "range": "unconfirmed (reads 'Bright 1')",
+          "default": "Bright 1",
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Freeman 100 Clean' (same physical device family: Friedman HBE100). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "matchmore_d30_ch1",
@@ -3097,21 +4097,63 @@
       "based_on": "Soldano SLO 100",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Solo 100 Crunch Bright' (same physical device family: Soldano SLO 100). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "solo_100_lead",
@@ -3120,21 +4162,63 @@
       "based_on": "Soldano SLO 100",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Solo 100 Crunch Bright' (same physical device family: Soldano SLO 100). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "uk_c15_normal",
@@ -3468,21 +4552,63 @@
       "based_on": "Fender High Power Tweed Twin 5F8-A",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume Normal",
-        "Volume Bright",
-        "Treble",
-        "Bass",
-        "Middle",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume Normal",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Volume Bright",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.5,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 7.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'US HP Tweed TWN Bright' (same physical device family: Fender High Power Tweed Twin 5F8-A). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_hp_tweed_twn_normal",
@@ -3491,21 +4617,63 @@
       "based_on": "Fender High Power Tweed Twin 5F8-A",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume Normal",
-        "Volume Bright",
-        "Treble",
-        "Bass",
-        "Middle",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume Normal",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Volume Bright",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.5,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 7.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'US HP Tweed TWN Bright' (same physical device family: Fender High Power Tweed Twin 5F8-A). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_hp_tweed_twn_normal_patch",
@@ -3514,21 +4682,63 @@
       "based_on": "Fender High Power Tweed Twin 5F8-A",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume Normal",
-        "Volume Bright",
-        "Treble",
-        "Bass",
-        "Middle",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume Normal",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Volume Bright",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.5,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 7.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'US HP Tweed TWN Bright' (same physical device family: Fender High Power Tweed Twin 5F8-A). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_prince",
@@ -3755,21 +4965,63 @@
       "based_on": "Fender Bassman Tweed",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume Normal",
-        "Volume Bright",
-        "Treble",
-        "Bass",
-        "Middle",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume Normal",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Volume Bright",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'US Tweed Basslad Bright' (same physical device family: Fender Bassman Tweed). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_tweed_basslad_normal",
@@ -3778,21 +5030,63 @@
       "based_on": "Fender Bassman Tweed",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume Normal",
-        "Volume Bright",
-        "Treble",
-        "Bass",
-        "Middle",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume Normal",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Volume Bright",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'US Tweed Basslad Bright' (same physical device family: Fender Bassman Tweed). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_tweed_basslad_normal_patch",
@@ -3801,21 +5095,63 @@
       "based_on": "Fender Bassman Tweed",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume Normal",
-        "Volume Bright",
-        "Treble",
-        "Bass",
-        "Middle",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume Normal",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Volume Bright",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'US Tweed Basslad Bright' (same physical device family: Fender Bassman Tweed). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_twn_normal",
@@ -4020,21 +5356,63 @@
       "based_on": "Hiwatt DR103",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Watt D103 Bright' (same physical device family: Hiwatt DR103). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "110_us_prn_brown_fatj_10s",
@@ -15655,13 +17033,49 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Damping",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 28,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Boing",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Spring (M)' (same physical device family: Spring). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "spring_reverb_engine_m",
@@ -15763,13 +17177,91 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30,
+          "page": 1
+        },
+        {
+          "name": "Tank Type",
+          "type": "select",
+          "range": "Vintage/Short/Mid/Long",
+          "default": "Vintage",
+          "page": 1
+        },
+        {
+          "name": "Input Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": -12.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "20-800 Hz",
+          "default": 80,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "800-12000 Hz",
+          "default": 4500,
+          "page": 1
+        },
+        {
+          "name": "Chirp Decay",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30,
+          "page": 1
+        },
+        {
+          "name": "Diff Decay",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 15,
+          "page": 1
+        },
+        {
+          "name": "Chirp Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70,
+          "page": 1
+        },
+        {
+          "name": "Diff Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Output Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 12.0,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Spring Reverb Engine (M)' (same physical device family: Spring Reverb Engine). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "studio_plate_70_st",
@@ -16197,13 +17689,63 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -40.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "knob",
+          "range": "x",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 15.0,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "ms",
+          "default": 400,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Opto Comp (M)' (same physical device family: Opto Comp). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "opto_comp_s_c",
@@ -16212,13 +17754,63 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -40.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "knob",
+          "range": "x",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 15.0,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "ms",
+          "default": 400,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Opto Comp (M)' (same physical device family: Opto Comp). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "solid_state_comp",
@@ -16292,13 +17884,63 @@
       "based_on": "SSL Bus",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -40.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "knob",
+          "range": "0-10 (detented)",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "s",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 14.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Solid State Comp (M)' (same physical device family: SSL Bus). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "solid_state_comp_s_c",
@@ -16307,13 +17949,63 @@
       "based_on": "SSL Bus",
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -40.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "knob",
+          "range": "0-10 (detented)",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "s",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 14.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Solid State Comp (M)' (same physical device family: SSL Bus). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "vca_comp",
@@ -16387,13 +18079,63 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -40.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "knob",
+          "range": "x",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 15.0,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "ms",
+          "default": 400,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'VCA Comp (M)' (same physical device family: VCA Comp). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "vca_comp_s_c",
@@ -16402,13 +18144,63 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -40.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "knob",
+          "range": "x",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 15.0,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "ms",
+          "default": 400,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'VCA Comp (M)' (same physical device family: VCA Comp). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "douglas_shining_comp_m",
@@ -17230,13 +19022,70 @@
       "based_on": "BOSS CE-2W",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Type",
+          "type": "select",
+          "range": "CE1-V/CE1-C/CE2-C",
+          "default": "CE2-C",
+          "page": 1
+        },
+        {
+          "name": "Out Mode",
+          "type": "select",
+          "range": "Wet/Dry/Mono",
+          "default": "Mono",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": "Legacy placeholder from before Chief CE2W was split into (M)/(ST) variants (added_in_coros 1.3.0, one version before the split in 1.4.0). The current Cortex Control sidebar has no plain 'Chief CE2W' entry -- see 'Chief CE2W (M)' / 'Chief CE2W (ST)' for the real devices.",
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Legacy placeholder from before Chief CE2W was split into (M)/(ST) variants (added_in_coros 1.3.0, one version before the split in 1.4.0). The current Cortex Control sidebar has no plain 'Chief CE2W' entry -- see 'Chief CE2W (M)' / 'Chief CE2W (ST)' for the real devices. Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Chief CE2W (M)' (same physical device family: BOSS CE-2W). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "chief_ce2w_m",
@@ -17317,13 +19166,49 @@
       "based_on": "BOSS DC-2W Dimension",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "knob",
+          "range": "1-4 (detented)",
+          "default": 1,
+          "page": 1
+        },
+        {
+          "name": "Type",
+          "type": "select",
+          "range": "SDD-320/S",
+          "default": "S",
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "Off, 0-100 %",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": "Legacy placeholder from before Chief DC2W was split into (M)/(ST) variants. The current Cortex Control sidebar has no plain 'Chief DC2W' entry -- see 'Chief DC2W (M)' / 'Chief DC2W (ST)' for the real devices.",
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Legacy placeholder from before Chief DC2W was split into (M)/(ST) variants. The current Cortex Control sidebar has no plain 'Chief DC2W' entry -- see 'Chief DC2W (M)' / 'Chief DC2W (ST)' for the real devices. Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Chief DC2W (M)' (same physical device family: BOSS DC-2W Dimension). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "chief_dc2w_m",
@@ -17676,13 +19561,63 @@
       "based_on": "TC Electronic Dreamscape",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Speed",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "select",
+          "range": "CHO1/CHO2",
+          "default": "CHO1",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Dream Chorus (M)' (same physical device family: TC Electronic Dreamscape). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "dream_chorus_m",
@@ -20721,13 +22656,21 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Noise Reduction",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Adaptive Gate' (same physical device family: Adaptive Gate). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "gain",
@@ -28232,13 +30175,56 @@
       "based_on": "Marshall Super Bass 50",
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Brit Bass 50 Bright' (same physical device family: Marshall Super Bass 50). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ca_400_plus_ch1",
@@ -28382,13 +30368,133 @@
       "based_on": "Mesa Boogie Bass 400+",
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "EQ",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Bass Shift",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Treble Shift",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "40 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "100 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "250 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "625 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "1560 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "3900 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "6600 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'CA 400+ Ch1' (same physical device family: Mesa Boogie Bass 400+). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "g800k",
@@ -28613,13 +30719,42 @@
       "based_on": "Ampeg Heritage B15N",
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Amped Flip-Top 6464' (same physical device family: Ampeg Heritage B15N). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "amped_flip_top_6664",
@@ -28628,13 +30763,42 @@
       "based_on": "Ampeg Heritage B15N",
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Amped Flip-Top 6464' (same physical device family: Ampeg Heritage B15N). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "amped_flip_top_6666",
@@ -28643,13 +30807,42 @@
       "based_on": "Ampeg Heritage B15N",
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Controls not independently screenshotted for this channel/variant -- confirmed by user to be identical to 'Amped Flip-Top 6464' (same physical device family: Ampeg Heritage B15N). Per user instruction, channels/variants of the same device sharing the same on-screen control layout are pattern-confirmed from a single screenshot rather than individually captured, even where this may not match how the real hardware's channels differ.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "115_amped_modern",
