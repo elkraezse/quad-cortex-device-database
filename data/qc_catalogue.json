@@ -15556,18 +15556,96 @@
     },
     {
       "id": "slapback_delay",
-      "name": "Slapback Delay",
+      "name": "Slapback Delay (M)",
       "category": "Delay",
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3000,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/16",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Mod Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Catalogue id kept as 'slapback_delay' but display name corrected to 'Slapback Delay (M)' to match the actual Cortex Control sidebar naming (sits alongside a separate '(ST)' sibling). Delay Time is greyed out/inactive while Sync is On (the default).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "digital_delay",
@@ -15804,13 +15882,175 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note L",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4D",
+          "page": 1
+        },
+        {
+          "name": "Delay Time L",
+          "type": "time",
+          "range": "ms",
+          "default": 500.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback L",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "X-Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Feedback Mode",
+          "type": "switch",
+          "range": "Flip/Reverse",
+          "default": "Reverse",
+          "page": 1
+        },
+        {
+          "name": "Sync Note R",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/2",
+          "page": 1
+        },
+        {
+          "name": "Delay Time R",
+          "type": "time",
+          "range": "ms",
+          "default": 700.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback R",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "Overlap",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 20,
+          "page": 2
+        },
+        {
+          "name": "Trig Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -24.0,
+          "page": 2
+        },
+        {
+          "name": "Dyn Depth",
+          "type": "knob",
+          "range": "dB",
+          "default": 10.0,
+          "page": 2
+        },
+        {
+          "name": "Dyn Mode",
+          "type": "select",
+          "range": "detented (shown: Off)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -24.0,
+          "page": 2
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 200,
+          "page": 2
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "ms",
+          "default": 500,
+          "page": 2
+        },
+        {
+          "name": "Knee",
+          "type": "knob",
+          "range": "dB",
+          "default": 4.0,
+          "page": 2
+        },
+        {
+          "name": "Feedback Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 80,
+          "page": 2
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 80,
+          "page": 3
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 16000,
+          "page": 3
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 3
+        },
+        {
+          "name": "Link Fback",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 3
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 3,
+      "notes": "Complex dual-tap reverse delay -- independent L/R delay times, sync notes and feedback amounts, plus a dynamics/ducking section (Trig Threshold/Dyn Depth/Dyn Mode/Threshold/Attack/Release/Knee/Feedback Depth) and a Gain Reduction readout (omitted here, not an adjustable control). Delay Time L/R are greyed out/inactive while Sync is On (the default).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "simple_ping_pong_delay",
@@ -15819,17 +16059,74 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-30 (unconfirmed exact max)",
+          "default": 15,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 500.0,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Stereo Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Tone's exact max value wasn't confirmed from the screenshot (dial shown roughly half-filled at value 15) -- range flagged as approximate. Delay Time is greyed out/inactive while Sync is On (the default).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "reverse_delay",
-      "name": "Reverse Delay",
+      "name": "Reverse Delay (M)",
       "category": "Delay",
       "based_on": null,
       "plugin": null,
@@ -15839,12 +16136,12 @@
       "source": null,
       "controls_unverified": null,
       "pages": null,
-      "notes": null,
+      "notes": "Display name corrected to 'Reverse Delay (M)' to match the actual Cortex Control sidebar naming. No '(ST)' sibling exists for this device in the sidebar (Reverse Delay only comes in one, presumably dual-mono, variant).",
       "coros_verified_on": null
     },
     {
       "id": "simple_delay",
-      "name": "Simple Delay",
+      "name": "Simple Delay (M)",
       "category": "Delay",
       "based_on": null,
       "plugin": null,
@@ -15854,12 +16151,12 @@
       "source": null,
       "controls_unverified": null,
       "pages": null,
-      "notes": null,
+      "notes": "Display name corrected to 'Simple Delay (M)' to match the actual Cortex Control sidebar naming (a '(ST)' sibling exists -- see simple_delay_st).",
       "coros_verified_on": null
     },
     {
       "id": "tape_delay",
-      "name": "Tape Delay",
+      "name": "Tape Delay (M)",
       "category": "Delay",
       "based_on": null,
       "plugin": null,
@@ -15869,7 +16166,7 @@
       "source": null,
       "controls_unverified": null,
       "pages": null,
-      "notes": null,
+      "notes": "Display name corrected to 'Tape Delay (M)' to match the actual Cortex Control sidebar naming (a '(ST)' sibling exists -- see tape_delay_st).",
       "coros_verified_on": null
     },
     {
@@ -20860,23 +21157,8 @@
       "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
       "pages": 1,
-      "notes": "Catalogue id kept as 'mx_vibes' (pre-existing) but display name corrected to 'MX Vibe' (singular) to match the actual Cortex Control sidebar spelling.",
+      "notes": "Catalogue id kept as 'mx_vibes' (pre-existing) but display name corrected to 'MX Vibe' (singular) to match the actual Cortex Control sidebar spelling.[2026-08-27] A duplicate placeholder device 'NuVibes' (id: nuvibes) previously existed in this catalogue for what turned out to be this same real device -- Cortex Control's sidebar only lists 'MX Vibe', no separate 'NuVibes' entry. The duplicate has been removed.",
       "coros_verified_on": "4.1.0"
-    },
-    {
-      "id": "nuvibes",
-      "name": "NuVibes",
-      "category": "Modulation",
-      "based_on": null,
-      "plugin": null,
-      "added_in_coros": "2.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
-      "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
     },
     {
       "id": "pattern_tremolo",
@@ -33161,13 +33443,42 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "controls": [
+        {
+          "name": "Send Lev",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Ret Lev",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
       "pages": 1,
-      "verified": false,
-      "source": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Stereo-linked pair variant of FX Loop 1/FX Loop 2 -- identical control layout, no additional stereo-link controls exposed.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "fx_loop_2",
@@ -33176,13 +33487,42 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "controls": [
+        {
+          "name": "Send Lev",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Ret Lev",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
       "pages": 1,
-      "verified": false,
-      "source": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "return_1_2",
@@ -33191,13 +33531,28 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "controls": [
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
       "pages": 1,
-      "verified": false,
-      "source": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Stereo-linked pair variant of Return 1/Return 2 -- identical control layout.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "return_2",
@@ -33206,13 +33561,28 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "controls": [
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
       "pages": 1,
-      "verified": false,
-      "source": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "send_1_2",
@@ -33221,13 +33591,28 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "controls": [
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Thru",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
       "pages": 1,
-      "verified": false,
-      "source": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Stereo-linked pair variant of Send 1/Send 2 -- identical control layout.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "send_2",
@@ -33236,13 +33621,282 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": null,
-      "controls": null,
-      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "controls": [
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Thru",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": null,
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "looper_x",
+      "name": "Looper X",
+      "category": "Looper",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "coros_verified_on": "4.1.0",
+      "controls": [
+        {
+          "name": "Playback Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Overdub Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -40.0,
+          "page": 1
+        },
+        {
+          "name": "Record Mode",
+          "type": "select",
+          "range": "Toggle/Momentary",
+          "default": "Toggle",
+          "page": 2
+        },
+        {
+          "name": "Overdub Mode",
+          "type": "select",
+          "range": "Toggle/Momentary",
+          "default": "Toggle",
+          "page": 2
+        },
+        {
+          "name": "Duplicate Mode",
+          "type": "select",
+          "range": "Sync/Free",
+          "default": "Sync",
+          "page": 2
+        },
+        {
+          "name": "Punch Mode",
+          "type": "select",
+          "range": "Toggle/Momentary",
+          "default": "Toggle",
+          "page": 2
+        },
+        {
+          "name": "Routing Mode",
+          "type": "select",
+          "range": "detented (shown: Grid)",
+          "default": "Grid",
+          "page": 2
+        },
+        {
+          "name": "Quantize",
+          "type": "select",
+          "range": "detented (shown: Off)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "MIDI Clock Start",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Pre Roll",
+          "type": "select",
+          "range": "detented (shown: Off)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Rec. Length",
+          "type": "select",
+          "range": "detented (shown: Off)",
+          "default": "Off",
+          "page": 2
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 2,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": [
+        "First-ever Looper category block, only one device exists: 'Looper X'. Page 1 also has 8 footswitch-style action buttons (labeled A-H, bound to Alt+1 through Alt+8) for loop-count select, loop/repeat, half-speed, mic/input mute, record, play, rewind, and undo/redo -- these are momentary action triggers rather than adjustable parameters, so they are not enumerated as controls here. MIDI Clock Start shows an info (i) tooltip. Pre Roll, Routing Mode, Quantize and Rec. Length are greyed-out/inactive in the captured screenshot depending on other mode settings; only their default displayed value is recorded."
+      ]
+    },
+    {
+      "id": "slapback_delay_st",
+      "name": "Slapback Delay (ST)",
+      "category": "Delay",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "coros_verified_on": "4.1.0",
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3000,
+          "page": 1
+        },
+        {
+          "name": "Ping Pong",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/16",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Mod Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 60,
+          "page": 2
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 2,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Stereo variant of Slapback Delay (M) -- adds Ping Pong (page 1) and Width (page 2) controls not present on the mono version; Drive/Trails move to page 2 here vs. staying on page 1 for (M), matching the extra Ping Pong control's layout push. Delay Time is greyed out/inactive while Sync is On (the default)."
+    },
+    {
+      "id": "simple_delay_st",
+      "name": "Simple Delay (ST)",
+      "category": "Delay",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "coros_verified_on": null,
+      "controls": [],
+      "controls_unverified": "Placeholder -- no screenshot captured yet.",
       "pages": 1,
       "verified": false,
       "source": null,
-      "notes": null,
-      "coros_verified_on": null
+      "notes": "Stereo sibling of Simple Delay (M), confirmed to exist in the Cortex Control sidebar but not yet screenshotted. Once Simple Delay (M) itself is screenshotted and verified, this can likely be pattern-inferred per the same-device-variant rule."
+    },
+    {
+      "id": "tape_delay_st",
+      "name": "Tape Delay (ST)",
+      "category": "Delay",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "coros_verified_on": null,
+      "controls": [],
+      "controls_unverified": "Placeholder -- no screenshot captured yet.",
+      "pages": 1,
+      "verified": false,
+      "source": null,
+      "notes": "Stereo sibling of Tape Delay (M), confirmed to exist in the Cortex Control sidebar but not yet screenshotted. Once Tape Delay (M) itself is screenshotted and verified, this can likely be pattern-inferred per the same-device-variant rule."
     }
-  ]
+  ],
+  "categories": []
 }
