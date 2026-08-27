@@ -5380,13 +5380,49 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Position",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 0,
+     "page": 1
+    },
+    {
+     "name": "Auto-Wah",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Sensitivity",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Attack",
+     "type": "knob",
+     "range": "ms",
+     "default": 500,
+     "page": 1
+    },
+    {
+     "name": "Release",
+     "type": "knob",
+     "range": "ms",
+     "default": 500,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Sensitivity/Attack/Release greyed out while Auto-Wah is Off.",
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_the_postal_service_archetype_cory_wong_x",
@@ -5395,13 +5431,42 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Range",
+     "type": "knob",
+     "range": "Hz",
+     "default": 1150,
+     "page": 1
+    },
+    {
+     "name": "Sensitivity",
+     "type": "knob",
+     "range": "dB",
+     "default": 36.0,
+     "page": 1
+    },
+    {
+     "name": "Attack",
+     "type": "knob",
+     "range": "ms",
+     "default": 550,
+     "page": 1
+    },
+    {
+     "name": "Decay",
+     "type": "knob",
+     "range": "ms",
+     "default": 550,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_the_4th_position_compressor_archetype_cory_wong_x",
@@ -5410,13 +5475,49 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Compression",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Blend",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Tone",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Volume",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Gain Reduction",
+     "type": "meter",
+     "range": "dB",
+     "default": null,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_the_tuber_archetype_cory_wong_x",
@@ -5425,13 +5526,35 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Drive",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Tone",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Level",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_the_big_rig_overdrive_archetype_cory_wong_x",
@@ -5440,13 +5563,35 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Drive",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Tone",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Level",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_d_i_funk_console_archetype_cory_wong_x",
@@ -5455,13 +5600,98 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Comp",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Attack",
+     "type": "switch",
+     "range": "Slow/Fast",
+     "default": "Fast",
+     "page": 1
+    },
+    {
+     "name": "Tube Sat",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "High Pass",
+     "type": "knob",
+     "range": "Hz",
+     "default": 20,
+     "page": 1
+    },
+    {
+     "name": "Low Pass",
+     "type": "knob",
+     "range": "Hz",
+     "default": 17000,
+     "page": 1
+    },
+    {
+     "name": "Lows",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Lows Freq",
+     "type": "switch",
+     "range": "150 Hz/225 Hz",
+     "default": "225 Hz",
+     "page": 1
+    },
+    {
+     "name": "Mids",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mids Freq",
+     "type": "switch",
+     "range": "600 Hz/900 Hz",
+     "default": "900 Hz",
+     "page": 1
+    },
+    {
+     "name": "Highs",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Highs Freq",
+     "type": "switch",
+     "range": "2.5 kHz/4 kHz",
+     "default": "4 kHz",
+     "page": 2
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 2
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 2,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_the_clean_machine_archetype_cory_wong_x",
@@ -5470,13 +5700,63 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Volume",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Bright",
+     "type": "switch",
+     "range": "OFF/ON",
+     "default": "OFF",
+     "page": 1
+    },
+    {
+     "name": "Bass",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Middle",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Treble",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Presence",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_the_amp_snob_archetype_cory_wong_x",
@@ -5485,58 +5765,77 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Volume",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Bright",
+     "type": "switch",
+     "range": "OFF/ON",
+     "default": "OFF",
+     "page": 1
+    },
+    {
+     "name": "Bass",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Middle",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Treble",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Master",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Presence",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Drive",
+     "type": "switch",
+     "range": "OFF/ON",
+     "default": "OFF",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
-  },
-  {
-   "id": "cory_wong_cab_1_m_st_archetype_cory_wong_x",
-   "name": "Cory Wong Cab 1 (M) & (ST)",
-   "category": "Guitar cabinets",
-   "based_on": null,
-   "plugin": "Archetype: Cory Wong X",
-   "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
-   "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
-  },
-  {
-   "id": "cory_wong_cab_2_m_st_archetype_cory_wong_x",
-   "name": "Cory Wong Cab 2 (M) & (ST)",
-   "category": "Guitar cabinets",
-   "based_on": null,
-   "plugin": "Archetype: Cory Wong X",
-   "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
-   "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
-  },
-  {
-   "id": "cory_wong_cab_3_m_st_archetype_cory_wong_x",
-   "name": "Cory Wong Cab 3 (M) & (ST)",
-   "category": "Guitar cabinets",
-   "based_on": null,
-   "plugin": "Archetype: Cory Wong X",
-   "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
-   "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_the_80s_archetype_cory_wong_x",
@@ -5545,13 +5844,49 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Rate",
+     "type": "knob",
+     "range": "Hz",
+     "default": 1.65,
+     "page": 1
+    },
+    {
+     "name": "Width",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Sync",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Sync Note",
+     "type": "select",
+     "range": "note values",
+     "default": "1/4",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Sync Note greyed out while Sync is Off.",
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_delay_y_y_archetype_cory_wong_x",
@@ -5560,13 +5895,91 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Feedback",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 25,
+     "page": 1
+    },
+    {
+     "name": "Mode",
+     "type": "switch",
+     "range": "Dual/Single",
+     "default": "Single",
+     "page": 1
+    },
+    {
+     "name": "Delay Time L",
+     "type": "time",
+     "range": "ms",
+     "default": 500,
+     "page": 1
+    },
+    {
+     "name": "Delay Time R",
+     "type": "time",
+     "range": "ms",
+     "default": 500,
+     "page": 1
+    },
+    {
+     "name": "High Pass",
+     "type": "knob",
+     "range": "Hz",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Low Pass",
+     "type": "knob",
+     "range": "Hz",
+     "default": 5000,
+     "page": 1
+    },
+    {
+     "name": "Sync",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Sync Note L",
+     "type": "select",
+     "range": "note values",
+     "default": "1/4",
+     "page": 1
+    },
+    {
+     "name": "Sync Note R",
+     "type": "select",
+     "range": "note values",
+     "default": "1/4",
+     "page": 1
+    },
+    {
+     "name": "Trails",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 2
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 2,
+   "notes": "Delay Time L/R greyed out while Sync is On; R controls greyed out in Single mode.",
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_the_wash_archetype_cory_wong_x",
@@ -5575,13 +5988,49 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Decay",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Low Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 0,
+     "page": 1
+    },
+    {
+     "name": "High Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 100,
+     "page": 1
+    },
+    {
+     "name": "Trails",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_the_wash_shimmer_archetype_cory_wong_x",
@@ -5590,13 +6039,49 @@
    "based_on": null,
    "plugin": "Archetype: Cory Wong X",
    "added_in_coros": "3.2.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Decay",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Low Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 0,
+     "page": 1
+    },
+    {
+     "name": "High Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 100,
+     "page": 1
+    },
+    {
+     "name": "Trails",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "nolly_compressor_archetype_nolly_x",
@@ -8833,6 +9318,984 @@
    "controls_unverified": null,
    "pages": 3,
    "notes": "Mic list has no speaker groups (single list). Pages 2-3 assumed identical to Nolly cabs (shared cab layout).",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "cory_wong_cab_1_m_archetype_cory_wong_x",
+   "name": "Cory Wong Cab 1 (M)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Cory Wong X",
+   "added_in_coros": "3.2.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic A Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Ribbon 160",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic B Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Single mic list, no speaker groups. Pages 2-3 shared cab layout.",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "cory_wong_cab_1_st_archetype_cory_wong_x",
+   "name": "Cory Wong Cab 1 (ST)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Cory Wong X",
+   "added_in_coros": "3.2.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic A Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Ribbon 160",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic B Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Single mic list, no speaker groups. Pages 2-3 shared cab layout.",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "cory_wong_cab_2_m_archetype_cory_wong_x",
+   "name": "Cory Wong Cab 2 (M)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Cory Wong X",
+   "added_in_coros": "3.2.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic A Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Ribbon 160",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic B Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Single mic list, no speaker groups. Pages 2-3 shared cab layout.",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "cory_wong_cab_2_st_archetype_cory_wong_x",
+   "name": "Cory Wong Cab 2 (ST)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Cory Wong X",
+   "added_in_coros": "3.2.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic A Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Ribbon 160",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic B Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Single mic list, no speaker groups. Pages 2-3 shared cab layout.",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "cory_wong_cab_3_m_archetype_cory_wong_x",
+   "name": "Cory Wong Cab 3 (M)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Cory Wong X",
+   "added_in_coros": "3.2.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic A Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Ribbon 160",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic B Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Single mic list, no speaker groups. Pages 2-3 shared cab layout.",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "cory_wong_cab_3_st_archetype_cory_wong_x",
+   "name": "Cory Wong Cab 3 (ST)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Cory Wong X",
+   "added_in_coros": "3.2.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic A Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Ribbon 160",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.1,
+     "page": 1
+    },
+    {
+     "name": "Mic B Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Single mic list, no speaker groups. Pages 2-3 shared cab layout.",
    "coros_verified_on": "4.1.0"
   }
  ]

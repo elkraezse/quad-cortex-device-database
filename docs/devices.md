@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**351 devices**: 37 verified, 59 unverified (wiki-sourced), 255 still missing controls.
+**354 devices**: 55 verified, 59 unverified (wiki-sourced), 240 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -45,9 +45,9 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | CA Tremo Red | Mesa Boogie Trem-O-Verb |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Mid, Treble, Presence, Master, Output |
 | Captain 50 | Morgan SW50 |  | 1.2.0 | unverified | _unverified:_ Bright switch, Low Boost switch, Gain, Bass, Middle, Treble, Master, Output |
 | Clean |  | Archetype: Petrucci X | 4.1.0 | missing |  |
-| Cory Wong D.I. Funk Console |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
-| Cory Wong The Amp Snob |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
-| Cory Wong The Clean Machine |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
+| Cory Wong D.I. Funk Console |  | Archetype: Cory Wong X | 3.2.0 | verified | Comp (0-10, default 5.0, p1); Attack (switch, Slow/Fast, default Fast, p1); Tube Sat (0-10, default 5.0, p1); High Pass (Hz, default 20, p1); Low Pass (Hz, default 17000, p1); Lows (dB, default 0.0, p1); Lows Freq (switch, 150 Hz/225 Hz, default 225 Hz, p1); Mids (dB, default 0.0, p1); Mids Freq (switch, 600 Hz/900 Hz, default 900 Hz, p1); Highs (dB, default 0.0, p1); Highs Freq (switch, 2.5 kHz/4 kHz, default 4 kHz, p2); Output (dB, default 0.0, p2) |
+| Cory Wong The Amp Snob |  | Archetype: Cory Wong X | 3.2.0 | verified | Volume (0-10, default 5.0, p1); Bright (switch, OFF/ON, default OFF, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1); Drive (switch, OFF/ON, default OFF, p1) |
+| Cory Wong The Clean Machine |  | Archetype: Cory Wong X | 3.2.0 | verified | Volume (0-10, default 5.0, p1); Bright (switch, OFF/ON, default OFF, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
 | D-Cell H4 Ch1 Bright | Diezel VH4 |  | 1.0.0 | unverified | _unverified:_ Gain, Volume, Bass, Mid, Treble, Presence (4kHz), Deep (80Hz), Bright switch (not on Ch3/Ch4) |
 | D-Cell H4 Ch1 Normal | Diezel VH4 |  | 1.0.0 | unverified | _unverified:_ Gain, Volume, Bass, Mid, Treble, Presence (4kHz), Deep (80Hz), Bright switch (not on Ch3/Ch4) |
 | D-Cell H4 Ch2 Bright | Diezel VH4 |  | 1.0.0 | unverified | _unverified:_ Gain, Volume, Bass, Mid, Treble, Presence (4kHz), Deep (80Hz), Bright switch (not on Ch3/Ch4) |
@@ -171,9 +171,12 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | 412 Watt S4123 | Hiwatt SE4123 4x12 |  | 1.2.0 | missing |  |
 | 412 Zila Cust V30 '12 V2 | Zilla Custom w/ Celestion V30 |  | 1.0.0 | missing |  |
 | Cab |  | Archetype: Petrucci X | 4.1.0 | missing |  |
-| Cory Wong Cab 1 (M) & (ST) |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
-| Cory Wong Cab 2 (M) & (ST) |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
-| Cory Wong Cab 3 (M) & (ST) |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
+| Cory Wong Cab 1 (M) |  | Archetype: Cory Wong X | 3.2.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
+| Cory Wong Cab 1 (ST) |  | Archetype: Cory Wong X | 3.2.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
+| Cory Wong Cab 2 (M) |  | Archetype: Cory Wong X | 3.2.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
+| Cory Wong Cab 2 (ST) |  | Archetype: Cory Wong X | 3.2.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
+| Cory Wong Cab 3 (M) |  | Archetype: Cory Wong X | 3.2.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
+| Cory Wong Cab 3 (ST) |  | Archetype: Cory Wong X | 3.2.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
 | Gojira Cab 1 (M) |  | Archetype: Gojira X | 3.0.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.0, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 121, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.0, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
 | Gojira Cab 1 (ST) |  | Archetype: Gojira X | 3.0.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.0, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 121, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.0, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
 | Gojira Cab 2 (M) |  | Archetype: Gojira X | 3.0.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.0, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 121, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.0, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
@@ -205,8 +208,8 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Chief MT | BOSS MT-2 |  | 1.0.0 | missing |  |
 | Chief OD1 | BOSS OD-1 |  | 1.0.0 | missing |  |
 | Chief SD1 | BOSS SD-1 |  | 1.0.0 | missing |  |
-| Cory Wong The Big Rig Overdrive |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
-| Cory Wong The Tuber |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
+| Cory Wong The Big Rig Overdrive |  | Archetype: Cory Wong X | 3.2.0 | verified | Drive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
+| Cory Wong The Tuber |  | Archetype: Cory Wong X | 3.2.0 | verified | Drive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
 | Exotic | Xotic BB Preamp |  | 1.0.0 | missing |  |
 | Exotic Z Boost | Xotic RC Booster |  | 1.2.0 | missing |  |
 | Facial Fuzz | Dunlop Fuzzface |  | 1.2.0 | missing |  |
@@ -235,7 +238,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 |---|---|---|---|---|---|
 | Chief CS3 | BOSS CS-3 |  | 1.4.0 | missing |  |
 | Compressor |  | Archetype: Petrucci X | 4.1.0 | missing |  |
-| Cory Wong The 4th Position Compressor |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
+| Cory Wong The 4th Position Compressor |  | Archetype: Cory Wong X | 3.2.0 | verified | Compression (0-100 %, default 50, p1); Blend (0-100 %, default 50, p1); Tone (0-100 %, default 50, p1); Volume (0-100 %, default 50, p1); Gain Reduction (meter, dB, p1) |
 | Douglas Shining Comp (M) | Darkglass Hyper Luminal |  | 4.1.0 | missing |  |
 | Jewel | Diamond Compressor |  | 1.0.0 | missing |  |
 | Legendary 87 | Universal Audio 1176 |  | 1.0.0 | missing |  |
@@ -271,7 +274,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Analog Delay |  |  | 1.3.0 | missing |  |
 | Arpeggio Delay |  |  | 4.1.0 | missing |  |
 | Circular Delay |  |  | 3.0.0 | missing |  |
-| Cory Wong Delay-y-y |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
+| Cory Wong Delay-y-y |  | Archetype: Cory Wong X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Feedback (0-100 %, default 25, p1); Mode (switch, Dual/Single, default Single, p1); Delay Time L (time, ms, default 500, p1); Delay Time R (time, ms, default 500, p1); High Pass (Hz, default 50, p1); Low Pass (Hz, default 5000, p1); Sync (switch, Off/On, default On, p1); Sync Note L (select, note values, default 1/4, p1); Sync Note R (select, note values, default 1/4, p1); Trails (switch, Off/On, default On, p2) |
 | Crystal Delay |  |  | 4.1.0 | missing |  |
 | Delay |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Digital Delay |  |  | 2.1.0 | missing |  |
@@ -293,8 +296,8 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Ambience |  |  | 1.0.0 | missing |  |
 | Blossom (ST) | Inspired by Strymon BigSky Bloom mode |  | 4.0.0 | missing |  |
 | Cave |  |  | 1.0.0 | missing |  |
-| Cory Wong The Wash |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
-| Cory Wong The Wash Shimmer |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
+| Cory Wong The Wash |  | Archetype: Cory Wong X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (0-100 %, default 50, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
+| Cory Wong The Wash Shimmer |  | Archetype: Cory Wong X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (0-100 %, default 50, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Gojira REV |  | Archetype: Gojira X | 3.0.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (0-100 %, default 50, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Gojira REV Shimmer |  | Archetype: Gojira X | 3.0.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (0-100 %, default 50, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Hall |  |  | 1.0.0 | missing |  |
@@ -328,7 +331,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Chorus 2 |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Chorus 229T | TC Electronic TC-2290 |  | 1.3.0 | missing |  |
 | Chorus Engine |  |  | 1.3.0 | missing |  |
-| Cory Wong The 80s |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
+| Cory Wong The 80s |  | Archetype: Cory Wong X | 3.2.0 | verified | Mix (0-100 %, default 50, p1); Rate (Hz, default 1.65, p1); Width (0-100 %, default 50, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, note values, default 1/4, p1) |
 | Digital Flanger |  |  | 1.1.0 | missing |  |
 | Dream Chorus | TC Electronic Dreamscape |  | 1.3.0 | missing |  |
 | Dream Chorus (M) | TC Electronic Dreamscape |  | 1.3.0 | missing |  |
@@ -373,7 +376,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Cory Wong The Postal Service |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
+| Cory Wong The Postal Service |  | Archetype: Cory Wong X | 3.2.0 | verified | Range (Hz, default 1150, p1); Sensitivity (dB, default 36.0, p1); Attack (ms, default 550, p1); Decay (ms, default 550, p1) |
 | Env. Filter |  |  | 1.0.0 | missing |  |
 | Env. filter (S/C) |  |  | 3.0.0 | missing |  |
 | Foog | Moog Moogerfooger MF-101 |  | 1.0.0 | missing |  |
@@ -386,7 +389,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Auto Wah |  |  | 3.3.0 | missing |  |
 | Bad Horse | Morley Bad Horsie |  | 1.0.0 | missing |  |
 | Bubba Wah | Dunlop Budda Budwah |  | 1.0.0 | missing |  |
-| Cory Wong Wah |  | Archetype: Cory Wong X | 3.2.0 | missing |  |
+| Cory Wong Wah |  | Archetype: Cory Wong X | 3.2.0 | verified | Position (0-100 %, default 0, p1); Auto-Wah (switch, Off/On, default Off, p1); Sensitivity (0-100 %, default 50, p1); Attack (ms, default 500, p1); Release (ms, default 500, p1) |
 | Crying Clyde Wah | Dunlop Cry Baby Clyde McCoy |  | 1.0.0 | missing |  |
 | Crying Wah | Dunlop Cry Baby GCB-95 |  | 1.0.0 | missing |  |
 | Crying Wah From Hell | Dunlop Crybaby from Hell |  | 3.1.0 | missing |  |
