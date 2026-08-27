@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**376 devices**: 184 verified, 42 unverified (wiki-sourced), 150 still missing controls.
+**376 devices**: 195 verified, 32 unverified (wiki-sourced), 149 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -84,28 +84,28 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Solo 100 Crunch Bright | Soldano SLO 100 |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 | Solo 100 Crunch Normal | Soldano SLO 100 |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Master, Presence, Output |
 | Solo 100 Lead | Soldano SLO 100 |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Master, Presence, Output |
-| UK C15 Normal | Vox AC15 |  | 1.3.0 | unverified | _unverified:_ Bright switch, Volume, Tone Cut, Output |
-| UK C15 TopBoost | Vox AC15 |  | 1.3.0 | unverified | _unverified:_ Volume (=Drive), Boost switch, Bass, Treble, Tone Cut, Output |
+| UK C15 Normal | Vox AC15 |  | 1.3.0 | verified | Volume (0-10, default 5.0, p1); Tone Cut (0-10, default 5.0, p1); Bright (switch, Off/On, default On, p1); Output (dB, default 0.0, p1) |
+| UK C15 TopBoost | Vox AC15 |  | 1.3.0 | verified | Volume (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Tone Cut (0-10, default 5.0, p1); Boost (select, Cool/Hot, default Cool, p1); Output (dB, default 0.0, p1) |
 | UK C30 Normal | Vox AC30 |  | 1.0.0 | unverified | _unverified:_ Bright switch, Volume, Tone Cut, Output |
 | UK C30 TopBoost | Vox AC30 |  | 1.0.0 | unverified | _unverified:_ Volume (=Drive), Boost switch, Bass, Treble, Tone Cut, Output |
-| US DLX 64 Vintage | Fender Deluxe Reverb '64 Vintage |  | 3.1.0 | unverified | _unverified:_ Volume, Bass, Treble, Output |
-| US DLX 65 Reissue | Fender Deluxe Reverb '65 Reissue |  | 3.1.0 | unverified | _unverified:_ Volume, Bass, Treble, Output |
-| US HP Tweed TWN Bright | Fender High Power Tweed Twin 5F8-A |  | 1.4.0 | unverified | _unverified:_ Volume Normal, Volume Bright, Treble, Bass, Middle, Presence, Output |
+| US DLX 64 Vintage | Fender Deluxe Reverb '64 Vintage |  | 3.1.0 | verified | Volume (0-10, default 2.0, p1); Treble (0-10, default 4.4, p1); Bass (0-10, default 4.4, p1); Input (select, High/Low, default High, p1); Mode (select, Normal/Vibrato/Vibrato Bright Off, default Vibrato, p1); Output (dB, default 0.0, p1) |
+| US DLX 65 Reissue | Fender Deluxe Reverb '65 Reissue |  | 3.1.0 | verified | Volume (0-10, default 3.3, p1); Treble (0-10, default 4.4, p1); Bass (0-10, default 4.4, p1); Input (select, High/Low, default High, p1); Mode (select, Normal/Vibrato/Vibrato Bright Off, default Vibrato, p1); Output (dB, default 0.0, p1) |
+| US HP Tweed TWN Bright | Fender High Power Tweed Twin 5F8-A |  | 1.4.0 | verified | Volume Normal (0-10, default 0.0, p1); Volume Bright (0-10, default 1.5, p1); Bass (0-10, default 4.0, p1); Mid (0-10, default 4.0, p1); Treble (0-10, default 7.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
 | US HP Tweed TWN Bright Patch | Fender High Power Tweed Twin 5F8-A |  | 1.4.0 | unverified | _unverified:_ Volume Normal, Volume Bright, Treble, Bass, Middle, Presence, Output |
 | US HP Tweed TWN Normal | Fender High Power Tweed Twin 5F8-A |  | 1.4.0 | unverified | _unverified:_ Volume Normal, Volume Bright, Treble, Bass, Middle, Presence, Output |
 | US HP Tweed TWN Normal Patch | Fender High Power Tweed Twin 5F8-A |  | 1.4.0 | unverified | _unverified:_ Volume Normal, Volume Bright, Treble, Bass, Middle, Presence, Output |
-| US Prince | Fender Blackface Princeton Reverb |  | 1.3.0 | unverified | _unverified:_ Volume, Treble, Bass, Output |
-| US SPR Normal | Fender Super Reverb '65 |  | 1.0.0 | unverified | _unverified:_ Volume, Bright switch, Bass, Treble, Output |
-| US SPR Vibrato | Fender Super Reverb '65 |  | 1.0.0 | unverified | _unverified:_ Volume, Bright switch, Bass, Middle, Treble, Output |
-| US Tweed Basslad Bright | Fender Bassman Tweed |  | 1.3.0 | unverified | _unverified:_ Volume Normal, Volume Bright, Treble, Bass, Middle, Presence, Output |
+| US Prince | Fender Blackface Princeton Reverb |  | 1.3.0 | verified | Volume (0-10, default 3.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
+| US SPR Normal | Fender Super Reverb '65 |  | 1.0.0 | verified | Volume (0-10, default 2.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bright (switch, Off/On, default Off, p1); Output (dB, default 0.0, p1) |
+| US SPR Vibrato | Fender Super Reverb '65 |  | 1.0.0 | verified | Volume (0-10, default 2.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bright (switch, Off/On, default Off, p1); Output (dB, default 0.0, p1) |
+| US Tweed Basslad Bright | Fender Bassman Tweed |  | 1.3.0 | verified | Volume Normal (0-10, default 5.0, p1); Volume Bright (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
 | US Tweed Basslad Bright Patch | Fender Bassman Tweed |  | 1.3.0 | unverified | _unverified:_ Volume Normal, Volume Bright, Treble, Bass, Middle, Presence, Output |
 | US Tweed Basslad Normal | Fender Bassman Tweed |  | 1.3.0 | unverified | _unverified:_ Volume Normal, Volume Bright, Treble, Bass, Middle, Presence, Output |
 | US Tweed Basslad Normal Patch | Fender Bassman Tweed |  | 1.3.0 | unverified | _unverified:_ Volume Normal, Volume Bright, Treble, Bass, Middle, Presence, Output |
 | US TWN Normal | Fender Twin Reverb |  | 1.0.0 | unverified | _unverified:_ Volume, Bright switch, Bass, Middle, Treble, Output |
 | US TWN Vibrato | Fender Twin Reverb |  | 1.0.0 | unverified | _unverified:_ Volume, Bright switch, Bass, Middle, Treble, Output |
-| Victor Squid Ch1 | Victory Kraken Ch1 |  | 2.1.0 | missing |  |
+| Victor Squid Ch1 | Victory Kraken Ch1 |  | 2.1.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Focus (switch, Off/On, default Off, p1); Tube (select, EL34/6L6, default EL34, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 | Victor Squid Ch2 | Victory Kraken Ch2 |  | 2.1.0 | missing |  |
-| Watt D103 Bright | Hiwatt DR103 |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Master, Presence, Output |
+| Watt D103 Bright | Hiwatt DR103 |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 | Watt D103 Normal | Hiwatt DR103 |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Master, Presence, Output |
 
 ## Bass amps

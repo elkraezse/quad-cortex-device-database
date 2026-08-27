@@ -3143,18 +3143,42 @@
       "based_on": "Vox AC15",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Bright switch",
-        "Volume",
-        "Tone Cut",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Tone Cut",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "uk_c15_topboost",
@@ -3163,20 +3187,56 @@
       "based_on": "Vox AC15",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume (=Drive)",
-        "Boost switch",
-        "Bass",
-        "Treble",
-        "Tone Cut",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Tone Cut",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Boost",
+          "type": "select",
+          "range": "Cool/Hot",
+          "default": "Cool",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "uk_c30_normal",
@@ -3227,18 +3287,56 @@
       "based_on": "Fender Deluxe Reverb '64 Vintage",
       "plugin": null,
       "added_in_coros": "3.1.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume",
-        "Bass",
-        "Treble",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.4,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.4,
+          "page": 1
+        },
+        {
+          "name": "Input",
+          "type": "select",
+          "range": "High/Low",
+          "default": "High",
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "select",
+          "range": "Normal/Vibrato/Vibrato Bright Off",
+          "default": "Vibrato",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Mode is a 3-position dropdown (Normal/Vibrato/Vibrato Bright Off), not a simple switch.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_dlx_65_reissue",
@@ -3247,18 +3345,56 @@
       "based_on": "Fender Deluxe Reverb '65 Reissue",
       "plugin": null,
       "added_in_coros": "3.1.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume",
-        "Bass",
-        "Treble",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.3,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.4,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.4,
+          "page": 1
+        },
+        {
+          "name": "Input",
+          "type": "select",
+          "range": "High/Low",
+          "default": "High",
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "select",
+          "range": "Normal/Vibrato/Vibrato Bright Off",
+          "default": "Vibrato",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Same control layout as US DLX 64 Vintage, but Volume default is 3.3 here vs 2.0 on the 64 Vintage.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_hp_tweed_twn_bright",
@@ -3267,21 +3403,63 @@
       "based_on": "Fender High Power Tweed Twin 5F8-A",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume Normal",
-        "Volume Bright",
-        "Treble",
-        "Bass",
-        "Middle",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume Normal",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Volume Bright",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.5,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 7.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_hp_tweed_twn_bright_patch",
@@ -3359,18 +3537,42 @@
       "based_on": "Fender Blackface Princeton Reverb",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume",
-        "Treble",
-        "Bass",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_spr_normal",
@@ -3379,19 +3581,49 @@
       "based_on": "Fender Super Reverb '65",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume",
-        "Bright switch",
-        "Bass",
-        "Treble",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_spr_vibrato",
@@ -3400,20 +3632,56 @@
       "based_on": "Fender Super Reverb '65",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume",
-        "Bright switch",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_tweed_basslad_bright",
@@ -3422,21 +3690,63 @@
       "based_on": "Fender Bassman Tweed",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Volume Normal",
-        "Volume Bright",
-        "Treble",
-        "Bass",
-        "Middle",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume Normal",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Volume Bright",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "us_tweed_basslad_bright_patch",
@@ -3558,13 +3868,70 @@
       "based_on": "Victory Kraken Ch1",
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Focus",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Tube",
+          "type": "select",
+          "range": "EL34/6L6",
+          "default": "EL34",
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "victor_squid_ch2",
@@ -3588,21 +3955,63 @@
       "based_on": "Hiwatt DR103",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "watt_d103_normal",
