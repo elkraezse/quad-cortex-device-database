@@ -19727,13 +19727,91 @@
       "based_on": "Lovetone Meatball",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Sensitivity",
+          "type": "knob",
+          "range": "0-10",
+          "default": 10.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.6,
+          "page": 1
+        },
+        {
+          "name": "Decay",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Color",
+          "type": "knob",
+          "range": "0-10",
+          "default": 10.0,
+          "page": 1
+        },
+        {
+          "name": "Intensity",
+          "type": "knob",
+          "range": "0-10",
+          "default": 10.0,
+          "page": 1
+        },
+        {
+          "name": "Blend",
+          "type": "knob",
+          "range": "0-10",
+          "default": 10.0,
+          "page": 1
+        },
+        {
+          "name": "Trig Direction",
+          "type": "switch",
+          "range": "Up/Down",
+          "default": "Up",
+          "page": 1
+        },
+        {
+          "name": "Trigger Mode",
+          "type": "select",
+          "range": "detented (shown: Full)",
+          "default": "Full",
+          "page": 1
+        },
+        {
+          "name": "Filter Cutoff",
+          "type": "select",
+          "range": "detented, lettered positions (shown: B)",
+          "default": "B",
+          "page": 1
+        },
+        {
+          "name": "Filter Type",
+          "type": "select",
+          "range": "detented (shown: Lowpass)",
+          "default": "Lowpass",
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Based on Lovetone Meatball. Trigger Mode, Filter Cutoff and Filter Type are detented rotary selectors -- only their currently-displayed default position was visible in the captured screenshot, not their full option lists (Filter Cutoff in particular shows a single letter 'B', suggesting a lettered range/bank selector whose other positions are unconfirmed). Needs a screenshot cycling through each dial to confirm full ranges.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "graphic_9",
@@ -19742,13 +19820,98 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "65Hz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "125Hz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "250Hz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "500Hz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "1KHz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "2KHz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "4KHz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "8KHz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "16KHz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "9-band graphic EQ (65Hz-16KHz sliders) plus HPF/LPF corner-frequency knobs (both Off by default) and Output. Has a RESET button in the UI (not modeled as a control).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "low_high_cut",
@@ -19757,13 +19920,49 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "HPF Slope",
+          "type": "select",
+          "range": "-6/-12/-18/-24 dB/o (detented, shown: -12)",
+          "default": "-12 dB/o",
+          "page": 1
+        },
+        {
+          "name": "HPF Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 20,
+          "page": 1
+        },
+        {
+          "name": "LPF Slope",
+          "type": "select",
+          "range": "-6/-12/-18/-24 dB/o (detented, shown: -12)",
+          "default": "-12 dB/o",
+          "page": 1
+        },
+        {
+          "name": "LPF Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 16000,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "HPF/LPF Slope are detented dials; only the displayed -12 dB/octave position was confirmed on screen, exact full option list (likely -6/-12/-18/-24) inferred from standard filter-slope conventions and not independently confirmed.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "parametric_3",
@@ -19772,13 +19971,105 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Band 1: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Lo shelf",
+          "page": 1
+        },
+        {
+          "name": "Band 1: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 1: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 125,
+          "page": 1
+        },
+        {
+          "name": "Band 1: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Band 2: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Peak",
+          "page": 1
+        },
+        {
+          "name": "Band 2: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 2: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 900,
+          "page": 1
+        },
+        {
+          "name": "Band 2: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Band 3: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Hi shelf",
+          "page": 1
+        },
+        {
+          "name": "Band 3: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 3: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 4000,
+          "page": 1
+        },
+        {
+          "name": "Band 3: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "3-band fully parametric EQ. Each band has its own Type (Peak/Hi pass/Lo pass/Hi shelf/Lo shelf dropdown, confirmed via an expanded-dropdown screenshot), Gain, Frequency and Q. ONLY Band 1 was individually opened and screenshotted (Type=Lo shelf, Gain=0.0dB, Freq=125Hz, Q=0.71 -- all confirmed real defaults). Band 2 and Band 3's Type/Frequency values here are ESTIMATED from their marker positions on the frequency-response graph (log scale) and are NOT independently confirmed -- needs each band opened individually in a future screenshot. Band 3 defaulting to 'Hi shelf' (mirroring Band 1's shelf) is a guess, not observed.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "parametric_8",
@@ -19787,13 +20078,245 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Band 1: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Lo shelf",
+          "page": 1
+        },
+        {
+          "name": "Band 1: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 1: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Band 1: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Band 2: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Peak",
+          "page": 1
+        },
+        {
+          "name": "Band 2: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 2: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 150,
+          "page": 1
+        },
+        {
+          "name": "Band 2: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Band 3: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Peak",
+          "page": 1
+        },
+        {
+          "name": "Band 3: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 3: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 400,
+          "page": 1
+        },
+        {
+          "name": "Band 3: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Band 4: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Peak",
+          "page": 1
+        },
+        {
+          "name": "Band 4: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 4: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 900,
+          "page": 1
+        },
+        {
+          "name": "Band 4: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Band 5: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Peak",
+          "page": 1
+        },
+        {
+          "name": "Band 5: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 5: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 2000,
+          "page": 1
+        },
+        {
+          "name": "Band 5: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Band 6: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Peak",
+          "page": 1
+        },
+        {
+          "name": "Band 6: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 6: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 4000,
+          "page": 1
+        },
+        {
+          "name": "Band 6: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Band 7: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Peak",
+          "page": 1
+        },
+        {
+          "name": "Band 7: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 7: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 8000,
+          "page": 1
+        },
+        {
+          "name": "Band 7: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Band 8: Type",
+          "type": "select",
+          "range": "Peak/Hi pass/Lo pass/Hi shelf/Lo shelf",
+          "default": "Hi shelf",
+          "page": 1
+        },
+        {
+          "name": "Band 8: Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Band 8: Frequency",
+          "type": "knob",
+          "range": "Hz",
+          "default": 14000,
+          "page": 1
+        },
+        {
+          "name": "Band 8: Q",
+          "type": "knob",
+          "range": "unitless",
+          "default": 0.71,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "8-band fully parametric EQ, same per-band Type/Gain/Frequency/Q structure as Parametric-3. ONLY Band 1 was individually opened and screenshotted (Type=Lo shelf, Gain=0.0dB, Freq=50Hz, Q=0.71 -- confirmed real defaults). Bands 2-8's Type/Frequency values here are rough ESTIMATES based on their marker spacing on the frequency graph and are NOT independently confirmed -- needs each band opened individually in a future screenshot.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "plugin_graphic_9",
@@ -19802,13 +20325,98 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "65Hz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "125Hz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "250Hz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "500Hz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "1KHz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "2KHz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "4KHz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "8KHz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "16KHz",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "'Plugin' variant of Graphic-9 -- identical control layout and defaults, confirmed via its own screenshot. Presumed to be the same DSP exposed as a licensable plugin block rather than a functionally different device.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "plugin_parametric_4",
@@ -19817,13 +20425,84 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "4.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Lo Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 60,
+          "page": 1
+        },
+        {
+          "name": "Lo Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Lo Mid Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 260,
+          "page": 1
+        },
+        {
+          "name": "Lo Mid Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Hi Mid Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 1200,
+          "page": 1
+        },
+        {
+          "name": "Hi Mid Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Hi Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 6000,
+          "page": 1
+        },
+        {
+          "name": "Hi Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Distinct from Parametric-3/8's freely-numbered-band UI -- a simpler fixed 4-band semi-parametric EQ (Lo/Lo Mid/Hi Mid/Hi, each with its own Freq+Gain pair) plus HPF/LPF corner knobs. No separate Output knob visible (unlike the other EQ blocks).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "auto_wah",
@@ -19832,13 +20511,35 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Sensitivity",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "time",
+          "range": "ms",
+          "default": 500,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "time",
+          "range": "ms",
+          "default": 500,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Envelope-follower auto-wah -- only 3 controls (Sensitivity/Attack/Release), no manual Wah sweep knob.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "bad_horse",
@@ -19847,13 +20548,21 @@
       "based_on": "Morley Bad Horsie",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Wah",
+          "type": "knob",
+          "range": "0-1",
+          "default": 0.5,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Single-knob Wah pattern -- matches most stock Wah blocks in this category.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "bubba_wah",
@@ -19862,13 +20571,21 @@
       "based_on": "Dunlop Budda Budwah",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Wah",
+          "type": "knob",
+          "range": "0-1",
+          "default": 0.5,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Not individually screenshotted -- inferred to follow the single-knob 'Wah' pattern seen on Bad Horse/Bass Wah/most stock Wah blocks, per instruction to default to that pattern unless captured otherwise. NOT independently confirmed; replace once a real screenshot comes in.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "crying_clyde_wah",
@@ -19877,13 +20594,21 @@
       "based_on": "Dunlop Cry Baby Clyde McCoy",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Wah",
+          "type": "knob",
+          "range": "0-1",
+          "default": 0.5,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Not individually screenshotted -- inferred to follow the single-knob 'Wah' pattern seen on Bad Horse/Bass Wah/most stock Wah blocks, per instruction to default to that pattern unless captured otherwise. NOT independently confirmed; replace once a real screenshot comes in.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "crying_wah",
@@ -19892,13 +20617,21 @@
       "based_on": "Dunlop Cry Baby GCB-95",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Wah",
+          "type": "knob",
+          "range": "0-1",
+          "default": 0.5,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Not individually screenshotted -- inferred to follow the single-knob 'Wah' pattern seen on Bad Horse/Bass Wah/most stock Wah blocks, per instruction to default to that pattern unless captured otherwise. NOT independently confirmed; replace once a real screenshot comes in.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "crying_wah_from_hell",
@@ -19907,13 +20640,56 @@
       "based_on": "Dunlop Crybaby from Hell",
       "plugin": null,
       "added_in_coros": "3.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Wah",
+          "type": "knob",
+          "range": "0-1",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Range",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Q",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Fine Tune",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Boost",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Boost Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "More elaborate than the single-knob Wah pattern -- adds Range/Q/Fine Tune sweep-shaping knobs plus a switchable clean boost. Boost Level is grayed out (display-only) while Boost is Off.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "adaptive_gate",
@@ -29309,6 +30085,223 @@
       "source": "Cortex Control 4.1.0 screenshot",
       "notes": "Stereo sibling of Chief CE2W (M) -- swaps the mono Out Mode switch for a Width knob.",
       "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "bass_wah",
+      "name": "Bass Wah",
+      "category": "Wah",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Wah",
+          "type": "knob",
+          "range": "0-1",
+          "default": 0.5,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "New catalogue entry -- not previously present. Single-knob Wah pattern, voiced for bass. based_on left null pending confirmation of the real-world pedal it emulates.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "fx_loop_1",
+      "name": "FX Loop 1",
+      "category": "FX Loop",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Send Lev",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Ret Lev",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "New category 'FX Loop' -- routing/utility block for an external hardware effects loop (send+return combined in one block), not a tone-shaping effect. based_on left null. In Adam's physical rig, FX Loop 1 routes to his Mesa Boogie amp's preamp.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "return_1",
+      "name": "Return 1",
+      "category": "FX Loop",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": null,
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "send_1",
+      "name": "Send 1",
+      "category": "FX Loop",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Thru",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": null,
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "fx_loop_1_2",
+      "name": "FX Loop 1/2",
+      "category": "FX Loop",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "pages": 1,
+      "verified": false,
+      "source": null,
+      "notes": null,
+      "coros_verified_on": null
+    },
+    {
+      "id": "fx_loop_2",
+      "name": "FX Loop 2",
+      "category": "FX Loop",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "pages": 1,
+      "verified": false,
+      "source": null,
+      "notes": null,
+      "coros_verified_on": null
+    },
+    {
+      "id": "return_1_2",
+      "name": "Return 1/2",
+      "category": "FX Loop",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "pages": 1,
+      "verified": false,
+      "source": null,
+      "notes": null,
+      "coros_verified_on": null
+    },
+    {
+      "id": "return_2",
+      "name": "Return 2",
+      "category": "FX Loop",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "pages": 1,
+      "verified": false,
+      "source": null,
+      "notes": null,
+      "coros_verified_on": null
+    },
+    {
+      "id": "send_1_2",
+      "name": "Send 1/2",
+      "category": "FX Loop",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "pages": 1,
+      "verified": false,
+      "source": null,
+      "notes": null,
+      "coros_verified_on": null
+    },
+    {
+      "id": "send_2",
+      "name": "Send 2",
+      "category": "FX Loop",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "controls_unverified": "Sidebar-visible in Cortex Control but not yet individually screenshotted with its own parameters.",
+      "pages": 1,
+      "verified": false,
+      "source": null,
+      "notes": null,
+      "coros_verified_on": null
     }
   ]
 }

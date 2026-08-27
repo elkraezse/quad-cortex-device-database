@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**384 devices**: 294 verified, 32 unverified (wiki-sourced), 58 still missing controls.
+**394 devices**: 311 verified, 38 unverified (wiki-sourced), 45 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -291,13 +291,13 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Graphic-9 |  |  | 1.0.0 | missing |  |
-| Low-High Cut |  |  | 1.0.0 | missing |  |
+| Graphic-9 |  |  | 1.0.0 | verified | 65Hz (dB, default 0.0, p1); 125Hz (dB, default 0.0, p1); 250Hz (dB, default 0.0, p1); 500Hz (dB, default 0.0, p1); 1KHz (dB, default 0.0, p1); 2KHz (dB, default 0.0, p1); 4KHz (dB, default 0.0, p1); 8KHz (dB, default 0.0, p1); 16KHz (dB, default 0.0, p1); HPF (Off, Hz, default Off, p1); LPF (Off, Hz, default Off, p1); Output (dB, default 0.0, p1) |
+| Low-High Cut |  |  | 1.0.0 | verified | HPF Slope (select, -6/-12/-18/-24 dB/o (detented, shown: -12), default -12 dB/o, p1); HPF Freq (Hz, default 20, p1); LPF Slope (select, -6/-12/-18/-24 dB/o (detented, shown: -12), default -12 dB/o, p1); LPF Freq (Hz, default 16000, p1); Output (dB, default 0.0, p1) |
 | Nolly Graphic-9 |  | Archetype: Nolly X | 3.2.0 | verified | Band 1 (75Hz) (dB, default 0.0, p1); Band 2 (150Hz) (dB, default 0.0, p1); Band 3 (250Hz) (dB, default 0.0, p1); Band 4 (400Hz) (dB, default 0.0, p1); Band 5 (800Hz) (dB, default 0.0, p1); Band 6 (1.5kHz) (dB, default 0.0, p1); Band 7 (4.5kHz) (dB, default 0.0, p1); Band 8 (8kHz) (dB, default 0.0, p1); Band 9 (12kHz) (dB, default 0.0, p1); HPF (Hz, default OFF, p1); LPF (Hz, default OFF, p1); Nolly's Mod (switch, Off/On, default Off, p1); Output (dB, default 0.0, p1) |
-| Parametric-3 |  |  | 1.0.0 | missing |  |
-| Parametric-8 |  |  | 1.0.0 | missing |  |
-| Plugin Graphic-9 |  |  | 3.0.0 | missing |  |
-| Plugin Parametric-4 |  |  | 4.1.0 | missing |  |
+| Parametric-3 |  |  | 1.0.0 | verified | Band 1: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Lo shelf, p1); Band 1: Gain (dB, default 0.0, p1); Band 1: Frequency (Hz, default 125, p1); Band 1: Q (unitless, default 0.71, p1); Band 2: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Peak, p1); Band 2: Gain (dB, default 0.0, p1); Band 2: Frequency (Hz, default 900, p1); Band 2: Q (unitless, default 0.71, p1); Band 3: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Hi shelf, p1); Band 3: Gain (dB, default 0.0, p1); Band 3: Frequency (Hz, default 4000, p1); Band 3: Q (unitless, default 0.71, p1); Output (dB, default 0.0, p1) |
+| Parametric-8 |  |  | 1.0.0 | verified | Band 1: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Lo shelf, p1); Band 1: Gain (dB, default 0.0, p1); Band 1: Frequency (Hz, default 50, p1); Band 1: Q (unitless, default 0.71, p1); Band 2: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Peak, p1); Band 2: Gain (dB, default 0.0, p1); Band 2: Frequency (Hz, default 150, p1); Band 2: Q (unitless, default 0.71, p1); Band 3: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Peak, p1); Band 3: Gain (dB, default 0.0, p1); Band 3: Frequency (Hz, default 400, p1); Band 3: Q (unitless, default 0.71, p1); Band 4: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Peak, p1); Band 4: Gain (dB, default 0.0, p1); Band 4: Frequency (Hz, default 900, p1); Band 4: Q (unitless, default 0.71, p1); Band 5: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Peak, p1); Band 5: Gain (dB, default 0.0, p1); Band 5: Frequency (Hz, default 2000, p1); Band 5: Q (unitless, default 0.71, p1); Band 6: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Peak, p1); Band 6: Gain (dB, default 0.0, p1); Band 6: Frequency (Hz, default 4000, p1); Band 6: Q (unitless, default 0.71, p1); Band 7: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Peak, p1); Band 7: Gain (dB, default 0.0, p1); Band 7: Frequency (Hz, default 8000, p1); Band 7: Q (unitless, default 0.71, p1); Band 8: Type (select, Peak/Hi pass/Lo pass/Hi shelf/Lo shelf, default Hi shelf, p1); Band 8: Gain (dB, default 0.0, p1); Band 8: Frequency (Hz, default 14000, p1); Band 8: Q (unitless, default 0.71, p1); Output (dB, default 0.0, p1) |
+| Plugin Graphic-9 |  |  | 3.0.0 | verified | 65Hz (dB, default 0.0, p1); 125Hz (dB, default 0.0, p1); 250Hz (dB, default 0.0, p1); 500Hz (dB, default 0.0, p1); 1KHz (dB, default 0.0, p1); 2KHz (dB, default 0.0, p1); 4KHz (dB, default 0.0, p1); 8KHz (dB, default 0.0, p1); 16KHz (dB, default 0.0, p1); HPF (Off, Hz, default Off, p1); LPF (Off, Hz, default Off, p1); Output (dB, default 0.0, p1) |
+| Plugin Parametric-4 |  |  | 4.1.0 | verified | Lo Freq (Hz, default 60, p1); Lo Gain (dB, default 0.0, p1); Lo Mid Freq (Hz, default 260, p1); Lo Mid Gain (dB, default 0.0, p1); Hi Mid Freq (Hz, default 1200, p1); Hi Mid Gain (dB, default 0.0, p1); Hi Freq (Hz, default 6000, p1); Hi Gain (dB, default 0.0, p1); HPF (Off, Hz, default Off, p1); LPF (Off, Hz, default Off, p1) |
 
 ## Delay
 
@@ -415,19 +415,20 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Env. filter (S/C) |  |  | 3.0.0 | missing |  |
 | Envelope Filter |  |  | 1.0.0 | verified | Sens (dB, default 20.0, p1); Attack (time, ms, default 20.0, p1); Decay (time, ms, default 250.0, p1); LP/BP/HP (-1 to 1 (blend: Low Pass/Band Pass/High Pass), default 0.0, p1); Level (dB, default 3.0, p1); Freq (Hz, default 50, p1); Freq Depth (Hz, default 3500, p1); Reso (0-10, default 8.0, p1); Mix (0-100 %, default 100.0, p1) |
 | Foog | Moog Moogerfooger MF-101 |  | 1.0.0 | verified | Drive (0-10, default 4.0, p1); Decay (switch, Smooth/Fast, default Smooth, p1); Env Amount (0-10, default 10.0, p1); Cutoff (0-10, default 3.5, p1); Resonance (0-10, default 7.7, p1); Mix (0-100 %, default 100, p1); Filter (switch, 2-Pole/4-Pole, default 2-Pole, p1); Level (dB, default 0.0, p1) |
-| Love Meat | Lovetone Meatball |  | 1.0.0 | missing |  |
+| Love Meat | Lovetone Meatball |  | 1.0.0 | verified | Sensitivity (0-10, default 10.0, p1); Attack (0-10, default 1.6, p1); Decay (0-10, default 4.0, p1); Color (0-10, default 10.0, p1); Intensity (0-10, default 10.0, p1); Blend (0-10, default 10.0, p1); Trig Direction (switch, Up/Down, default Up, p1); Trigger Mode (select, detented (shown: Full), default Full, p1); Filter Cutoff (select, detented, lettered positions (shown: B), default B, p1); Filter Type (select, detented (shown: Lowpass), default Lowpass, p1); Level (dB, default 0.0, p2) |
 
 ## Wah
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Auto Wah |  |  | 3.3.0 | missing |  |
-| Bad Horse | Morley Bad Horsie |  | 1.0.0 | missing |  |
-| Bubba Wah | Dunlop Budda Budwah |  | 1.0.0 | missing |  |
+| Auto Wah |  |  | 3.3.0 | verified | Sensitivity (0-100 %, default 50, p1); Attack (time, ms, default 500, p1); Release (time, ms, default 500, p1) |
+| Bad Horse | Morley Bad Horsie |  | 1.0.0 | verified | Wah (0-1, default 0.5, p1) |
+| Bass Wah |  |  |  | verified | Wah (0-1, default 0.5, p1) |
+| Bubba Wah | Dunlop Budda Budwah |  | 1.0.0 | verified | Wah (0-1, default 0.5, p1) |
 | Cory Wong Wah |  | Archetype: Cory Wong X | 3.2.0 | verified | Position (0-100 %, default 0, p1); Auto-Wah (switch, Off/On, default Off, p1); Sensitivity (0-100 %, default 50, p1); Attack (ms, default 500, p1); Release (ms, default 500, p1) |
-| Crying Clyde Wah | Dunlop Cry Baby Clyde McCoy |  | 1.0.0 | missing |  |
-| Crying Wah | Dunlop Cry Baby GCB-95 |  | 1.0.0 | missing |  |
-| Crying Wah From Hell | Dunlop Crybaby from Hell |  | 3.1.0 | missing |  |
+| Crying Clyde Wah | Dunlop Cry Baby Clyde McCoy |  | 1.0.0 | verified | Wah (0-1, default 0.5, p1) |
+| Crying Wah | Dunlop Cry Baby GCB-95 |  | 1.0.0 | verified | Wah (0-1, default 0.5, p1) |
+| Crying Wah From Hell | Dunlop Crybaby from Hell |  | 3.1.0 | verified | Wah (0-1, default 0.5, p1); Range (0-10, default 1.0, p1); Q (0-10, default 1.0, p1); Fine Tune (0-10, default 1.0, p1); Boost (switch, Off/On, default Off, p1); Boost Level (dB, default 0.0, p1) |
 | Petrucci Wah |  | Archetype: Petrucci X | 4.1.0 | verified | Position (0-100 %, default 0, p1) |
 
 ## Morph
@@ -474,3 +475,17 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Douglas Vintage MT |  |  |  | verified | Drive (0-10, default 5.0, p1); Era (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Blend (0-10, default 5.0, p1) |
 | Exotic Bass Z Boost |  |  |  | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
 | Soviet Fuzz |  |  |  | verified | Sustain (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
+
+## FX Loop
+
+| Device | Based on | Plugin | CorOS | Status | Controls |
+|---|---|---|---|---|---|
+| FX Loop 1 |  |  |  | verified | Send Lev (dB, default 0.0, p1); Ret Lev (dB, default 0.0, p1); Mix (0-100 %, default 100, p1); Trails (switch, Off/On, default Off, p1) |
+| FX Loop 1/2 |  |  |  | unverified | _unverified:_ S, i, d, e, b, a, r, -, v, i, s, i, b, l, e,  , i, n,  , C, o, r, t, e, x,  , C, o, n, t, r, o, l,  , b, u, t,  , n, o, t,  , y, e, t,  , i, n, d, i, v, i, d, u, a, l, l, y,  , s, c, r, e, e, n, s, h, o, t, t, e, d,  , w, i, t, h,  , i, t, s,  , o, w, n,  , p, a, r, a, m, e, t, e, r, s, . |
+| FX Loop 2 |  |  |  | unverified | _unverified:_ S, i, d, e, b, a, r, -, v, i, s, i, b, l, e,  , i, n,  , C, o, r, t, e, x,  , C, o, n, t, r, o, l,  , b, u, t,  , n, o, t,  , y, e, t,  , i, n, d, i, v, i, d, u, a, l, l, y,  , s, c, r, e, e, n, s, h, o, t, t, e, d,  , w, i, t, h,  , i, t, s,  , o, w, n,  , p, a, r, a, m, e, t, e, r, s, . |
+| Return 1 |  |  |  | verified | Level (dB, default 0.0, p1); Mix (0-100 %, default 100, p1) |
+| Return 1/2 |  |  |  | unverified | _unverified:_ S, i, d, e, b, a, r, -, v, i, s, i, b, l, e,  , i, n,  , C, o, r, t, e, x,  , C, o, n, t, r, o, l,  , b, u, t,  , n, o, t,  , y, e, t,  , i, n, d, i, v, i, d, u, a, l, l, y,  , s, c, r, e, e, n, s, h, o, t, t, e, d,  , w, i, t, h,  , i, t, s,  , o, w, n,  , p, a, r, a, m, e, t, e, r, s, . |
+| Return 2 |  |  |  | unverified | _unverified:_ S, i, d, e, b, a, r, -, v, i, s, i, b, l, e,  , i, n,  , C, o, r, t, e, x,  , C, o, n, t, r, o, l,  , b, u, t,  , n, o, t,  , y, e, t,  , i, n, d, i, v, i, d, u, a, l, l, y,  , s, c, r, e, e, n, s, h, o, t, t, e, d,  , w, i, t, h,  , i, t, s,  , o, w, n,  , p, a, r, a, m, e, t, e, r, s, . |
+| Send 1 |  |  |  | verified | Level (dB, default 0.0, p1); Thru (dB, default 0.0, p1) |
+| Send 1/2 |  |  |  | unverified | _unverified:_ S, i, d, e, b, a, r, -, v, i, s, i, b, l, e,  , i, n,  , C, o, r, t, e, x,  , C, o, n, t, r, o, l,  , b, u, t,  , n, o, t,  , y, e, t,  , i, n, d, i, v, i, d, u, a, l, l, y,  , s, c, r, e, e, n, s, h, o, t, t, e, d,  , w, i, t, h,  , i, t, s,  , o, w, n,  , p, a, r, a, m, e, t, e, r, s, . |
+| Send 2 |  |  |  | unverified | _unverified:_ S, i, d, e, b, a, r, -, v, i, s, i, b, l, e,  , i, n,  , C, o, r, t, e, x,  , C, o, n, t, r, o, l,  , b, u, t,  , n, o, t,  , y, e, t,  , i, n, d, i, v, i, d, u, a, l, l, y,  , s, c, r, e, e, n, s, h, o, t, t, e, d,  , w, i, t, h,  , i, t, s,  , o, w, n,  , p, a, r, a, m, e, t, e, r, s, . |
