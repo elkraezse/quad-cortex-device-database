@@ -16131,13 +16131,140 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback Mode",
+          "type": "switch",
+          "range": "Flip/Reverse",
+          "default": "Reverse",
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 80,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 16000,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/2",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 500.0,
+          "page": 1
+        },
+        {
+          "name": "Overlap",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 20,
+          "page": 1
+        },
+        {
+          "name": "Trig Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -24.0,
+          "page": 1
+        },
+        {
+          "name": "Dyn Depth",
+          "type": "knob",
+          "range": "dB",
+          "default": 10.0,
+          "page": 2
+        },
+        {
+          "name": "Dyn Mode",
+          "type": "select",
+          "range": "detented (shown: Off)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -24.0,
+          "page": 2
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 200,
+          "page": 2
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "ms",
+          "default": 500,
+          "page": 2
+        },
+        {
+          "name": "Knee",
+          "type": "knob",
+          "range": "dB",
+          "default": 4.0,
+          "page": 2
+        },
+        {
+          "name": "Feedback Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 80,
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": "Display name corrected to 'Reverse Delay (M)' to match the actual Cortex Control sidebar naming. No '(ST)' sibling exists for this device in the sidebar (Reverse Delay only comes in one, presumably dual-mono, variant).",
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Mono ('M') reverse delay -- no (ST) sibling exists in the sidebar. Shares its dynamics/ducking section (Trig Threshold/Dyn Depth/Dyn Mode/Threshold/Attack/Release/Knee/Feedback Depth) with Dual Reverse Delay but with single (non-L/R) Delay Time/Sync Note/Feedback controls instead of independent left/right taps. Gain Reduction is a live readout/meter, not an adjustable control, so it's omitted. Delay Time is greyed out/inactive while Sync is On (the default).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "simple_delay",
@@ -16146,13 +16273,63 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-30 (unconfirmed exact max)",
+          "default": 15,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 500.0,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": "Display name corrected to 'Simple Delay (M)' to match the actual Cortex Control sidebar naming (a '(ST)' sibling exists -- see simple_delay_st).",
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Single-page delay with a Tone knob (same unconfirmed-max dial style seen on Simple Ping Pong Delay's Tone control) instead of separate High/Low Pass knobs. Delay Time is greyed out/inactive while Sync is On (the default).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "tape_delay",
@@ -16161,13 +16338,91 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3000,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 500.0,
+          "page": 1
+        },
+        {
+          "name": "Wow",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25,
+          "page": 1
+        },
+        {
+          "name": "Flutter",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25,
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": "Display name corrected to 'Tape Delay (M)' to match the actual Cortex Control sidebar naming (a '(ST)' sibling exists -- see tape_delay_st).",
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Mono ('M') tape-echo-style delay with Wow/Flutter/Drive tape-character controls. Delay Time is greyed out/inactive while Sync is On (the default).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "circular_delay",
@@ -33874,13 +34129,63 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": null,
-      "coros_verified_on": null,
-      "controls": [],
-      "controls_unverified": "Placeholder -- no screenshot captured yet.",
+      "coros_verified_on": "4.1.0",
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-30 (unconfirmed exact max)",
+          "default": 15,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 500.0,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
       "pages": 1,
-      "verified": false,
-      "source": null,
-      "notes": "Stereo sibling of Simple Delay (M), confirmed to exist in the Cortex Control sidebar but not yet screenshotted. Once Simple Delay (M) itself is screenshotted and verified, this can likely be pattern-inferred per the same-device-variant rule."
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Stereo ('ST') variant of Simple Delay (M) -- confirmed via direct screenshot to have an identical control set to (M), no additional Width/Ping Pong controls added (unlike Slapback Delay's ST variant). Delay Time is greyed out/inactive while Sync is On (the default)."
     },
     {
       "id": "tape_delay_st",
@@ -33889,13 +34194,98 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": null,
-      "coros_verified_on": null,
-      "controls": [],
-      "controls_unverified": "Placeholder -- no screenshot captured yet.",
-      "pages": 1,
-      "verified": false,
-      "source": null,
-      "notes": "Stereo sibling of Tape Delay (M), confirmed to exist in the Cortex Control sidebar but not yet screenshotted. Once Tape Delay (M) itself is screenshotted and verified, this can likely be pattern-inferred per the same-device-variant rule."
+      "coros_verified_on": "4.1.0",
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3000,
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 500.0,
+          "page": 1
+        },
+        {
+          "name": "Wow",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25,
+          "page": 1
+        },
+        {
+          "name": "Flutter",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25,
+          "page": 1
+        },
+        {
+          "name": "Ping Pong",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 2,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Stereo ('ST') variant of Tape Delay (M) -- adds a Ping Pong switch (page 2) not present on the mono version; Drive moves up into page 1 row 1 here (mirroring the same row-shift pattern seen on Slapback Delay (M) vs (ST)) instead of sitting in row 2 alongside Wow/Flutter. Delay Time is greyed out/inactive while Sync is On (the default)."
     }
   ],
   "categories": []
