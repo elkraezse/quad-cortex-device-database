@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**376 devices**: 195 verified, 32 unverified (wiki-sourced), 149 still missing controls.
+**376 devices**: 211 verified, 32 unverified (wiki-sourced), 133 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -232,26 +232,26 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| 81 Creations Drive | 1981 Inventions DRV |  | 3.3.0 | missing |  |
-| Brit Blues | Marshall BluesBreaker |  | 1.0.0 | missing |  |
-| Brit Governor | Marshall Guv'nor |  | 1.0.0 | missing |  |
-| Chief BD2 | BOSS BD-2 |  | 1.0.0 | missing |  |
-| Chief DS1 | BOSS DS-1 |  | 1.0.0 | missing |  |
-| Chief MT | BOSS MT-2 |  | 1.0.0 | missing |  |
-| Chief OD1 | BOSS OD-1 |  | 1.0.0 | missing |  |
-| Chief SD1 | BOSS SD-1 |  | 1.0.0 | missing |  |
+| 81 Creations Drive | 1981 Inventions DRV |  | 3.3.0 | verified | Drive (0-100%, default 100.0, p1); Cut (0-100%, default 20.0, p1); Level (0-100%, default 70.0, p1) |
+| Brit Blues | Marshall BluesBreaker |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
+| Brit Governor | Marshall Guv'nor |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
+| Chief BD2 | BOSS BD-2 |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
+| Chief DS1 | BOSS DS-1 |  | 1.0.0 | verified | Distortion (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
+| Chief MT | BOSS MT-2 |  | 1.0.0 | verified | Dist (0-10, default 5.0, p1); Low (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Mid Freq (0-10, default 5.0, p1); High (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
+| Chief OD1 | BOSS OD-1 |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
+| Chief SD1 | BOSS SD-1 |  | 1.0.0 | verified | Overdrive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
 | Cory Wong The Big Rig Overdrive |  | Archetype: Cory Wong X | 3.2.0 | verified | Drive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
 | Cory Wong The Tuber |  | Archetype: Cory Wong X | 3.2.0 | verified | Drive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
-| Exotic | Xotic BB Preamp |  | 1.0.0 | missing |  |
-| Exotic Z Boost | Xotic RC Booster |  | 1.2.0 | missing |  |
-| Facial Fuzz | Dunlop Fuzzface |  | 1.2.0 | missing |  |
-| Freeman BOD | Friedman BE-OD |  | 1.0.0 | missing |  |
-| Fuzz Pi | Electro-Harmonix Big Muff Pi |  | 1.0.0 | missing |  |
+| Exotic | Xotic BB Preamp |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
+| Exotic Z Boost | Xotic RC Booster |  | 1.2.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
+| Facial Fuzz | Dunlop Fuzzface |  | 1.2.0 | verified | Fuzz (0-10, default 10.0, p1); Volume (0-10, default 10.0, p1); Pickup Level (0-10, default 10.0, p1); Pickup (select, Single/HB, default Single, p1) |
+| Freeman BOD | Friedman BE-OD |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Tight (0-10, default 5.0, p1); Trim (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
+| Fuzz Pi | Electro-Harmonix Big Muff Pi |  | 1.0.0 | verified | Sustain (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
 | Gojira DRT |  | Archetype: Gojira X | 3.0.0 | verified | Dist (0-10, default 5.0, p1); Filter (0-10, default 5.0, p1); Vol (0-10, default 5.0, p1) |
 | Gojira OD |  | Archetype: Gojira X | 3.0.0 | verified | Dist (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
-| Green 808 | Ibanez TS808 |  | 1.0.0 | missing |  |
-| MK3 Silicon Fuzz | JHS Bender 1973 London |  | 2.1.0 | missing |  |
-| Myth Drive | Klon Centaur |  | 1.0.0 | missing |  |
+| Green 808 | Ibanez TS808 |  | 1.0.0 | verified | Overdrive (0-10, default 8.1, p1); Tone (0-10, default 7.2, p1); Level (0-10, default 8.7, p1) |
+| MK3 Silicon Fuzz | JHS Bender 1973 London |  | 2.1.0 | verified | Attack (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
+| Myth Drive | Klon Centaur |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
 | No-Bell OD1 | Nobels ODR-1 |  | 1.4.0 | missing |  |
 | Nolly Overdrive-1 |  | Archetype: Nolly X | 3.2.0 | verified | Drive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Bright (switch, Off/On, default Off, p1) |
 | Nolly Overdrive-2 |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 1.5, p1); Bass (0-10, default 4.2, p1); Treble (0-10, default 4.3, p1); Level (0-10, default 5.6, p1) |

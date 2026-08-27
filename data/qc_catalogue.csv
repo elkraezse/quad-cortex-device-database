@@ -144,22 +144,22 @@ Match D30 Sig A,Guitar cabinets,Matchless DC30 Sig A,,2.1.0,verified,"Mono (swit
 Match D30 Sig B,Guitar cabinets,Matchless DC30 Sig B,,2.1.0,verified,"Mono (switch, Off/On, default On, p1); Mic 1 (select, cab-dependent mic model list (Ribbon/Dynamic/Condenser + Load custom IR), default Dynamic 57, p1); Mic 1 On (switch, Off/On, default On, p1); Mic 1 Level (dB, default 0.0, p1); Mic 1 Position (0-10, default 4.0, p1); Mic 1 Pan (L-C-R, default C, p1); Mic 1 Dist (0-10, default 0.0, p1); Mic 1 Phase Invert (switch, Off/On, default Off, p1); Mic 2 (select, cab-dependent mic model list (Ribbon/Dynamic/Condenser + Load custom IR), default Ribbon 160, p1); Mic 2 On (switch, Off/On, default On, p1); Mic 2 Position (0-10, default 4.0, p1); Mic 2 Level (dB, default 0.0, p1); Mic 2 Dist (0-10, default 0.0, p1); Mic 2 Pan (L-C-R, default C, p1); Mic 2 Phase Invert (switch, Off/On, default Off, p1); HPF (Hz (OFF-), default Off, p2); Output Volume (dB, default 0.0, p2); LPF (Hz (-OFF), default Off, p2)"
 Match Jefe Sig 02,Guitar cabinets,Matchless Chieftain Sig 02,,2.1.0,verified,"Mono (switch, Off/On, default On, p1); Mic 1 (select, cab-dependent mic model list (Ribbon/Dynamic/Condenser + Load custom IR), default Dynamic 57, p1); Mic 1 On (switch, Off/On, default On, p1); Mic 1 Level (dB, default 0.0, p1); Mic 1 Position (0-10, default 4.0, p1); Mic 1 Pan (L-C-R, default C, p1); Mic 1 Dist (0-10, default 0.0, p1); Mic 1 Phase Invert (switch, Off/On, default Off, p1); Mic 2 (select, cab-dependent mic model list (Ribbon/Dynamic/Condenser + Load custom IR), default Ribbon 160, p1); Mic 2 On (switch, Off/On, default On, p1); Mic 2 Position (0-10, default 4.0, p1); Mic 2 Level (dB, default 0.0, p1); Mic 2 Dist (0-10, default 0.0, p1); Mic 2 Pan (L-C-R, default C, p1); Mic 2 Phase Invert (switch, Off/On, default Off, p1); HPF (Hz (OFF-), default Off, p2); Output Volume (dB, default 0.0, p2); LPF (Hz (-OFF), default Off, p2)"
 Match Jefe V30 02,Guitar cabinets,Matchless Chieftain V30 02,,2.1.0,verified,"Mono (switch, Off/On, default On, p1); Mic 1 (select, cab-dependent mic model list (Ribbon/Dynamic/Condenser + Load custom IR), default Dynamic 57, p1); Mic 1 On (switch, Off/On, default On, p1); Mic 1 Level (dB, default 0.0, p1); Mic 1 Position (0-10, default 4.0, p1); Mic 1 Pan (L-C-R, default C, p1); Mic 1 Dist (0-10, default 0.0, p1); Mic 1 Phase Invert (switch, Off/On, default Off, p1); Mic 2 (select, cab-dependent mic model list (Ribbon/Dynamic/Condenser + Load custom IR), default Ribbon 160, p1); Mic 2 On (switch, Off/On, default On, p1); Mic 2 Position (0-10, default 4.0, p1); Mic 2 Level (dB, default 0.0, p1); Mic 2 Dist (0-10, default 0.0, p1); Mic 2 Pan (L-C-R, default C, p1); Mic 2 Phase Invert (switch, Off/On, default Off, p1); HPF (Hz (OFF-), default Off, p2); Output Volume (dB, default 0.0, p2); LPF (Hz (-OFF), default Off, p2)"
-81 Creations Drive,Guitar overdrive,1981 Inventions DRV,,3.3.0,missing,
-Brit Blues,Guitar overdrive,Marshall BluesBreaker,,1.0.0,missing,
-Brit Governor,Guitar overdrive,Marshall Guv'nor,,1.0.0,missing,
-Chief BD2,Guitar overdrive,BOSS BD-2,,1.0.0,missing,
-Chief DS1,Guitar overdrive,BOSS DS-1,,1.0.0,missing,
-Chief MT,Guitar overdrive,BOSS MT-2,,1.0.0,missing,
-Chief OD1,Guitar overdrive,BOSS OD-1,,1.0.0,missing,
-Chief SD1,Guitar overdrive,BOSS SD-1,,1.0.0,missing,
-Exotic,Guitar overdrive,Xotic BB Preamp,,1.0.0,missing,
-Exotic Z Boost,Guitar overdrive,Xotic RC Booster,,1.2.0,missing,
-Facial Fuzz,Guitar overdrive,Dunlop Fuzzface,,1.2.0,missing,
-Freeman BOD,Guitar overdrive,Friedman BE-OD,,1.0.0,missing,
-Fuzz Pi,Guitar overdrive,Electro-Harmonix Big Muff Pi,,1.0.0,missing,
-Green 808,Guitar overdrive,Ibanez TS808,,1.0.0,missing,
-MK3 Silicon Fuzz,Guitar overdrive,JHS Bender 1973 London,,2.1.0,missing,
-Myth Drive,Guitar overdrive,Klon Centaur,,1.0.0,missing,
+81 Creations Drive,Guitar overdrive,1981 Inventions DRV,,3.3.0,verified,"Drive (0-100%, default 100.0, p1); Cut (0-100%, default 20.0, p1); Level (0-100%, default 70.0, p1)"
+Brit Blues,Guitar overdrive,Marshall BluesBreaker,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1)"
+Brit Governor,Guitar overdrive,Marshall Guv'nor,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Level (0-10, default 5.0, p1)"
+Chief BD2,Guitar overdrive,BOSS BD-2,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1)"
+Chief DS1,Guitar overdrive,BOSS DS-1,,1.0.0,verified,"Distortion (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1)"
+Chief MT,Guitar overdrive,BOSS MT-2,,1.0.0,verified,"Dist (0-10, default 5.0, p1); Low (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Mid Freq (0-10, default 5.0, p1); High (0-10, default 5.0, p1); Level (0-10, default 5.0, p1)"
+Chief OD1,Guitar overdrive,BOSS OD-1,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Level (0-10, default 5.0, p1)"
+Chief SD1,Guitar overdrive,BOSS SD-1,,1.0.0,verified,"Overdrive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1)"
+Exotic,Guitar overdrive,Xotic BB Preamp,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1)"
+Exotic Z Boost,Guitar overdrive,Xotic RC Booster,,1.2.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1)"
+Facial Fuzz,Guitar overdrive,Dunlop Fuzzface,,1.2.0,verified,"Fuzz (0-10, default 10.0, p1); Volume (0-10, default 10.0, p1); Pickup Level (0-10, default 10.0, p1); Pickup (select, Single/HB, default Single, p1)"
+Freeman BOD,Guitar overdrive,Friedman BE-OD,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Tight (0-10, default 5.0, p1); Trim (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1)"
+Fuzz Pi,Guitar overdrive,Electro-Harmonix Big Muff Pi,,1.0.0,verified,"Sustain (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1)"
+Green 808,Guitar overdrive,Ibanez TS808,,1.0.0,verified,"Overdrive (0-10, default 8.1, p1); Tone (0-10, default 7.2, p1); Level (0-10, default 8.7, p1)"
+MK3 Silicon Fuzz,Guitar overdrive,JHS Bender 1973 London,,2.1.0,verified,"Attack (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1)"
+Myth Drive,Guitar overdrive,Klon Centaur,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Level (0-10, default 5.0, p1)"
 No-Bell OD1,Guitar overdrive,Nobels ODR-1,,1.4.0,missing,
 Obsessive Drive,Guitar overdrive,Fulltone OCD,,1.0.0,missing,
 OD250,Guitar overdrive,DOD Overdrive Preamp 250,,1.0.0,missing,
