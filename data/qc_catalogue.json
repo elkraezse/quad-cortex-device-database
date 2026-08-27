@@ -1735,22 +1735,70 @@
       "based_on": "Diezel VH4",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Volume",
-        "Bass",
-        "Mid",
-        "Treble",
-        "Presence (4kHz)",
-        "Deep (80Hz)",
-        "Bright switch (not on Ch3/Ch4)"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Deep",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "d_cell_h4_ch1_normal",
@@ -1879,13 +1927,91 @@
       "based_on": "Diezel Herbert",
       "plugin": null,
       "added_in_coros": "1.2.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Midcut",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Intensity",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Deep",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Level and Intensity are greyed out in the screenshot; they appear to be enabled only when Midcut is On.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "d_cell_hisbert_ch2",
@@ -1894,13 +2020,98 @@
       "based_on": "Diezel Herbert",
       "plugin": null,
       "added_in_coros": "1.2.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 7.7,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 2.8,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 6.6,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 7.2,
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "select",
+          "range": "+/-",
+          "default": "+",
+          "page": 1
+        },
+        {
+          "name": "Midcut",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Intensity",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 6.3,
+          "page": 1
+        },
+        {
+          "name": "Deep",
+          "type": "knob",
+          "range": "0-10",
+          "default": 6.5,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 7.1,
+          "page": 2
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": -17.1,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Ch2 adds a Mode +/- toggle not present on Ch1/Ch3, and labels the first knob Gain instead of Volume. Master appears on page 2 here rather than page 1. Level and Intensity are greyed out while Midcut is Off. Screenshot was mid-preset (non-round values), so numbers are not confirmed factory defaults.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "d_cell_hisbert_ch3",
@@ -1909,13 +2120,91 @@
       "based_on": "Diezel Herbert",
       "plugin": null,
       "added_in_coros": "1.2.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Midcut",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Intensity",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Deep",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Level and Intensity are greyed out while Midcut is Off. Uses Gain label (Ch1 uses Volume); no Mode control (unlike Ch2).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "dumbbell_ods",
@@ -1924,13 +2213,112 @@
       "based_on": "Dumble Overdrive Special",
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Channel",
+          "type": "select",
+          "range": "OD/Clean",
+          "default": "OD",
+          "page": 1
+        },
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Preamp",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "OD Content",
+          "type": "knob",
+          "range": "0-10",
+          "default": 6.0,
+          "page": 1
+        },
+        {
+          "name": "OD Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 7.5,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Mid",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "EQ",
+          "type": "select",
+          "range": "Rock/Jazz",
+          "default": "Rock",
+          "page": 2
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Channel, Preamp, Bright, Mid and EQ each carry an info tooltip in Cortex Control (contents not captured). Preamp is labelled Boost/Off, Bright and Mid are labelled Boost/Off, EQ is Rock/Jazz.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ev101iiis_blue_6l6_100w",
@@ -1939,22 +2327,70 @@
       "based_on": "EVH 5150 III 100S 6L6",
       "plugin": null,
       "added_in_coros": "1.2.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Resonance",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Resonance",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ev101iiis_blue_el34_100w",
@@ -2035,20 +2471,56 @@
       "based_on": "Friedman HBE100",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Bright",
-        "Bass",
-        "Treble",
-        "Volume",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "select",
+          "range": "unconfirmed (reads 'Bright 1')",
+          "default": "Bright 1",
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Bright reads 'Bright 1' in the screenshot rather than a plain On/Off, suggesting more than two positions (e.g. Off/Bright 1/Bright 2); full range not confirmed.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "freeman_100_lead",
@@ -2057,25 +2529,91 @@
       "based_on": "Friedman HBE100",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Fat switch",
-        "C45 switch",
-        "Gain",
-        "Voice switch",
-        "Sat switch",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Voice",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Fat",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "C45",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sat",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 2,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "freeman_100_rhythm",
@@ -2111,13 +2649,56 @@
       "based_on": "Matchless DC30 Ch1",
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Cut",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "No Mid control on this channel.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "matchmore_d30_ch2",
@@ -2126,13 +2707,49 @@
       "based_on": "Matchless DC30 Ch2",
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Cut",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Uses a single Tone knob instead of separate Bass/Treble found on Ch1.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "matchmore_jefe",
@@ -2141,13 +2758,63 @@
       "based_on": "Matchless Chieftain",
       "plugin": null,
       "added_in_coros": "2.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Brilliance",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Full Bass/Mid/Treble plus Brilliance, unlike either Matchmore D30 channel.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "pv_505_lead",
@@ -2156,22 +2823,70 @@
       "based_on": "Peavey 6505",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Depth",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "pv_505_rhythm",
@@ -2180,23 +2895,77 @@
       "based_on": "Peavey 6505",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bright switch",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Depth",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "rols_jazz_ch120",
@@ -2205,20 +2974,56 @@
       "based_on": "Roland Jazz Chorus 120",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Bright switch",
-        "Volume",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Output"
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "solo_100_crunch_bright",
@@ -2227,21 +3032,63 @@
       "based_on": "Soldano SLO 100",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": "quadcortex.wiki (unverified)",
-      "controls_unverified": [
-        "Gain",
-        "Bass",
-        "Middle",
-        "Treble",
-        "Master",
-        "Presence",
-        "Output"
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
       ],
-      "pages": null,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "solo_100_crunch_normal",
