@@ -13516,13 +13516,35 @@
       "based_on": "Nobels ODR-1",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Spectrum",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "obsessive_drive",
@@ -13531,13 +13553,42 @@
       "based_on": "Fulltone OCD",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Peak",
+          "type": "switch",
+          "range": "HP/LP",
+          "default": "LP",
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "od250",
@@ -13546,13 +13597,28 @@
       "based_on": "DOD Overdrive Preamp 250",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Only 2 controls -- no Tone knob.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "rage_booster",
@@ -13561,13 +13627,21 @@
       "based_on": "Dallas Rangemaster",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Single-control block -- no Drive/Tone knobs, just Volume.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "red_drive",
@@ -13576,13 +13650,42 @@
       "based_on": "Keeley Red Dirt",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "switch",
+          "range": "High/Low",
+          "default": "High",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "rodent_drive",
@@ -13591,13 +13694,35 @@
       "based_on": "ProCo Rat",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Distortion",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Filter",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "thunderpaw",
@@ -13606,13 +13731,42 @@
       "based_on": "Mr Black Thunderclaw",
       "plugin": null,
       "added_in_coros": "2.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Distortion",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "vemural_ray",
@@ -13621,28 +13775,135 @@
       "based_on": "Vemuram Jan Ray",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "analog_delay",
-      "name": "Analog Delay",
+      "name": "Analog Delay (M)",
       "category": "Delay",
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3000,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "note values",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 500.0,
+          "page": 1
+        },
+        {
+          "name": "Mod Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "This is the Mono variant. See 'Analog Delay (ST)' for the stereo sibling (adds Ping Pong and Width, no Drive on page 1).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "slapback_delay",
@@ -13771,13 +14032,105 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Tap Preset",
+          "type": "knob",
+          "range": "0-10 (detented)",
+          "default": 3,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "note values",
+          "default": "1/4D",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 888.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30.0,
+          "page": 1
+        },
+        {
+          "name": "Diffusion",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 42.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 20,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 20000,
+          "page": 1
+        },
+        {
+          "name": "Mod Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "Vintage Mode",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 2,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "arpeggio_delay",
@@ -13786,13 +14139,189 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "4.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 80.0,
+          "page": 1
+        },
+        {
+          "name": "Tempo Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Key",
+          "type": "select",
+          "range": "chromatic note",
+          "default": "A",
+          "page": 1
+        },
+        {
+          "name": "Scale",
+          "type": "select",
+          "range": "scale list",
+          "default": "Chromatic",
+          "page": 1
+        },
+        {
+          "name": "Glissando",
+          "type": "knob",
+          "range": "ms",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "Tap 1",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Tap 1 Semitones",
+          "type": "knob",
+          "range": "semitones",
+          "default": 2,
+          "page": 1
+        },
+        {
+          "name": "Tap 1 Sync Note",
+          "type": "select",
+          "range": "note values",
+          "default": "1/8",
+          "page": 1
+        },
+        {
+          "name": "Tap 1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Tap 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "50 L",
+          "page": 1
+        },
+        {
+          "name": "Tap 2",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Tap 2 Semitones",
+          "type": "knob",
+          "range": "semitones",
+          "default": 7,
+          "page": 1
+        },
+        {
+          "name": "Tap 2 Sync Note",
+          "type": "select",
+          "range": "note values",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Tap 2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Tap 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "50 R",
+          "page": 1
+        },
+        {
+          "name": "Tap 3",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Tap 3 Semitones",
+          "type": "knob",
+          "range": "semitones",
+          "default": 12,
+          "page": 1
+        },
+        {
+          "name": "Tap 3 Sync Note",
+          "type": "select",
+          "range": "note values",
+          "default": "1/2",
+          "page": 1
+        },
+        {
+          "name": "Tap 3 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Tap 3 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "FB Sync Note",
+          "type": "select",
+          "range": "note values",
+          "default": "1/1",
+          "page": 1
+        },
+        {
+          "name": "Hi Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3000,
+          "page": 1
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Single-page block laid out as three panels (Settings / 3-tap editor with a draggable tap graph / Output) rather than a paged 1/2 tab layout like other delays.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "crystal_delay",
@@ -13801,13 +14330,119 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "4.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 20.0,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Delay Time L",
+          "type": "time",
+          "range": "ms",
+          "default": 500,
+          "page": 1
+        },
+        {
+          "name": "Delay Time R",
+          "type": "time",
+          "range": "ms",
+          "default": 1000,
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "switch",
+          "range": "Dual/Single",
+          "default": "Dual",
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 16000,
+          "page": 1
+        },
+        {
+          "name": "Sync Note L",
+          "type": "select",
+          "range": "note values",
+          "default": "1/8",
+          "page": 1
+        },
+        {
+          "name": "Sync Note R",
+          "type": "select",
+          "range": "note values",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Crystal 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "25 L",
+          "page": 2
+        },
+        {
+          "name": "Crystal 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "25 R",
+          "page": 2
+        },
+        {
+          "name": "Crystal 1 Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "Crystal 2 Gain",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Delay Time L/R are grayed out (display-only) while Sync is On, same behavior as other synced delay blocks.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "ambience",
@@ -23666,6 +24301,113 @@
       "controls_unverified": null,
       "pages": 2,
       "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160). neuraldsp.com/device-list lists this as ceramic drivers despite the \"Aln\" (Alnico) in the device name; recorded verbatim from the official source.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "analog_delay_st",
+      "name": "Analog Delay (ST)",
+      "category": "Delay",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 35.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 25.0,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 120,
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 3000,
+          "page": 1
+        },
+        {
+          "name": "Ping Pong",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "note values",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay Time",
+          "type": "time",
+          "range": "ms",
+          "default": 500.0,
+          "page": 1
+        },
+        {
+          "name": "Mod Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Mod Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 60,
+          "page": 2
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 2
+        },
+        {
+          "name": "Trails",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 2
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 2,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Stereo sibling of Analog Delay (M) -- adds Ping Pong (page 1) and Width (page 2); Drive moves to page 2 here.",
       "coros_verified_on": "4.1.0"
     }
   ]

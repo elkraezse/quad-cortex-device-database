@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**376 devices**: 211 verified, 32 unverified (wiki-sourced), 133 still missing controls.
+**377 devices**: 224 verified, 32 unverified (wiki-sourced), 121 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -252,17 +252,17 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Green 808 | Ibanez TS808 |  | 1.0.0 | verified | Overdrive (0-10, default 8.1, p1); Tone (0-10, default 7.2, p1); Level (0-10, default 8.7, p1) |
 | MK3 Silicon Fuzz | JHS Bender 1973 London |  | 2.1.0 | verified | Attack (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
 | Myth Drive | Klon Centaur |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
-| No-Bell OD1 | Nobels ODR-1 |  | 1.4.0 | missing |  |
+| No-Bell OD1 | Nobels ODR-1 |  | 1.4.0 | verified | Drive (0-10, default 5.0, p1); Spectrum (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
 | Nolly Overdrive-1 |  | Archetype: Nolly X | 3.2.0 | verified | Drive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Bright (switch, Off/On, default Off, p1) |
 | Nolly Overdrive-2 |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 1.5, p1); Bass (0-10, default 4.2, p1); Treble (0-10, default 4.3, p1); Level (0-10, default 5.6, p1) |
-| Obsessive Drive | Fulltone OCD |  | 1.0.0 | missing |  |
-| OD250 | DOD Overdrive Preamp 250 |  | 1.0.0 | missing |  |
+| Obsessive Drive | Fulltone OCD |  | 1.0.0 | verified | Drive (0-10, default 5.0, p1); Peak (switch, HP/LP, default LP, p1); Tone (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
+| OD250 | DOD Overdrive Preamp 250 |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
 | Petrucci Overdrive |  | Archetype: Petrucci X | 4.1.0 | verified | Drive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
-| Rage Booster | Dallas Rangemaster |  | 1.0.0 | missing |  |
-| Red Drive | Keeley Red Dirt |  | 1.4.0 | missing |  |
-| Rodent Drive | ProCo Rat |  | 1.0.0 | missing |  |
-| Thunderpaw | Mr Black Thunderclaw |  | 2.0.0 | missing |  |
-| Vemural Ray | Vemuram Jan Ray |  | 1.4.0 | missing |  |
+| Rage Booster | Dallas Rangemaster |  | 1.0.0 | verified | Volume (0-10, default 5.0, p1) |
+| Red Drive | Keeley Red Dirt |  | 1.4.0 | verified | Drive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Mode (switch, High/Low, default High, p1) |
+| Rodent Drive | ProCo Rat |  | 1.0.0 | verified | Distortion (0-10, default 5.0, p1); Filter (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
+| Thunderpaw | Mr Black Thunderclaw |  | 2.0.0 | verified | Output (0-10, default 5.0, p1); Distortion (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1) |
+| Vemural Ray | Vemuram Jan Ray |  | 1.4.0 | verified | Gain (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
 
 ## Compressor
 
@@ -303,11 +303,12 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Analog Delay |  |  | 1.3.0 | missing |  |
-| Arpeggio Delay |  |  | 4.1.0 | missing |  |
-| Circular Delay |  |  | 3.0.0 | missing |  |
+| Analog Delay (M) |  |  | 1.3.0 | verified | Mix (0-100 %, default 35.0, p1); Feedback (0-100 %, default 25.0, p1); High Pass (Hz, default 120, p1); Low Pass (Hz, default 3000, p1); Sync (switch, Off/On, default On, p1); Sync Note (select, note values, default 1/4, p1); Delay Time (time, ms, default 500.0, p1); Mod Rate (Hz, default 0.5, p1); Mod Depth (0-100 %, default 10, p1); Drive (0-100 %, default 50, p1); Trails (switch, Off/On, default On, p2) |
+| Analog Delay (ST) |  |  |  | verified | Mix (0-100 %, default 35.0, p1); Feedback (0-100 %, default 25.0, p1); High Pass (Hz, default 120, p1); Low Pass (Hz, default 3000, p1); Ping Pong (switch, Off/On, default Off, p1); Sync (switch, Off/On, default On, p1); Sync Note (select, note values, default 1/4, p1); Delay Time (time, ms, default 500.0, p1); Mod Rate (Hz, default 0.5, p1); Mod Depth (0-100 %, default 10, p1); Width (0-100 %, default 60, p2); Drive (0-100 %, default 50, p2); Trails (switch, Off/On, default On, p2) |
+| Arpeggio Delay |  |  | 4.1.0 | verified | Mix (0-100 %, default 80.0, p1); Tempo Sync (switch, Off/On, default On, p1); Key (select, chromatic note, default A, p1); Scale (select, scale list, default Chromatic, p1); Glissando (ms, default 25.0, p1); Tap 1 (switch, Off/On, default On, p1); Tap 1 Semitones (semitones, default 2, p1); Tap 1 Sync Note (select, note values, default 1/8, p1); Tap 1 Level (dB, default 0.0, p1); Tap 1 Pan (L-C-R, default 50 L, p1); Tap 2 (switch, Off/On, default On, p1); Tap 2 Semitones (semitones, default 7, p1); Tap 2 Sync Note (select, note values, default 1/4, p1); Tap 2 Level (dB, default 0.0, p1); Tap 2 Pan (L-C-R, default 50 R, p1); Tap 3 (switch, Off/On, default On, p1); Tap 3 Semitones (semitones, default 12, p1); Tap 3 Sync Note (select, note values, default 1/2, p1); Tap 3 Level (dB, default 0.0, p1); Tap 3 Pan (L-C-R, default C, p1); Feedback (0-100 %, default 50.0, p1); FB Sync Note (select, note values, default 1/1, p1); Hi Pass (Hz, default 120, p1); Low Pass (Hz, default 3000, p1); Trails (switch, Off/On, default On, p1) |
+| Circular Delay |  |  | 3.0.0 | verified | Mix (0-100 %, default 50.0, p1); Tap Preset (0-10 (detented), default 3, p1); Sync (switch, Off/On, default On, p1); Sync Note (select, note values, default 1/4D, p1); Delay Time (time, ms, default 888.0, p1); Feedback (0-100 %, default 30.0, p1); Diffusion (0-100 %, default 42.0, p1); High Pass (Hz, default 20, p1); Low Pass (Hz, default 20000, p1); Mod Rate (Hz, default 0.5, p1); Mod Depth (0-100 %, default 0.0, p2); Vintage Mode (switch, Off/On, default Off, p2); Trails (switch, Off/On, default On, p2) |
 | Cory Wong Delay-y-y |  | Archetype: Cory Wong X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Feedback (0-100 %, default 25, p1); Mode (switch, Dual/Single, default Single, p1); Delay Time L (time, ms, default 500, p1); Delay Time R (time, ms, default 500, p1); High Pass (Hz, default 50, p1); Low Pass (Hz, default 5000, p1); Sync (switch, Off/On, default On, p1); Sync Note L (select, note values, default 1/4, p1); Sync Note R (select, note values, default 1/4, p1); Trails (switch, Off/On, default On, p2) |
-| Crystal Delay |  |  | 4.1.0 | missing |  |
+| Crystal Delay |  |  | 4.1.0 | verified | Mix (0-100 %, default 50.0, p1); Feedback (0-100 %, default 20.0, p1); Sync (switch, Off/On, default On, p1); Delay Time L (time, ms, default 500, p1); Delay Time R (time, ms, default 1000, p1); Mode (switch, Dual/Single, default Dual, p1); High Pass (Hz, default 50, p1); Low Pass (Hz, default 16000, p1); Sync Note L (select, note values, default 1/8, p1); Sync Note R (select, note values, default 1/4, p1); Crystal 1 Pan (L-C-R, default 25 L, p2); Crystal 2 Pan (L-C-R, default 25 R, p2); Crystal 1 Gain (dB, default 0.0, p2); Crystal 2 Gain (dB, default 0.0, p2); Trails (switch, Off/On, default On, p2) |
 | Digital Delay |  |  | 2.1.0 | missing |  |
 | Dual Delay |  |  | 1.4.0 | missing |  |
 | Dual Reverse Delay |  |  | 2.1.0 | missing |  |
