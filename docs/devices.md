@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**383 devices**: 257 verified, 32 unverified (wiki-sourced), 94 still missing controls.
+**384 devices**: 270 verified, 32 unverified (wiki-sourced), 82 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -358,13 +358,14 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
 | Chief CE2W | BOSS CE-2W |  | 1.3.0 | missing |  |
-| Chief CE2W (M) | BOSS CE-2W |  | 1.4.0 | missing |  |
+| Chief CE2W (M) | BOSS CE-2W |  | 1.4.0 | verified | Mix (0-100 %, default 100, p1); Rate (0-100 %, default 50, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1); Depth (0-100 %, default 50, p1); Type (select, CE1-V/CE1-C/CE2-C, default CE2-C, p1); Out Mode (select, Wet/Dry/Mono, default Mono, p1); Output (dB, default 0.0, p1) |
+| Chief CE2W (ST) | BOSS CE-2W |  |  | verified | Mix (0-100 %, default 100, p1); Rate (0-100 %, default 50, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1); Depth (0-100 %, default 50, p1); Type (select, CE1-V/CE1-C/CE2-C, default CE2-C, p1); Width (0-100 %, default 0, p1); Output (dB, default 0.0, p1) |
 | Chief DC2W | BOSS DC-2W Dimension |  | 1.4.0 | missing |  |
-| Chief DC2W (M) | BOSS DC-2W Dimension |  | 1.4.0 | missing |  |
-| Chorus 229T | TC Electronic TC-2290 |  | 1.3.0 | missing |  |
-| Chorus Engine |  |  | 1.3.0 | missing |  |
+| Chief DC2W (M) | BOSS DC-2W Dimension |  | 1.4.0 | verified | Mix (0-100 %, default 100, p1); Mode (1-4 (detented), default 1, p1); Type (select, SDD-320/S, default S, p1); Drive (Off, 0-100 %, default Off, p1); Output (dB, default 0.0, p1) |
+| Chorus 229T | TC Electronic TC-2290 |  | 1.3.0 | verified | Mix (0-100 %, default 100, p1); Rate (Hz, default 0.75, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1); Depth (0-100 %, default 30, p1); Width (0-100 %, default 0, p1); Output (dB, default 0.0, p1) |
+| Chorus Engine |  |  | 1.3.0 | verified | Mix (0-100 %, default 100, p1); Rate (Hz, default 0.41, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1); Delay (time, ms, default 10.0, p1); Depth (0-100 %, default 70, p1); Morph (0-100 %, default 10, p1); Random (0-100 %, default 10, p1); Voice Mode (select, Full/Thick/Open/Broad, default Thick, p1); Tone (0-100 %, default 50, p1); Tone Freq (Hz, default 1000, p2); Low Pass (Hz, default 10000, p2); High Pass (Hz, default 80, p2); Width (0-100 %, default 50, p2); Drive Type (select, Soft/Edgy/Hard/Off, default Soft, p2); Drive (0-100 %, default 10, p2); Output (dB, default 0.0, p2) |
 | Cory Wong The 80s |  | Archetype: Cory Wong X | 3.2.0 | verified | Mix (0-100 %, default 50, p1); Rate (Hz, default 1.65, p1); Width (0-100 %, default 50, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1) |
-| Digital Flanger |  |  | 1.1.0 | missing |  |
+| Digital Flanger |  |  | 1.1.0 | verified | Mix (0-100 %, default 100.0, p1); Rate (Hz, default 0.5, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, 1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1, default 1/4, p1); Depth (0-100 %, default 40.0, p1); Delay (time, ms, default 1.0, p1); Feedback (0-100 %, default 40.0, p1); Polarity (select, Pos/Neg, default Pos, p1); Width (0-100 %, default 20.0, p1); Drive (Off, 0-100 %, default Off, p1) |
 | Dream Chorus | TC Electronic Dreamscape |  | 1.3.0 | missing |  |
 | Dream Chorus (M) | TC Electronic Dreamscape |  | 1.3.0 | missing |  |
 | Dual Chorus |  |  | 1.0.0 | missing |  |
@@ -398,13 +399,13 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Gojira OCT |  | Archetype: Gojira X | 3.0.0 | verified | DI Level (0-100 %, default 50, p1); Oct 1 (0-100 %, default 50, p1); Oct 2 (0-100 %, default 50, p1) |
 | Gojira WOW |  | Archetype: Gojira X | 3.0.0 | verified | Fatso Mix (0-100 %, default 50.0, p1); Pedal (0-100 %, default 0.0, p1); Mode (select, FATSO / Blade 1 / Blade 2, default FATSO, p1) |
 | Minivoicer |  |  | 1.4.0 | verified | Mix (0-100 %, default 50.0, p1); V1 Active (switch, Off/On, default On, p1); V1 Level (dB, default 0.0, p1); V1 Interval (select, interval list, default 5th, p1); V1 Pan (L-C-R, default 10 R, p1); Quantize (switch, Off/On, default Off, p1); V2 Active (switch, Off/On, default On, p1); V2 Level (dB, default 0.0, p1); V2 Interval (select, interval list, default -6th, p1); V2 Pan (L-C-R, default 10 L, p1); Root (select, chromatic note, default A, p2); Mode (select, Major/Harmonic Minor/Natural Minor/Melodic Minor/Chromatic, default Natural Minor, p2); Tuning (Hz, default 440, p2); High Pass (Off, Hz, default Off, p2); Low Pass (Off, Hz, default Off, p2); MIDI (switch, Off/On, default Off, p2); MIDI CH (select, Omni/1-16, default Omni, p2); Glissando (time, ms, default 25, p2); Output (dB, default 0.0, p2) |
-| Multivoicer | free version from Archetype: Tim Henson X |  | 4.1.0 | missing |  |
-| Pitch Correction |  |  | 3.0.0 | missing |  |
-| Pitch Shifter |  |  | 1.0.0 | missing |  |
-| Poly Octaver | Electro-Harmonix POG |  | 1.0.0 | missing |  |
-| Subharmonic Synth | Digitech DOD Meatbox SubSynth |  | 3.1.0 | missing |  |
-| Transpose |  |  | 3.0.0 | missing |  |
-| Wham | Digitech Whammy |  | 1.0.0 | missing |  |
+| Multivoicer | free version from Archetype: Tim Henson X |  | 4.1.0 | verified | Voice 1 (switch, Off/On, default On, p1); Voice 1 Interval (select, interval list (e.g. +3rd/+5th/+8th/...), default +5th, p1); Voice 1 Level (dB, default -12.0, p1); Voice 1 Pan (L-C-R, default 50 L, p1); Voice 2 (switch, Off/On, default On, p1); Voice 2 Interval (select, interval list (e.g. +3rd/+5th/+8th/...), default +3rd, p1); Voice 2 Level (dB, default -6.0, p1); Voice 2 Pan (L-C-R, default 25 L, p1); DI Level (dB, default 0.0, p1); DI Pan (0-100 %, default 100, p1); Voice 3 (switch, Off/On, default On, p1); Voice 3 Interval (select, interval list (e.g. +3rd/+5th/+8th/...), default +5th, p1); Voice 3 Level (dB, default -6.0, p1); Voice 3 Pan (L-C-R, default 25 R, p1); Voice 4 (switch, Off/On, default On, p1); Voice 4 Interval (select, interval list (e.g. +3rd/+5th/+8th/...), default +8th, p1); Voice 4 Level (dB, default -12.0, p1); Voice 4 Pan (L-C-R, default 50 R, p1); Key (select, chromatic note, default A, p1); Scale (select, Major/Harmonic Minor/Natural Minor/Melodic Minor/Chromatic, default Natural Minor, p1); Quantize (switch, Off/On, default Off, p1); Voicing (select, Off; Triads: Closed Triad (3-R-5), Closed Triad (1-3-R-5-1), Open Triad (5-R-3), Open Triad (5-5-R-3-5); Seventh Chords: Closed 7th Chord (3-R-7), Closed 7th Chord (7-3-R-5-7), Open 7th Chord (3-5-R-7-3); Drops: Lower Root Triad (1-3-R-5-1), Lower Root 7th Chord (1-3-R-7-1), Drop 2 (5-3-R-7-5), Drop 3 (3-5-R-7-3), Drop 2-4 (1-5-R-3-7); Tensions: 9th (7-3-R-5-2), 11th (7-3-R-2-4), 13th (7-2-R-4-6); Tone Clusters: Secundals #1 (2-3-R-4-5), Secundals #2 (7-4-R-5-6); Other: Sus4 #1 (5-8-R-4-5), Sus9 #2 (5-8-R-2-5), Power Chord #1 (5-R-5), Power Chord #2 (8-5-R-5-8), Fourths #1 (4-R-4), Fourths #2 (8-4-R-4-8), Octaves Up #1 (8-R-8), Octaves Up #2 (8-8-R-8-8), Big Unison (8-8-R-8-8), default Off, p1); Tuning (Hz, default 440, p1); Source (select, source list, default Off, p1); Width (0-100 %, default 50, p1); Unison (0-100 %, default 50, p1); Tone (0-100 %, default 50, p1); Output (dB, default 0.0, p1) |
+| Pitch Correction |  |  | 3.0.0 | verified | Root (select, chromatic note, default A, p1); Mode (select, Major/Harmonic Minor/Natural Minor/Melodic Minor/Chromatic, default Natural Minor, p1); Tuning (Hz, default 440, p1); Quantize (0-100 %, default 100, p1); Glissando (ms, default 25, p1); High Pass (Off, Hz, default Off, p1); Low Pass (Off, Hz, default Off, p1); Output (dB, default 0.0, p1) |
+| Pitch Shifter |  |  | 1.0.0 | verified | Mix (0-100 %, default 100.0, p1); Pitch Coarse (semitones, default 0, p1); Pitch Fine (cents, default 0, p1) |
+| Poly Octaver | Electro-Harmonix POG |  | 1.0.0 | verified | Dry (0-100 %, default 100.0, p1); Oct (0-100 %, default 50.0, p1); Sub (0-100 %, default 50.0, p1) |
+| Subharmonic Synth | Digitech DOD Meatbox SubSynth |  | 3.1.0 | verified | Dry (0-100 %, default 30, p1); Octave (0-100 %, default 70, p1); Character (0-100 %, default 40, p1); Low (0-100 %, default 60, p1); Sub (0-100 %, default 60, p1); Output (dB, default 0.0, p1) |
+| Transpose |  |  | 3.0.0 | verified | Semitones (semitones, default 0, p1) |
+| Wham | Digitech Whammy |  | 1.0.0 | verified | Mix (0-100 %, default 100.0, p1); Pedal (0-100 %, default 0.0, p1); Heel Pitch 1 (semitones, default 0, p1); Toe Pitch 1 (semitones, default 12, p1); Heel Pitch 2 (semitones, default 0, p1); Toe Pitch 2 (semitones, default -12, p1); Blend (0-100 %, default 0, p1) |
 
 ## Filter
 

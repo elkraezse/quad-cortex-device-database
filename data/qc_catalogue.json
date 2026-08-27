@@ -16726,13 +16726,70 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Root",
+          "type": "select",
+          "range": "chromatic note",
+          "default": "A",
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "select",
+          "range": "Major/Harmonic Minor/Natural Minor/Melodic Minor/Chromatic",
+          "default": "Natural Minor",
+          "page": 1
+        },
+        {
+          "name": "Tuning",
+          "type": "knob",
+          "range": "Hz",
+          "default": 440,
+          "page": 1
+        },
+        {
+          "name": "Quantize",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Glissando",
+          "type": "knob",
+          "range": "ms",
+          "default": 25,
+          "page": 1
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Root is grayed out (display-only) in this screenshot; likely follows the detected input note or an external key source.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "pitch_shifter",
@@ -16741,13 +16798,35 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Pitch Coarse",
+          "type": "knob",
+          "range": "semitones",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Pitch Fine",
+          "type": "knob",
+          "range": "cents",
+          "default": 0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Only 3 controls -- simplest pitch-shift block in the category.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "poly_octaver",
@@ -16756,13 +16835,35 @@
       "based_on": "Electro-Harmonix POG",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Dry",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Oct",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Sub",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Only 3 controls.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "subharmonic_synth",
@@ -16771,13 +16872,56 @@
       "based_on": "Digitech DOD Meatbox SubSynth",
       "plugin": null,
       "added_in_coros": "3.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Dry",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30,
+          "page": 1
+        },
+        {
+          "name": "Octave",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70,
+          "page": 1
+        },
+        {
+          "name": "Character",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 40,
+          "page": 1
+        },
+        {
+          "name": "Low",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 60,
+          "page": 1
+        },
+        {
+          "name": "Sub",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 60,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "transpose",
@@ -16786,13 +16930,21 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "3.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Semitones",
+          "type": "knob",
+          "range": "semitones",
+          "default": 0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Single-control block -- just a Semitones knob.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "wham",
@@ -16801,13 +16953,63 @@
       "based_on": "Digitech Whammy",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Pedal",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Heel Pitch 1",
+          "type": "knob",
+          "range": "semitones",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Toe Pitch 1",
+          "type": "knob",
+          "range": "semitones",
+          "default": 12,
+          "page": 1
+        },
+        {
+          "name": "Heel Pitch 2",
+          "type": "knob",
+          "range": "semitones",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Toe Pitch 2",
+          "type": "knob",
+          "range": "semitones",
+          "default": -12,
+          "page": 1
+        },
+        {
+          "name": "Blend",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Whammy-style pedal-controlled pitch block -- Pedal knob simulates expression-pedal position when no external pedal is assigned.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "multivoicer",
@@ -16816,13 +17018,210 @@
       "based_on": "free version from Archetype: Tim Henson X",
       "plugin": null,
       "added_in_coros": "4.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Voice 1",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Voice 1 Interval",
+          "type": "select",
+          "range": "interval list (e.g. +3rd/+5th/+8th/...)",
+          "default": "+5th",
+          "page": 1
+        },
+        {
+          "name": "Voice 1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": -12.0,
+          "page": 1
+        },
+        {
+          "name": "Voice 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "50 L",
+          "page": 1
+        },
+        {
+          "name": "Voice 2",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Voice 2 Interval",
+          "type": "select",
+          "range": "interval list (e.g. +3rd/+5th/+8th/...)",
+          "default": "+3rd",
+          "page": 1
+        },
+        {
+          "name": "Voice 2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": -6.0,
+          "page": 1
+        },
+        {
+          "name": "Voice 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "25 L",
+          "page": 1
+        },
+        {
+          "name": "DI Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "DI Pan",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Voice 3",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Voice 3 Interval",
+          "type": "select",
+          "range": "interval list (e.g. +3rd/+5th/+8th/...)",
+          "default": "+5th",
+          "page": 1
+        },
+        {
+          "name": "Voice 3 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": -6.0,
+          "page": 1
+        },
+        {
+          "name": "Voice 3 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "25 R",
+          "page": 1
+        },
+        {
+          "name": "Voice 4",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Voice 4 Interval",
+          "type": "select",
+          "range": "interval list (e.g. +3rd/+5th/+8th/...)",
+          "default": "+8th",
+          "page": 1
+        },
+        {
+          "name": "Voice 4 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": -12.0,
+          "page": 1
+        },
+        {
+          "name": "Voice 4 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "50 R",
+          "page": 1
+        },
+        {
+          "name": "Key",
+          "type": "select",
+          "range": "chromatic note",
+          "default": "A",
+          "page": 1
+        },
+        {
+          "name": "Scale",
+          "type": "select",
+          "range": "Major/Harmonic Minor/Natural Minor/Melodic Minor/Chromatic",
+          "default": "Natural Minor",
+          "page": 1
+        },
+        {
+          "name": "Quantize",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Voicing",
+          "type": "select",
+          "range": "Off; Triads: Closed Triad (3-R-5), Closed Triad (1-3-R-5-1), Open Triad (5-R-3), Open Triad (5-5-R-3-5); Seventh Chords: Closed 7th Chord (3-R-7), Closed 7th Chord (7-3-R-5-7), Open 7th Chord (3-5-R-7-3); Drops: Lower Root Triad (1-3-R-5-1), Lower Root 7th Chord (1-3-R-7-1), Drop 2 (5-3-R-7-5), Drop 3 (3-5-R-7-3), Drop 2-4 (1-5-R-3-7); Tensions: 9th (7-3-R-5-2), 11th (7-3-R-2-4), 13th (7-2-R-4-6); Tone Clusters: Secundals #1 (2-3-R-4-5), Secundals #2 (7-4-R-5-6); Other: Sus4 #1 (5-8-R-4-5), Sus9 #2 (5-8-R-2-5), Power Chord #1 (5-R-5), Power Chord #2 (8-5-R-5-8), Fourths #1 (4-R-4), Fourths #2 (8-4-R-4-8), Octaves Up #1 (8-R-8), Octaves Up #2 (8-8-R-8-8), Big Unison (8-8-R-8-8)",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Tuning",
+          "type": "knob",
+          "range": "Hz",
+          "default": 440,
+          "page": 1
+        },
+        {
+          "name": "Source",
+          "type": "select",
+          "range": "source list",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Unison",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "4-voice pitch harmonizer. The middle mixer panel toggles between a LEVEL/PAN view (captured -- vertical faders for Voice1/2/DI/3/4) and a DETUNE/DELAY view (not yet captured, likely per-voice detune-cents and delay-time knobs). Voicing is a deep nested select (Off / Triads / Seventh Chords / Drops / Tensions / Tone Clusters / Other, each with several named chord-shape presets) -- full option list captured in the range field. Global Settings row (Key/Scale/Quantize/Voicing/Tuning/Source/Width/Unison/Tone/Output) sits below the 4 voice strips, not on a separate numbered page.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "chief_ce2w",
@@ -16836,7 +17235,7 @@
       "source": null,
       "controls_unverified": null,
       "pages": null,
-      "notes": null,
+      "notes": "Legacy placeholder from before Chief CE2W was split into (M)/(ST) variants (added_in_coros 1.3.0, one version before the split in 1.4.0). The current Cortex Control sidebar has no plain 'Chief CE2W' entry -- see 'Chief CE2W (M)' / 'Chief CE2W (ST)' for the real devices.",
       "coros_verified_on": null
     },
     {
@@ -16846,13 +17245,70 @@
       "based_on": "BOSS CE-2W",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Type",
+          "type": "select",
+          "range": "CE1-V/CE1-C/CE2-C",
+          "default": "CE2-C",
+          "page": 1
+        },
+        {
+          "name": "Out Mode",
+          "type": "select",
+          "range": "Wet/Dry/Mono",
+          "default": "Mono",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Mono variant. Rate is a percentage knob here (not Hz, unlike Chorus 229T/Chorus Engine). Sync Note is grayed out with an info tooltip while Sync is Off. See 'Chief CE2W (ST)' for the stereo sibling.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "chief_dc2w",
@@ -16866,7 +17322,7 @@
       "source": null,
       "controls_unverified": null,
       "pages": null,
-      "notes": null,
+      "notes": "Legacy placeholder from before Chief DC2W was split into (M)/(ST) variants. The current Cortex Control sidebar has no plain 'Chief DC2W' entry -- see 'Chief DC2W (M)' / 'Chief DC2W (ST)' for the real devices.",
       "coros_verified_on": null
     },
     {
@@ -16876,13 +17332,49 @@
       "based_on": "BOSS DC-2W Dimension",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Mode",
+          "type": "knob",
+          "range": "1-4 (detented)",
+          "default": 1,
+          "page": 1
+        },
+        {
+          "name": "Type",
+          "type": "select",
+          "range": "SDD-320/S",
+          "default": "S",
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "Off, 0-100 %",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Mono variant, based on the BOSS DC-2W Dimension chorus. Mode is a detented dial (modeled on the original's 4 dimension-mode buttons). Type switch (SDD-320/S) likely toggles between the vintage rack-unit voicing and the pedal's own. Chief DC2W (ST) not yet screenshotted.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "chorus_229t",
@@ -16891,13 +17383,63 @@
       "based_on": "TC Electronic TC-2290",
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.75,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30,
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "chorus_engine",
@@ -16906,13 +17448,133 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.41,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Delay",
+          "type": "time",
+          "range": "ms",
+          "default": 10.0,
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70,
+          "page": 1
+        },
+        {
+          "name": "Morph",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "Random",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "Voice Mode",
+          "type": "select",
+          "range": "Full/Thick/Open/Broad",
+          "default": "Thick",
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Tone Freq",
+          "type": "knob",
+          "range": "Hz",
+          "default": 1000,
+          "page": 2
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 10000,
+          "page": 2
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Hz",
+          "default": 80,
+          "page": 2
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 2
+        },
+        {
+          "name": "Drive Type",
+          "type": "select",
+          "range": "Soft/Edgy/Hard/Off",
+          "default": "Soft",
+          "page": 2
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 10,
+          "page": 2
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Voice Mode (Full/Thick/Open/Broad) and Drive Type (Soft/Edgy/Hard/Off) confirmed by Adam.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "digital_flanger",
@@ -16921,13 +17583,84 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "Hz",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 40.0,
+          "page": 1
+        },
+        {
+          "name": "Delay",
+          "type": "time",
+          "range": "ms",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Feedback",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 40.0,
+          "page": 1
+        },
+        {
+          "name": "Polarity",
+          "type": "select",
+          "range": "Pos/Neg",
+          "default": "Pos",
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 20.0,
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "Off, 0-100 %",
+          "default": "Off",
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "dream_chorus",
@@ -26540,6 +27273,78 @@
       "verified": true,
       "source": "Cortex Control 4.1.0 screenshot",
       "notes": "Only 3 controls.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "chief_ce2w_st",
+      "name": "Chief CE2W (ST)",
+      "category": "Modulation",
+      "based_on": "BOSS CE-2W",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100,
+          "page": 1
+        },
+        {
+          "name": "Rate",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Sync",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Sync Note",
+          "type": "select",
+          "range": "1/16, 1/8T, 1/16D, 1/8, 1/4T, 1/8D, 1/4, 1/2T, 1/4D, 1/2, 1/1T, 1/2D, 1/1",
+          "default": "1/4",
+          "page": 1
+        },
+        {
+          "name": "Depth",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Type",
+          "type": "select",
+          "range": "CE1-V/CE1-C/CE2-C",
+          "default": "CE2-C",
+          "page": 1
+        },
+        {
+          "name": "Width",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Stereo sibling of Chief CE2W (M) -- swaps the mono Out Mode switch for a Width knob.",
       "coros_verified_on": "4.1.0"
     }
   ]
