@@ -6564,7 +6564,7 @@
     {
      "name": "Mic A",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker Closed GB: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker Open GB: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Dynamic 57",
      "page": 1
     },
@@ -6613,7 +6613,7 @@
     {
      "name": "Mic B",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker Closed GB: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker Open GB: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Ribbon 160",
      "page": 1
     },
@@ -6709,11 +6709,11 @@
      "page": 3
     }
    ],
-   "verified": false,
+   "verified": true,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [CB]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
+   "notes": "Mic selector has two speaker groups (Closed GB and Open GB), each with the same six mics. Selected mic shows a [CB] prefix. All 3 pages verified.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -6727,7 +6727,7 @@
     {
      "name": "Mic A",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker Closed GB: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker Open GB: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Dynamic 57",
      "page": 1
     },
@@ -6776,7 +6776,7 @@
     {
      "name": "Mic B",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker Closed GB: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker Open GB: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Ribbon 160",
      "page": 1
     },
@@ -6872,11 +6872,11 @@
      "page": 3
     }
    ],
-   "verified": false,
+   "verified": true,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [CB]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
+   "notes": "Mic selector has two speaker groups (Closed GB and Open GB), each with the same six mics. Selected mic shows a [CB] prefix. All 3 pages verified.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -6890,7 +6890,7 @@
     {
      "name": "Mic A",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker CB 74: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker V30 12: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Dynamic 57",
      "page": 1
     },
@@ -6939,7 +6939,7 @@
     {
      "name": "Mic B",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker CB 74: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker V30 12: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Ribbon 160",
      "page": 1
     },
@@ -7035,11 +7035,11 @@
      "page": 3
     }
    ],
-   "verified": false,
+   "verified": true,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [V30]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
+   "notes": "Mic selector has two speaker groups (CB 74 and V30 12), each with the same six mics. Selected mic shows a [V30] prefix. All 3 pages verified.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -7053,7 +7053,7 @@
     {
      "name": "Mic A",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker CB 74: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker V30 12: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Dynamic 57",
      "page": 1
     },
@@ -7102,7 +7102,7 @@
     {
      "name": "Mic B",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker CB 74: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker V30 12: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Ribbon 160",
      "page": 1
     },
@@ -7198,11 +7198,11 @@
      "page": 3
     }
    ],
-   "verified": false,
+   "verified": true,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [V30]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
+   "notes": "Mic selector has two speaker groups (CB 74 and V30 12), each with the same six mics. Selected mic shows a [V30] prefix. All 3 pages verified.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -7216,7 +7216,7 @@
     {
      "name": "Mic A",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker V30 Ang: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker V30 Str: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Dynamic 57",
      "page": 1
     },
@@ -7265,7 +7265,7 @@
     {
      "name": "Mic B",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker V30 Ang: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker V30 Str: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Ribbon 160",
      "page": 1
     },
@@ -7361,11 +7361,11 @@
      "page": 3
     }
    ],
-   "verified": false,
+   "verified": true,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [Str]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
+   "notes": "Mic selector has two speaker groups (V30 Ang and V30 Str), each with the same six mics. Selected mic shows a [Str] prefix. All 3 pages verified.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -7379,7 +7379,7 @@
     {
      "name": "Mic A",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker V30 Ang: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker V30 Str: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Dynamic 57",
      "page": 1
     },
@@ -7428,7 +7428,7 @@
     {
      "name": "Mic B",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker V30 Ang: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker V30 Str: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Ribbon 160",
      "page": 1
     },
@@ -7524,11 +7524,11 @@
      "page": 3
     }
    ],
-   "verified": false,
+   "verified": true,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [Str]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
+   "notes": "Mic selector has two speaker groups (V30 Ang and V30 Str), each with the same six mics. Selected mic shows a [Str] prefix. All 3 pages verified.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -7542,7 +7542,7 @@
     {
      "name": "Mic A",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker 212: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker 75: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Dynamic 57",
      "page": 1
     },
@@ -7591,7 +7591,7 @@
     {
      "name": "Mic B",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker 212: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker 75: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Ribbon 160",
      "page": 1
     },
@@ -7687,11 +7687,11 @@
      "page": 3
     }
    ],
-   "verified": false,
+   "verified": true,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [75]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
+   "notes": "Mic selector has two speaker groups (212 and 75), each with the same six mics. Selected mic shows a [75] prefix. All 3 pages verified.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -7705,7 +7705,7 @@
     {
      "name": "Mic A",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker 212: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker 75: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Dynamic 57",
      "page": 1
     },
@@ -7754,7 +7754,7 @@
     {
      "name": "Mic B",
      "type": "select",
-     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "range": "Speaker 212: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker 75: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR",
      "default": "Ribbon 160",
      "page": 1
     },
@@ -7850,11 +7850,11 @@
      "page": 3
     }
    ],
-   "verified": false,
+   "verified": true,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [75]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
+   "notes": "Mic selector has two speaker groups (212 and 75), each with the same six mics. Selected mic shows a [75] prefix. All 3 pages verified.",
    "coros_verified_on": "4.1.0"
   },
   {
