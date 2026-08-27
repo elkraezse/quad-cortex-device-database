@@ -27,6 +27,21 @@ Every device from the official list is present (stock devices plus plugin device
 
 The current counts are at the top of `docs/devices.md`.
 
+### Plugin devices not yet catalogued (no license)
+
+Every **stock** Quad Cortex device (amps, cabs, effects) is fully verified. The Neural DSP **plugin/Archetype packs** are a separate story: each one is a paid add-on, and this repo can only document what its maintainer has actually purchased and can screenshot in Cortex Control. The following plugin packs are not in the catalogue yet because no maintainer currently owns a license for them:
+
+- Archetype: John Mayer
+- Archetype: Misha Mansoor
+- Archetype: Plini X
+- Archetype: Rabea X
+- Archetype: Tim Henson
+- Fortin Nameless Suite
+- Parallax X
+- Soldano SLO-100 X
+
+**If you own any of these, contributions are very welcome** — see "Contributing" below. A full set of parameter-page screenshots for even one of these packs is enough to add it.
+
 ## JSON fields
 
 ```
