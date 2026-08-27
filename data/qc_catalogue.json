@@ -34288,5 +34288,242 @@
       "notes": "Stereo ('ST') variant of Tape Delay (M) -- adds a Ping Pong switch (page 2) not present on the mono version; Drive moves up into page 1 row 1 here (mirroring the same row-shift pattern seen on Slapback Delay (M) vs (ST)) instead of sitting in row 2 alongside Wow/Flutter. Delay Time is greyed out/inactive while Sync is On (the default)."
     }
   ],
-  "categories": []
+  "categories": [],
+  "io_settings": {
+    "schema_note": "Global, unit-level hardware I/O routing settings (not per-block Grid devices) -- kept in a separate top-level section since they don't fit the `devices` array schema, which models Grid blocks. Sourced from Cortex Control 4.1.0 I/O Settings screenshots, 2026-08-27.",
+    "source": "Cortex Control 4.1.0 screenshot",
+    "verified": true,
+    "sections": [
+      {
+        "id": "input_1",
+        "name": "Input 1",
+        "controls": [
+          {
+            "name": "Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "Impedance",
+            "type": "select",
+            "range": "1M ohm/230k ohm/1M ohm w/ pad",
+            "default": "1M ohm",
+            "page": 1
+          },
+          {
+            "name": "Type",
+            "type": "select",
+            "range": "Instrument/Line",
+            "default": "Instrument",
+            "page": 1
+          },
+          {
+            "name": "Phantom Power (48V)",
+            "type": "switch",
+            "range": "Off/On",
+            "default": "Off",
+            "page": 1
+          },
+          {
+            "name": "Ground Lift",
+            "type": "switch",
+            "range": "Off/On",
+            "default": "Off",
+            "page": 1
+          }
+        ],
+        "notes": "Represents the per-input settings panel; Input 2 and other physical inputs share this same control set (values not independently re-screenshotted per input)."
+      },
+      {
+        "id": "send_1",
+        "name": "Send 1",
+        "controls": [
+          {
+            "name": "Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "Limiter",
+            "type": "switch",
+            "range": "Off/On",
+            "default": "Off",
+            "page": 1
+          }
+        ],
+        "notes": "Send 2 assumed to share this same control set."
+      },
+      {
+        "id": "output_1_2",
+        "name": "Output 1/2",
+        "controls": [
+          {
+            "name": "Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "Limiter",
+            "type": "switch",
+            "range": "Off/On",
+            "default": "Off",
+            "page": 1
+          },
+          {
+            "name": "Mute",
+            "type": "switch",
+            "range": "Off/On",
+            "default": "Off",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "output_3_4",
+        "name": "Output 3/4",
+        "controls": [
+          {
+            "name": "Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "Limiter",
+            "type": "switch",
+            "range": "Off/On",
+            "default": "Off",
+            "page": 1
+          },
+          {
+            "name": "Mute",
+            "type": "switch",
+            "range": "Off/On",
+            "default": "Off",
+            "page": 1
+          }
+        ],
+        "notes": "Same control set as Output 1/2."
+      },
+      {
+        "id": "headphones",
+        "name": "Headphones",
+        "controls": [
+          {
+            "name": "Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "Mute",
+            "type": "switch",
+            "range": "Off/On",
+            "default": "Off",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "expression_1",
+        "name": "Expression 1",
+        "controls": [
+          {
+            "name": "Position",
+            "type": "knob",
+            "range": "read-only readout, 0-100 %",
+            "default": null,
+            "page": 1
+          },
+          {
+            "name": "Save",
+            "type": "button",
+            "range": null,
+            "default": null,
+            "page": 1
+          },
+          {
+            "name": "Recalibrate",
+            "type": "button",
+            "range": null,
+            "default": null,
+            "page": 1
+          }
+        ],
+        "notes": "Calibration panel for an expression pedal connected to Expr 1. Position is a live readout showing current pedal position, not a stored value. Save/Recalibrate are action buttons, not adjustable controls."
+      },
+      {
+        "id": "usb",
+        "name": "USB",
+        "controls": [
+          {
+            "name": "IN 1/2 Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "IN 3/4 Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "IN 5/6 Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "IN 7/8 Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "OUT 1/2 Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "OUT 3/4 Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "OUT 5/6 Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          },
+          {
+            "name": "OUT 7/8 Level",
+            "type": "knob",
+            "range": "dB",
+            "default": 0.0,
+            "page": 1
+          }
+        ],
+        "pages": 2,
+        "notes": "Per-channel-pair USB record/playback levels, spread across 2 pages in the screenshot."
+      }
+    ]
+  }
 }
