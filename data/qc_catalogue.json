@@ -6799,244 +6799,881 @@
    "coros_verified_on": "4.1.0"
   },
   {
-   "id": "wah_archetype_petrucci_x",
-   "name": "Wah",
+   "id": "petrucci_wah_archetype_petrucci_x",
+   "name": "Petrucci Wah",
    "category": "Wah",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Position",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Wah' on the official device list; Cortex Control shows 'Petrucci Wah'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "compressor_archetype_petrucci_x",
-   "name": "Compressor",
+   "id": "petrucci_compressor_archetype_petrucci_x",
+   "name": "Petrucci Compressor",
    "category": "Compressor",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Comp",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Level",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Gain Reduction",
+     "type": "meter",
+     "range": "dB",
+     "default": null,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Compressor' on the official device list; Cortex Control shows 'Petrucci Compressor'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "overdrive_archetype_petrucci_x",
-   "name": "Overdrive",
+   "id": "petrucci_overdrive_archetype_petrucci_x",
+   "name": "Petrucci Overdrive",
    "category": "Guitar overdrive",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Drive",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Tone",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Level",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Overdrive' on the official device list; Cortex Control shows 'Petrucci Overdrive'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "phaser_archetype_petrucci_x",
-   "name": "Phaser",
+   "id": "petrucci_phaser_archetype_petrucci_x",
+   "name": "Petrucci Phaser",
    "category": "Modulation",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Rate",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Mode",
+     "type": "switch",
+     "range": "Vibe/Phase",
+     "default": "Phase",
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Phaser' on the official device list; Cortex Control shows 'Petrucci Phaser'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "chorus_1_archetype_petrucci_x",
-   "name": "Chorus 1",
+   "id": "petrucci_chorus_1_archetype_petrucci_x",
+   "name": "Petrucci Chorus 1",
    "category": "Modulation",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Rate",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Depth",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Mode",
+     "type": "switch",
+     "range": "Norm/Tri",
+     "default": "Norm",
+     "page": 1
+    },
+    {
+     "name": "Level",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Chorus 1' on the official device list; Cortex Control shows 'Petrucci Chorus 1'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "chorus_2_archetype_petrucci_x",
-   "name": "Chorus 2",
+   "id": "petrucci_chorus_2_archetype_petrucci_x",
+   "name": "Petrucci Chorus 2",
    "category": "Modulation",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Mode",
+     "type": "switch",
+     "range": "Vintage/Spatial",
+     "default": "Spatial",
+     "page": 1
+    },
+    {
+     "name": "Rate",
+     "type": "knob",
+     "range": "Hz",
+     "default": 0.89,
+     "page": 1
+    },
+    {
+     "name": "Sync",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Sync Note",
+     "type": "select",
+     "range": "note values",
+     "default": "1/4",
+     "page": 1
+    },
+    {
+     "name": "Depth",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Chorus 2' on the official device list; Cortex Control shows 'Petrucci Chorus 2'. Sync Note greyed out while Sync is Off.",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "flanger_archetype_petrucci_x",
-   "name": "Flanger",
+   "id": "petrucci_flanger_archetype_petrucci_x",
+   "name": "Petrucci Flanger",
    "category": "Modulation",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Rate",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Depth",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Range",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Feedback",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Sync",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Sync Note",
+     "type": "select",
+     "range": "note values",
+     "default": "1/4",
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Flanger' on the official device list; Cortex Control shows 'Petrucci Flanger'. Sync Note greyed out while Sync is Off.",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "piezo_archetype_petrucci_x",
-   "name": "Piezo",
+   "id": "petrucci_piezo_archetype_petrucci_x",
+   "name": "Petrucci Piezo",
    "category": "Guitar amps",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Body",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Air",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Bass",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Middle",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Treble",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Presence",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Piezo' on the official device list; Cortex Control shows 'Petrucci Piezo'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "clean_archetype_petrucci_x",
-   "name": "Clean",
+   "id": "petrucci_clean_archetype_petrucci_x",
+   "name": "Petrucci Clean",
    "category": "Guitar amps",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Gain",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Bright",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Bass",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Middle",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Treble",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Presence",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Master",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Clean' on the official device list; Cortex Control shows 'Petrucci Clean'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "rhythm_archetype_petrucci_x",
-   "name": "Rhythm",
+   "id": "petrucci_rhythm_archetype_petrucci_x",
+   "name": "Petrucci Rhythm",
    "category": "Guitar amps",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Gain",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Bite",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Tight",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Bass",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Middle",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Mid Boost",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Treble",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Presence",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Master",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Rhythm' on the official device list; Cortex Control shows 'Petrucci Rhythm'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "lead_archetype_petrucci_x",
-   "name": "Lead",
+   "id": "petrucci_lead_archetype_petrucci_x",
+   "name": "Petrucci Lead",
    "category": "Guitar amps",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Gain",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Bass",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Middle",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Soar",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Treble",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Presence",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Master",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Lead' on the official device list; Cortex Control shows 'Petrucci Lead'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "cab_archetype_petrucci_x",
-   "name": "Cab",
-   "category": "Guitar cabinets",
-   "based_on": null,
-   "plugin": "Archetype: Petrucci X",
-   "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
-   "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
-  },
-  {
-   "id": "volume_archetype_petrucci_x",
-   "name": "Volume",
+   "id": "petrucci_volume_archetype_petrucci_x",
+   "name": "Petrucci Volume",
    "category": "Utility",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Level",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 100.0,
+     "page": 1
+    },
+    {
+     "name": "Mid-Point",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 15,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Volume' on the official device list; Cortex Control shows 'Petrucci Volume'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "delay_archetype_petrucci_x",
-   "name": "Delay",
+   "id": "petrucci_delay_archetype_petrucci_x",
+   "name": "Petrucci Delay",
    "category": "Delay",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Feedback",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Sync",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Delay Time L",
+     "type": "time",
+     "range": "ms",
+     "default": 500,
+     "page": 1
+    },
+    {
+     "name": "Delay Time R",
+     "type": "time",
+     "range": "ms",
+     "default": 500,
+     "page": 1
+    },
+    {
+     "name": "Crystals",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Tape",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Mod",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Sync Note L",
+     "type": "select",
+     "range": "note values",
+     "default": "1/4",
+     "page": 1
+    },
+    {
+     "name": "Sync Note R",
+     "type": "select",
+     "range": "note values",
+     "default": "1/4",
+     "page": 1
+    },
+    {
+     "name": "Mode",
+     "type": "switch",
+     "range": "Dual/Single",
+     "default": "Dual",
+     "page": 2
+    },
+    {
+     "name": "Cross Feed",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 2
+    },
+    {
+     "name": "High Pass",
+     "type": "knob",
+     "range": "Hz",
+     "default": 20,
+     "page": 2
+    },
+    {
+     "name": "Low Pass",
+     "type": "knob",
+     "range": "Hz",
+     "default": 16000,
+     "page": 2
+    },
+    {
+     "name": "Trails",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 2
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 2,
+   "notes": "Listed as 'Delay' on the official device list; Cortex Control shows 'Petrucci Delay'. Delay Time L/R greyed out while Sync is On.",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "reverb_archetype_petrucci_x",
-   "name": "Reverb",
+   "id": "petrucci_reverb_archetype_petrucci_x",
+   "name": "Petrucci Reverb",
    "category": "Reverb",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Pre-Delay",
+     "type": "knob",
+     "range": "ms",
+     "default": 64.0,
+     "page": 1
+    },
+    {
+     "name": "Decay",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Low Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 0,
+     "page": 1
+    },
+    {
+     "name": "High Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 100,
+     "page": 1
+    },
+    {
+     "name": "Trails",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Reverb' on the official device list; Cortex Control shows 'Petrucci Reverb'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
-   "id": "reverb_shimmer_archetype_petrucci_x",
-   "name": "Reverb Shimmer",
+   "id": "petrucci_reverb_shimmer_archetype_petrucci_x",
+   "name": "Petrucci Reverb Shimmer",
    "category": "Reverb",
    "based_on": null,
    "plugin": "Archetype: Petrucci X",
    "added_in_coros": "4.1.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Pre-Delay",
+     "type": "knob",
+     "range": "ms",
+     "default": 15.0,
+     "page": 1
+    },
+    {
+     "name": "Decay",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Low Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 0,
+     "page": 1
+    },
+    {
+     "name": "High Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 100,
+     "page": 1
+    },
+    {
+     "name": "Trails",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Listed as 'Reverb Shimmer' on the official device list; Cortex Control shows 'Petrucci Reverb Shimmer'. ",
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "nolly_cab_1_m_archetype_nolly_x",
@@ -10296,6 +10933,332 @@
    "controls_unverified": null,
    "pages": 3,
    "notes": "Single mic list, no speaker groups. Pages 2-3 shared cab layout.",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "petrucci_cab_m_archetype_petrucci_x",
+   "name": "Petrucci Cab (M)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Petrucci X",
+   "added_in_coros": "4.1.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon VR2 / Ribbon 353 / Dynamic 421 / Dynamic 2500 / Condenser FET 301 / Condenser 2500 / Load custom IR",
+     "default": "Dynamic 421",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon VR2 / Ribbon 353 / Dynamic 421 / Dynamic 2500 / Condenser FET 301 / Condenser 2500 / Load custom IR",
+     "default": "Ribbon 353",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Listed as 'Cab' on the official device list. Unique mic list (VR2, 353, 421, 2500, FET 301, Condenser 2500). Pages 2-3 shared cab layout.",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "petrucci_cab_st_archetype_petrucci_x",
+   "name": "Petrucci Cab (ST)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Petrucci X",
+   "added_in_coros": "4.1.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon VR2 / Ribbon 353 / Dynamic 421 / Dynamic 2500 / Condenser FET 301 / Condenser 2500 / Load custom IR",
+     "default": "Dynamic 421",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon VR2 / Ribbon 353 / Dynamic 421 / Dynamic 2500 / Condenser FET 301 / Condenser 2500 / Load custom IR",
+     "default": "Ribbon 353",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Listed as 'Cab' on the official device list. Unique mic list (VR2, 353, 421, 2500, FET 301, Condenser 2500). Pages 2-3 shared cab layout.",
    "coros_verified_on": "4.1.0"
   }
  ]

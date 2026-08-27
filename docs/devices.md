@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**354 devices**: 55 verified, 59 unverified (wiki-sourced), 240 still missing controls.
+**355 devices**: 72 verified, 59 unverified (wiki-sourced), 224 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -44,7 +44,6 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | CA Tremo Orange | Mesa Boogie Trem-O-Verb |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Mid, Treble, Presence, Master, Output |
 | CA Tremo Red | Mesa Boogie Trem-O-Verb |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Mid, Treble, Presence, Master, Output |
 | Captain 50 | Morgan SW50 |  | 1.2.0 | unverified | _unverified:_ Bright switch, Low Boost switch, Gain, Bass, Middle, Treble, Master, Output |
-| Clean |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Cory Wong D.I. Funk Console |  | Archetype: Cory Wong X | 3.2.0 | verified | Comp (0-10, default 5.0, p1); Attack (switch, Slow/Fast, default Fast, p1); Tube Sat (0-10, default 5.0, p1); High Pass (Hz, default 20, p1); Low Pass (Hz, default 17000, p1); Lows (dB, default 0.0, p1); Lows Freq (switch, 150 Hz/225 Hz, default 225 Hz, p1); Mids (dB, default 0.0, p1); Mids Freq (switch, 600 Hz/900 Hz, default 900 Hz, p1); Highs (dB, default 0.0, p1); Highs Freq (switch, 2.5 kHz/4 kHz, default 4 kHz, p2); Output (dB, default 0.0, p2) |
 | Cory Wong The Amp Snob |  | Archetype: Cory Wong X | 3.2.0 | verified | Volume (0-10, default 5.0, p1); Bright (switch, OFF/ON, default OFF, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1); Drive (switch, OFF/ON, default OFF, p1) |
 | Cory Wong The Clean Machine |  | Archetype: Cory Wong X | 3.2.0 | verified | Volume (0-10, default 5.0, p1); Bright (switch, OFF/ON, default OFF, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
@@ -68,7 +67,6 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Gojira CLN |  | Archetype: Gojira X | 3.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bright (switch, OFF/ON, default OFF, p1); Output (dB, default 0.0, p1) |
 | Gojira HOT |  | Archetype: Gojira X | 3.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Depth (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
 | Gojira RST |  | Archetype: Gojira X | 3.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Depth (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
-| Lead |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Matchmore D30 Ch1 | Matchless DC30 Ch1 |  | 2.1.0 | missing |  |
 | Matchmore D30 Ch2 | Matchless DC30 Ch2 |  | 2.1.0 | missing |  |
 | Matchmore Jefe | Matchless Chieftain |  | 2.1.0 | missing |  |
@@ -76,10 +74,12 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Nolly Crunch |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bright (switch, Off/On, default Off, p1); Presence (0-10, default 5.0, p1); Depth (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
 | Nolly Lead |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 6.0, p1); Bass (0-10, default 3.9, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 4.4, p1); Master (0-10, default 4.0, p1); Output (dB, default 0.0, p1) |
 | Nolly Rhythm |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Resonance (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
-| Piezo |  | Archetype: Petrucci X | 4.1.0 | missing |  |
+| Petrucci Clean |  | Archetype: Petrucci X | 4.1.0 | verified | Gain (0-10, default 5.0, p1); Bright (switch, Off/On, default Off, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
+| Petrucci Lead |  | Archetype: Petrucci X | 4.1.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Soar (switch, Off/On, default Off, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
+| Petrucci Piezo |  | Archetype: Petrucci X | 4.1.0 | verified | Body (0-10, default 5.0, p1); Air (switch, Off/On, default Off, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
+| Petrucci Rhythm |  | Archetype: Petrucci X | 4.1.0 | verified | Gain (0-10, default 5.0, p1); Bite (switch, Off/On, default Off, p1); Tight (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Mid Boost (switch, Off/On, default Off, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
 | PV-505 Lead | Peavey 6505 |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Master, Presence, Depth, Output |
 | PV-505 Rhythm | Peavey 6505 |  | 1.0.0 | unverified | _unverified:_ Gain, Bright switch, Bass, Middle, Treble, Master, Presence, Depth, Output |
-| Rhythm |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Rols Jazz CH120 | Roland Jazz Chorus 120 |  | 1.0.0 | unverified | _unverified:_ Bright switch, Volume, Bass, Middle, Treble, Output |
 | Solo 100 Crunch Bright | Soldano SLO 100 |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Master, Presence, Output |
 | Solo 100 Crunch Normal | Soldano SLO 100 |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Master, Presence, Output |
@@ -170,7 +170,6 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | 412 VH Fat P50 | VHT FatBottom w/ Eminence P50e |  | 3.3.0 | missing |  |
 | 412 Watt S4123 | Hiwatt SE4123 4x12 |  | 1.2.0 | missing |  |
 | 412 Zila Cust V30 '12 V2 | Zilla Custom w/ Celestion V30 |  | 1.0.0 | missing |  |
-| Cab |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Cory Wong Cab 1 (M) |  | Archetype: Cory Wong X | 3.2.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
 | Cory Wong Cab 1 (ST) |  | Archetype: Cory Wong X | 3.2.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
 | Cory Wong Cab 2 (M) |  | Archetype: Cory Wong X | 3.2.0 | verified | Mic A (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
@@ -195,6 +194,8 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Nolly Cab 3 (ST) |  | Archetype: Nolly X | 3.2.0 | verified | Mic A (select, Speaker V30 Ang: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker V30 Str: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Speaker V30 Ang: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker V30 Str: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
 | Nolly Cab 4 (M) |  | Archetype: Nolly X | 3.2.0 | verified | Mic A (select, Speaker 212: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker 75: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Speaker 212: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker 75: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
 | Nolly Cab 4 (ST) |  | Archetype: Nolly X | 3.2.0 | verified | Mic A (select, Speaker 212: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker 75: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR, default Dynamic 57, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.1, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Speaker 212: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Speaker 75: Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184; Load custom IR, default Ribbon 160, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.1, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
+| Petrucci Cab (M) |  | Archetype: Petrucci X | 4.1.0 | verified | Mic A (select, Ribbon VR2 / Ribbon 353 / Dynamic 421 / Dynamic 2500 / Condenser FET 301 / Condenser 2500 / Load custom IR, default Dynamic 421, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.0, p1); Mic A Pan (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon VR2 / Ribbon 353 / Dynamic 421 / Dynamic 2500 / Condenser FET 301 / Condenser 2500 / Load custom IR, default Ribbon 353, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.0, p1); Mic B Pan (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
+| Petrucci Cab (ST) |  | Archetype: Petrucci X | 4.1.0 | verified | Mic A (select, Ribbon VR2 / Ribbon 353 / Dynamic 421 / Dynamic 2500 / Condenser FET 301 / Condenser 2500 / Load custom IR, default Dynamic 421, p1); Mic A On (switch, Off/On, default On, p1); Mic A Level (dB, default 0.0, p1); Mic A Position (0-1, default 0.3, p1); Mic A Dist (0-1, default 0.0, p1); Mic A Balance (L-C-R, default C, p1); Mic A Phase invert (button, off/on, default off, p1); Mic B (select, Ribbon VR2 / Ribbon 353 / Dynamic 421 / Dynamic 2500 / Condenser FET 301 / Condenser 2500 / Load custom IR, default Ribbon 353, p1); Mic B On (switch, Off/On, default On, p1); Mic B Level (dB, default 0.0, p1); Mic B Position (0-1, default 0.3, p1); Mic B Dist (0-1, default 0.0, p1); Mic B Balance (L-C-R, default C, p1); Mic B Phase invert (button, off/on, default off, p1); Room Left (switch, Off/On, default Off, p2); Room Left Level (dB, default -6.0, p2); Room Right (switch, Off/On, default Off, p2); Room Right Level (dB, default -6.0, p2); HPF (Hz (OFF-), default OFF, p3); Output Volume (dB, default 0.0, p3); LPF (Hz (-OFF), default OFF, p3) |
 
 ## Guitar overdrive
 
@@ -225,7 +226,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Nolly Overdrive-2 |  | Archetype: Nolly X | 3.2.0 | verified | Gain (0-10, default 1.5, p1); Bass (0-10, default 4.2, p1); Treble (0-10, default 4.3, p1); Level (0-10, default 5.6, p1) |
 | Obsessive Drive | Fulltone OCD |  | 1.0.0 | missing |  |
 | OD250 | DOD Overdrive Preamp 250 |  | 1.0.0 | missing |  |
-| Overdrive |  | Archetype: Petrucci X | 4.1.0 | missing |  |
+| Petrucci Overdrive |  | Archetype: Petrucci X | 4.1.0 | verified | Drive (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
 | Rage Booster | Dallas Rangemaster |  | 1.0.0 | missing |  |
 | Red Drive | Keeley Red Dirt |  | 1.4.0 | missing |  |
 | Rodent Drive | ProCo Rat |  | 1.0.0 | missing |  |
@@ -237,7 +238,6 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
 | Chief CS3 | BOSS CS-3 |  | 1.4.0 | missing |  |
-| Compressor |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Cory Wong The 4th Position Compressor |  | Archetype: Cory Wong X | 3.2.0 | verified | Compression (0-100 %, default 50, p1); Blend (0-100 %, default 50, p1); Tone (0-100 %, default 50, p1); Volume (0-100 %, default 50, p1); Gain Reduction (meter, dB, p1) |
 | Douglas Shining Comp (M) | Darkglass Hyper Luminal |  | 4.1.0 | missing |  |
 | Jewel | Diamond Compressor |  | 1.0.0 | missing |  |
@@ -248,6 +248,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Opto Comp |  |  | 1.0.0 | missing |  |
 | Opto Comp (S/C) |  |  | 3.0.0 | missing |  |
 | Opto Comp (ST) |  |  | 1.4.0 | missing |  |
+| Petrucci Compressor |  | Archetype: Petrucci X | 4.1.0 | verified | Comp (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Gain Reduction (meter, dB, p1) |
 | Solid State Comp | SSL Bus |  | 1.0.0 | missing |  |
 | Solid State Comp (S/C) | SSL Bus |  | 3.0.0 | missing |  |
 | Solid State Comp (ST) | SSL Bus |  | 1.4.0 | missing |  |
@@ -276,13 +277,13 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Circular Delay |  |  | 3.0.0 | missing |  |
 | Cory Wong Delay-y-y |  | Archetype: Cory Wong X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Feedback (0-100 %, default 25, p1); Mode (switch, Dual/Single, default Single, p1); Delay Time L (time, ms, default 500, p1); Delay Time R (time, ms, default 500, p1); High Pass (Hz, default 50, p1); Low Pass (Hz, default 5000, p1); Sync (switch, Off/On, default On, p1); Sync Note L (select, note values, default 1/4, p1); Sync Note R (select, note values, default 1/4, p1); Trails (switch, Off/On, default On, p2) |
 | Crystal Delay |  |  | 4.1.0 | missing |  |
-| Delay |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Digital Delay |  |  | 2.1.0 | missing |  |
 | Dual Delay |  |  | 1.4.0 | missing |  |
 | Dual Reverse Delay |  |  | 2.1.0 | missing |  |
 | Gojira DLY (ST) |  | Archetype: Gojira X | 3.0.0 | verified | Mix (0-100 %, default 50.0, p1); Feedback (0-100 %, default 50.0, p1); Ping Pong (switch, Off/On, default On, p1); Sync (switch, Off/On, default On, p1); Sync Note (select, note values, default 1/4, p1); Delay Time (time, ms, default 500, p1); Tape Mod (0-100 %, default 50, p1); Tape Sat (0-100 %, default 0, p1); Trails (switch, Off/On, default On, p1); Tone (0-100 %, default 50, p1) |
 | Nolly Delay-1 (M) |  | Archetype: Nolly X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Feedback (0-100 %, default 20.0, p1); Sync (switch, Off/On, default On, p1); Sync Note (select, note values, default 1/4, p1); Delay Time (time, ms, default 80, p1); Trails (switch, Off/On, default On, p1); Tone (0-100 %, default 50, p1) |
 | Nolly Delay-2 |  | Archetype: Nolly X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Feedback (0-100 %, default 25.0, p1); Delay Time (time, ms, default 500, p1); Sync (switch, Off/On, default On, p1); Sync Note (select, note values, default 1/4, p1); High Pass (Hz, default 60, p1); Low Pass (Hz, default 5000, p1); Ping Pong (switch, Off/On, default On, p1); Mod (0-100 %, default 50.0, p1); Trails (switch, Off/On, default On, p1) |
+| Petrucci Delay |  | Archetype: Petrucci X | 4.1.0 | verified | Mix (0-100 %, default 50.0, p1); Feedback (0-100 %, default 50.0, p1); Sync (switch, Off/On, default On, p1); Delay Time L (time, ms, default 500, p1); Delay Time R (time, ms, default 500, p1); Crystals (0-100 %, default 50.0, p1); Tape (0-100 %, default 50.0, p1); Mod (0-100 %, default 50.0, p1); Sync Note L (select, note values, default 1/4, p1); Sync Note R (select, note values, default 1/4, p1); Mode (switch, Dual/Single, default Dual, p2); Cross Feed (0-100 %, default 50.0, p2); High Pass (Hz, default 20, p2); Low Pass (Hz, default 16000, p2); Trails (switch, Off/On, default On, p2) |
 | Reverse Delay |  |  | 2.1.0 | missing |  |
 | Simple Delay |  |  | 2.1.0 | missing |  |
 | Simple Ping Pong Delay |  |  | 1.0.0 | missing |  |
@@ -305,11 +306,11 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Modulated |  |  | 1.0.0 | missing |  |
 | Nolly Reverb |  | Archetype: Nolly X | 3.2.0 | verified | Mix (0-100 %, default 50.0, p1); Decay (s, default 3.0, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Nordic Concert Hall (ST) | Inspired by Valhalla VintageVerb Concert Hall |  | 4.0.0 | missing |  |
+| Petrucci Reverb |  | Archetype: Petrucci X | 4.1.0 | verified | Mix (0-100 %, default 50.0, p1); Pre-Delay (ms, default 64.0, p1); Decay (0-100 %, default 50.0, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
+| Petrucci Reverb Shimmer |  | Archetype: Petrucci X | 4.1.0 | verified | Mix (0-100 %, default 50.0, p1); Pre-Delay (ms, default 15.0, p1); Decay (0-100 %, default 50, p1); Low Cut (0-100 %, default 0, p1); High Cut (0-100 %, default 100, p1); Trails (switch, Off/On, default On, p1) |
 | Plate |  |  | 1.2.0 | missing |  |
 | Plate Lush |  |  | 1.2.0 | missing |  |
 | Plate Tight |  |  | 1.2.0 | missing |  |
-| Reverb |  | Archetype: Petrucci X | 4.1.0 | missing |  |
-| Reverb Shimmer |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Room |  |  | 1.0.0 | missing |  |
 | Shimmer |  |  | 1.1.0 | missing |  |
 | Spring (M) |  |  | 1.0.0 | missing |  |
@@ -327,8 +328,6 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Chief CE2W (M) | BOSS CE-2W |  | 1.4.0 | missing |  |
 | Chief DC2W | BOSS DC-2W Dimension |  | 1.4.0 | missing |  |
 | Chief DC2W (M) | BOSS DC-2W Dimension |  | 1.4.0 | missing |  |
-| Chorus 1 |  | Archetype: Petrucci X | 4.1.0 | missing |  |
-| Chorus 2 |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Chorus 229T | TC Electronic TC-2290 |  | 1.3.0 | missing |  |
 | Chorus Engine |  |  | 1.3.0 | missing |  |
 | Cory Wong The 80s |  | Archetype: Cory Wong X | 3.2.0 | verified | Mix (0-100 %, default 50, p1); Rate (Hz, default 1.65, p1); Width (0-100 %, default 50, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, note values, default 1/4, p1) |
@@ -336,7 +335,6 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Dream Chorus | TC Electronic Dreamscape |  | 1.3.0 | missing |  |
 | Dream Chorus (M) | TC Electronic Dreamscape |  | 1.3.0 | missing |  |
 | Dual Chorus |  |  | 1.0.0 | missing |  |
-| Flanger |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Flanger Engine |  |  | 1.3.0 | missing |  |
 | Flangerish |  |  | 1.1.0 | missing |  |
 | Gojira CHR |  | Archetype: Gojira X | 3.0.0 | verified | Rate (Hz, default 0.41, p1); Depth (0-100 %, default 50, p1); Feedback (0-100 %, default 50, p1); Mix (0-100 %, default 50, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, note values, default 1/4, p1) |
@@ -348,8 +346,11 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | MX Vibes | MXR UniVibe |  | 1.0.0 | missing |  |
 | NuVibes |  |  | 2.0.0 | missing |  |
 | Pattern Tremolo |  |  | 3.3.0 | missing |  |
+| Petrucci Chorus 1 |  | Archetype: Petrucci X | 4.1.0 | verified | Rate (0-100 %, default 50, p1); Depth (0-100 %, default 50, p1); Mode (switch, Norm/Tri, default Norm, p1); Level (0-100 %, default 50, p1); Output (dB, default 0.0, p1) |
+| Petrucci Chorus 2 |  | Archetype: Petrucci X | 4.1.0 | verified | Mix (0-100 %, default 50, p1); Mode (switch, Vintage/Spatial, default Spatial, p1); Rate (Hz, default 0.89, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, note values, default 1/4, p1); Depth (0-100 %, default 50, p1); Output (dB, default 0.0, p1) |
+| Petrucci Flanger |  | Archetype: Petrucci X | 4.1.0 | verified | Rate (0-100 %, default 50, p1); Depth (0-100 %, default 50, p1); Range (0-100 %, default 50, p1); Feedback (0-100 %, default 50, p1); Sync (switch, Off/On, default Off, p1); Sync Note (select, note values, default 1/4, p1); Output (dB, default 0.0, p1) |
+| Petrucci Phaser |  | Archetype: Petrucci X | 4.1.0 | verified | Rate (0-100 %, default 50, p1); Mode (switch, Vibe/Phase, default Phase, p1); Output (dB, default 0.0, p1) |
 | Phaser |  |  | 1.0.0 | missing |  |
-| Phaser |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 | Rotary |  |  | 1.0.0 | missing |  |
 | Tremolo |  |  | 1.0.0 | missing |  |
 | Vibrato |  |  | 1.0.0 | missing |  |
@@ -393,7 +394,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Crying Clyde Wah | Dunlop Cry Baby Clyde McCoy |  | 1.0.0 | missing |  |
 | Crying Wah | Dunlop Cry Baby GCB-95 |  | 1.0.0 | missing |  |
 | Crying Wah From Hell | Dunlop Crybaby from Hell |  | 3.1.0 | missing |  |
-| Wah |  | Archetype: Petrucci X | 4.1.0 | missing |  |
+| Petrucci Wah |  | Archetype: Petrucci X | 4.1.0 | verified | Position (0-100 %, default 0, p1) |
 
 ## Morph
 
@@ -414,6 +415,7 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Adaptive Gate (S/C) |  |  | 3.0.0 | missing |  |
 | Doubler |  |  | 3.0.0 | missing |  |
 | Gain |  |  | 1.0.0 | missing |  |
+| Petrucci Volume |  | Archetype: Petrucci X | 4.1.0 | verified | Level (0-100 %, default 100.0, p1); Mid-Point (0-100 %, default 15, p1) |
 | Phase Doctor | Little Labs IBP |  | 4.0.0 | missing |  |
 | Plugin Blend |  |  | 3.0.0 | missing |  |
 | Plugin Doubler |  |  | 3.0.0 | missing |  |
@@ -422,7 +424,6 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Transparent Blend |  |  | 3.0.0 | missing |  |
 | Utility Gate |  |  | 1.0.0 | missing |  |
 | Volume |  |  | 2.1.0 | missing |  |
-| Volume |  | Archetype: Petrucci X | 4.1.0 | missing |  |
 
 ## Synth
 
