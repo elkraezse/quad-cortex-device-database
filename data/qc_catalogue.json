@@ -4747,13 +4747,35 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Fatso Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Pedal",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mode",
+     "type": "select",
+     "range": "FATSO / Blade 1 / Blade 2",
+     "default": "FATSO",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_oct_archetype_gojira_x",
@@ -4762,13 +4784,35 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "DI Level",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Oct 1",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Oct 2",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_od_archetype_gojira_x",
@@ -4777,13 +4821,35 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Dist",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Tone",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Level",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_drt_archetype_gojira_x",
@@ -4792,13 +4858,35 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Dist",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Filter",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Vol",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_phsr_archetype_gojira_x",
@@ -4807,13 +4895,35 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Rate",
+     "type": "knob",
+     "range": "Hz",
+     "default": 0.61,
+     "page": 1
+    },
+    {
+     "name": "Sync",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Sync Note",
+     "type": "select",
+     "range": "note values",
+     "default": "1/4",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Sync Note greyed out while Sync is Off.",
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_chr_archetype_gojira_x",
@@ -4822,13 +4932,56 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Rate",
+     "type": "knob",
+     "range": "Hz",
+     "default": 0.41,
+     "page": 1
+    },
+    {
+     "name": "Depth",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Feedback",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Sync",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 1
+    },
+    {
+     "name": "Sync Note",
+     "type": "select",
+     "range": "note values",
+     "default": "1/4",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Sync Note greyed out while Sync is Off.",
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_cln_archetype_gojira_x",
@@ -4837,13 +4990,56 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Gain",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Bass",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Mid",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Treble",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Bright",
+     "type": "switch",
+     "range": "OFF/ON",
+     "default": "OFF",
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_rst_archetype_gojira_x",
@@ -4852,13 +5048,70 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Gain",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Bass",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Mid",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Treble",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Presence",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Depth",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Master",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_hot_archetype_gojira_x",
@@ -4867,58 +5120,70 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Gain",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Bass",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Mid",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Treble",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Presence",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Depth",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Master",
+     "type": "knob",
+     "range": "0-10",
+     "default": 5.0,
+     "page": 1
+    },
+    {
+     "name": "Output",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
-  },
-  {
-   "id": "gojira_cab_1_m_st_archetype_gojira_x",
-   "name": "Gojira Cab 1 (M) & (ST)",
-   "category": "Guitar cabinets",
-   "based_on": null,
-   "plugin": "Archetype: Gojira X",
-   "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
-   "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
-  },
-  {
-   "id": "gojira_cab_2_m_st_archetype_gojira_x",
-   "name": "Gojira Cab 2 (M) & (ST)",
-   "category": "Guitar cabinets",
-   "based_on": null,
-   "plugin": "Archetype: Gojira X",
-   "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
-   "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
-  },
-  {
-   "id": "gojira_cab_3_m_st_archetype_gojira_x",
-   "name": "Gojira Cab 3 (M) & (ST)",
-   "category": "Guitar cabinets",
-   "based_on": null,
-   "plugin": "Archetype: Gojira X",
-   "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
-   "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_dly_st_archetype_gojira_x",
@@ -4927,13 +5192,84 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Feedback",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Ping Pong",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Sync",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Sync Note",
+     "type": "select",
+     "range": "note values",
+     "default": "1/4",
+     "page": 1
+    },
+    {
+     "name": "Delay Time",
+     "type": "time",
+     "range": "ms",
+     "default": 500,
+     "page": 1
+    },
+    {
+     "name": "Tape Mod",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Tape Sat",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 0,
+     "page": 1
+    },
+    {
+     "name": "Trails",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Tone",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
-   "notes": null,
-   "coros_verified_on": null
+   "pages": 1,
+   "notes": "Shown in Cortex Control as 'Gojira DLY'. Delay Time greyed out while Sync is On.",
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_rev_archetype_gojira_x",
@@ -4942,13 +5278,49 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Decay",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Low Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 0,
+     "page": 1
+    },
+    {
+     "name": "High Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 100,
+     "page": 1
+    },
+    {
+     "name": "Trails",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "gojira_rev_shimmer_archetype_gojira_x",
@@ -4957,13 +5329,49 @@
    "based_on": null,
    "plugin": "Archetype: Gojira X",
    "added_in_coros": "3.0.0",
-   "controls": null,
-   "verified": false,
-   "source": null,
+   "controls": [
+    {
+     "name": "Mix",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50.0,
+     "page": 1
+    },
+    {
+     "name": "Decay",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 50,
+     "page": 1
+    },
+    {
+     "name": "Low Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 0,
+     "page": 1
+    },
+    {
+     "name": "High Cut",
+     "type": "knob",
+     "range": "0-100 %",
+     "default": 100,
+     "page": 1
+    },
+    {
+     "name": "Trails",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
-   "pages": null,
+   "pages": 1,
    "notes": null,
-   "coros_verified_on": null
+   "coros_verified_on": "4.1.0"
   },
   {
    "id": "cory_wong_wah_archetype_cory_wong_x",
@@ -6250,13 +6658,62 @@
      "range": "off/on",
      "default": "off",
      "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
     }
    ],
    "verified": false,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [CB]. Page 1 verified; pages 2 and 3 pending screenshots.",
+   "notes": "Speaker tag shown in mic selector: [CB]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -6364,13 +6821,62 @@
      "range": "off/on",
      "default": "off",
      "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
     }
    ],
    "verified": false,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [CB]. Page 1 verified; pages 2 and 3 pending screenshots.",
+   "notes": "Speaker tag shown in mic selector: [CB]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -6478,13 +6984,62 @@
      "range": "off/on",
      "default": "off",
      "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
     }
    ],
    "verified": false,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [V30]. Page 1 verified; pages 2 and 3 pending screenshots.",
+   "notes": "Speaker tag shown in mic selector: [V30]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -6592,13 +7147,62 @@
      "range": "off/on",
      "default": "off",
      "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
     }
    ],
    "verified": false,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [V30]. Page 1 verified; pages 2 and 3 pending screenshots.",
+   "notes": "Speaker tag shown in mic selector: [V30]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -6706,13 +7310,62 @@
      "range": "off/on",
      "default": "off",
      "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
     }
    ],
    "verified": false,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [Str]. Page 1 verified; pages 2 and 3 pending screenshots.",
+   "notes": "Speaker tag shown in mic selector: [Str]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -6820,13 +7473,62 @@
      "range": "off/on",
      "default": "off",
      "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
     }
    ],
    "verified": false,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [Str]. Page 1 verified; pages 2 and 3 pending screenshots.",
+   "notes": "Speaker tag shown in mic selector: [Str]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -6934,13 +7636,62 @@
      "range": "off/on",
      "default": "off",
      "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
     }
    ],
    "verified": false,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [75]. Page 1 verified; pages 2 and 3 pending screenshots.",
+   "notes": "Speaker tag shown in mic selector: [75]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
    "coros_verified_on": "4.1.0"
   },
   {
@@ -7048,13 +7799,1040 @@
      "range": "off/on",
      "default": "off",
      "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
     }
    ],
    "verified": false,
    "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
    "controls_unverified": null,
    "pages": 3,
-   "notes": "Speaker tag shown in mic selector: [75]. Page 1 verified; pages 2 and 3 pending screenshots.",
+   "notes": "Speaker tag shown in mic selector: [75]. Pages 2-3 verified. Per-cab mic list (speaker groups) pending.",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "gojira_cab_1_m_archetype_gojira_x",
+   "name": "Gojira Cab 1 (M)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Gojira X",
+   "added_in_coros": "3.0.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Ribbon 121",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Mic list has no speaker groups (single list). Pages 2-3 assumed identical to Nolly cabs (shared cab layout).",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "gojira_cab_1_st_archetype_gojira_x",
+   "name": "Gojira Cab 1 (ST)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Gojira X",
+   "added_in_coros": "3.0.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Ribbon 121",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Mic list has no speaker groups (single list). Pages 2-3 assumed identical to Nolly cabs (shared cab layout).",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "gojira_cab_2_m_archetype_gojira_x",
+   "name": "Gojira Cab 2 (M)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Gojira X",
+   "added_in_coros": "3.0.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Ribbon 121",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Mic list has no speaker groups (single list). Pages 2-3 assumed identical to Nolly cabs (shared cab layout).",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "gojira_cab_2_st_archetype_gojira_x",
+   "name": "Gojira Cab 2 (ST)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Gojira X",
+   "added_in_coros": "3.0.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Ribbon 121",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Mic list has no speaker groups (single list). Pages 2-3 assumed identical to Nolly cabs (shared cab layout).",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "gojira_cab_3_m_archetype_gojira_x",
+   "name": "Gojira Cab 3 (M)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Gojira X",
+   "added_in_coros": "3.0.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 57 Off-Axis / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 57 Off-Axis / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Condenser 414",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Pan",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Mic list has no speaker groups (single list). Pages 2-3 assumed identical to Nolly cabs (shared cab layout).",
+   "coros_verified_on": "4.1.0"
+  },
+  {
+   "id": "gojira_cab_3_st_archetype_gojira_x",
+   "name": "Gojira Cab 3 (ST)",
+   "category": "Guitar cabinets",
+   "based_on": null,
+   "plugin": "Archetype: Gojira X",
+   "added_in_coros": "3.0.0",
+   "controls": [
+    {
+     "name": "Mic A",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 57 Off-Axis / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Dynamic 57",
+     "page": 1
+    },
+    {
+     "name": "Mic A On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic A Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic A Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic A Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic A Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Mic B",
+     "type": "select",
+     "range": "Ribbon 160 / Ribbon 121 / Dynamic 57 / Dynamic 57 Off-Axis / Dynamic 421 / Condenser 414 / Condenser 184 / Load custom IR",
+     "default": "Condenser 414",
+     "page": 1
+    },
+    {
+     "name": "Mic B On",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "On",
+     "page": 1
+    },
+    {
+     "name": "Mic B Level",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Position",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.3,
+     "page": 1
+    },
+    {
+     "name": "Mic B Dist",
+     "type": "knob",
+     "range": "0-1",
+     "default": 0.0,
+     "page": 1
+    },
+    {
+     "name": "Mic B Balance",
+     "type": "knob",
+     "range": "L-C-R",
+     "default": "C",
+     "page": 1
+    },
+    {
+     "name": "Mic B Phase invert",
+     "type": "button",
+     "range": "off/on",
+     "default": "off",
+     "page": 1
+    },
+    {
+     "name": "Room Left",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Left Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "Room Right",
+     "type": "switch",
+     "range": "Off/On",
+     "default": "Off",
+     "page": 2
+    },
+    {
+     "name": "Room Right Level",
+     "type": "knob",
+     "range": "dB",
+     "default": -6.0,
+     "page": 2
+    },
+    {
+     "name": "HPF",
+     "type": "knob",
+     "range": "Hz (OFF-)",
+     "default": "OFF",
+     "page": 3
+    },
+    {
+     "name": "Output Volume",
+     "type": "knob",
+     "range": "dB",
+     "default": 0.0,
+     "page": 3
+    },
+    {
+     "name": "LPF",
+     "type": "knob",
+     "range": "Hz (-OFF)",
+     "default": "OFF",
+     "page": 3
+    }
+   ],
+   "verified": true,
+   "source": "Cortex Control 4.1.0 screenshot (elkraezse, 2026-08-27)",
+   "controls_unverified": null,
+   "pages": 3,
+   "notes": "Mic list has no speaker groups (single list). Pages 2-3 assumed identical to Nolly cabs (shared cab layout).",
    "coros_verified_on": "4.1.0"
   }
  ]
