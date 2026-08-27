@@ -21693,6 +21693,1142 @@
       "pages": null,
       "notes": null,
       "coros_verified_on": null
+    },
+    {
+      "id": "115_amped_modern",
+      "name": "115 Amped Modern",
+      "category": "Bass cabinets",
+      "based_on": "Ampeg bass cabinet (modern-voiced 1x15)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mono",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Dynamic 57",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Mic 2",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Ribbon 10",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Hz (OFF-)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Output Volume",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Hz (-OFF)",
+          "default": "Off",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 2,
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160).",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "210_douglas_ceramic",
+      "name": "210 Douglas Ceramic",
+      "category": "Bass cabinets",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mono",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Dynamic 57",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Mic 2",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Ribbon 160",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Hz (OFF-)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Output Volume",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Hz (-OFF)",
+          "default": "Off",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 2,
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160). Real-world brand behind \"Douglas\" is unconfirmed.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "212_douglas_neodymium",
+      "name": "212 Douglas Neodymium",
+      "category": "Bass cabinets",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mono",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Dynamic 57",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Mic 2",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Ribbon 10",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Hz (OFF-)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Output Volume",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Hz (-OFF)",
+          "default": "Off",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 2,
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160). Real-world brand behind \"Douglas\" is unconfirmed.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "410_amped_b410_90s",
+      "name": "410 Amped B410 90s",
+      "category": "Bass cabinets",
+      "based_on": "Ampeg B-410HLF (4x10, 90s)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mono",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Dynamic 57",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Mic 2",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Ribbon 10",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Hz (OFF-)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Output Volume",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Hz (-OFF)",
+          "default": "Off",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 2,
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160).",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "410_us_basslad_p10q_16",
+      "name": "410 US Basslad P10Q 16",
+      "category": "Bass cabinets",
+      "based_on": "Fender Bassman 4x10 (Eminence P10Q speakers)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mono",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Dynamic 57",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Mic 2",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Ribbon 160",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Hz (OFF-)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Output Volume",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Hz (-OFF)",
+          "default": "Off",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 2,
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160).",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "412_brit_35a_gb55hz_75",
+      "name": "412 Brit 35A GB55Hz 75",
+      "category": "Bass cabinets",
+      "based_on": "British-voiced 4x12 bass cabinet (GB 55Hz speakers, 1975)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mono",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Dynamic 57",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Mic 2",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Ribbon 10",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Hz (OFF-)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Output Volume",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Hz (-OFF)",
+          "default": "Off",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 2,
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160). Exact real-world model is a naming-convention guess (Brit = Marshall/Orange-family), unconfirmed.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "810_amped_vt_90s",
+      "name": "810 Amped VT 90s",
+      "category": "Bass cabinets",
+      "based_on": "Ampeg SVT-810E (8x10, 90s)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mono",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Dynamic 57",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Mic 2",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Ribbon 10",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Hz (OFF-)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Output Volume",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Hz (-OFF)",
+          "default": "Off",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 2,
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160).",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "810_amped_vt_aln_70s",
+      "name": "810 Amped VT Aln 70s",
+      "category": "Bass cabinets",
+      "based_on": "Ampeg SVT-810E (8x10, Alnico speakers, 70s)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Mono",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Dynamic 57",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 1 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Mic 2",
+          "type": "select",
+          "range": "bass-specific mic model list (Ribbon/Dynamic/Condenser + Load custom IR; some cabs add Sub Kick)",
+          "default": "Ribbon 10",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 On",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Position",
+          "type": "knob",
+          "range": "0-10",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Dist",
+          "type": "knob",
+          "range": "0-10",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "C",
+          "page": 1
+        },
+        {
+          "name": "Mic 2 Phase Invert",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "HPF",
+          "type": "knob",
+          "range": "Hz (OFF-)",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Output Volume",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        },
+        {
+          "name": "LPF",
+          "type": "knob",
+          "range": "Hz (-OFF)",
+          "default": "Off",
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 2,
+      "notes": "Same stock 2-mic cab architecture as the Guitar cabinets category (Mono switch, per-mic Type/On/Level/Position/Pan/Dist/Phase Invert, page-2 HPF/Output Volume/LPF blend) but with a bass-specific mic model list (adds Sub Kick on some cabs, swaps in Dynamic 52/906 and Condenser U47/SR20). Mic 1 always defaults to Dynamic 57; Mic 2 default varies by cab (Ribbon 10 or Ribbon 160).",
+      "coros_verified_on": "4.1.0"
     }
   ]
 }
