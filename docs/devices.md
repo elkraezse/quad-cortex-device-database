@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**355 devices**: 72 verified, 59 unverified (wiki-sourced), 224 still missing controls.
+**355 devices**: 91 verified, 50 unverified (wiki-sourced), 214 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -10,40 +10,40 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Bogna Uber Clean | Bogner Uberschall Rev. Blue |  | 1.4.0 | missing |  |
-| Bogna Uber Lead | Bogner Uberschall Rev. Blue |  | 1.4.0 | missing |  |
-| Bogna Vishnu 20th Clean | Bogner Shiva 20th Anniversary |  | 1.2.0 | missing |  |
-| Brit 2203 | Marshall JCM800 |  | 1.0.0 | missing |  |
-| Brit 900 Clean | Marshall JCM900 4100 |  | 1.0.0 | missing |  |
+| Bogna Uber Clean | Bogner Uberschall Rev. Blue |  | 1.4.0 | verified | Gain (0-10, default 5.5, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 4.0, p1); Output (dB, default 6.0, p1) |
+| Bogna Uber Lead | Bogner Uberschall Rev. Blue |  | 1.4.0 | verified | Gain (0-10, p1); Bass (0-10, p1); Mid (0-10, p1); Treble (0-10, p1); Presence (0-10, p1); Master (0-10, p1); Output (dB, p1) |
+| Bogna Vishnu 20th Clean | Bogner Shiva 20th Anniversary |  | 1.2.0 | verified | Gain (0-10, default 3.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bright (switch, Off/On, default On, p1); Presence (0-10, default 5.0, p1); Depth (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 2.0, p1) |
+| Brit 2203 | Marshall JCM800 |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
+| Brit 900 Clean | Marshall JCM900 4100 |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 | Brit 900 Lead | Marshall JCM900 4100 |  | 1.0.0 | missing |  |
-| Brit Plexi 100 Bright | Marshall Super Lead 100 |  | 1.0.0 | missing |  |
+| Brit Plexi 100 Bright | Marshall Super Lead 100 |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
 | Brit Plexi 100 Normal | Marshall Super Lead 100 |  | 1.0.0 | missing |  |
-| Brit Plexi 100 Patch | Marshall Super Lead 100 |  | 1.0.0 | missing |  |
-| Brit Plexi 50 Bright | Marshall Lead 50 |  | 1.0.0 | missing |  |
+| Brit Plexi 100 Patch | Marshall Super Lead 100 |  | 1.0.0 | verified | Gain 1 (0-10, default 5.0, p1); Gain 2 (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
+| Brit Plexi 50 Bright | Marshall Lead 50 |  | 1.0.0 | verified | Gain (0-10, p1); Bass (0-10, p1); Mid (0-10, p1); Treble (0-10, p1); Presence (0-10, p1); Output (dB, p1) |
 | Brit Plexi 50 Normal | Marshall Lead 50 |  | 1.0.0 | missing |  |
 | Brit Plexi 50 Patch | Marshall Lead 50 |  | 1.0.0 | missing |  |
-| Brit TM45 Bright | Marshall JTM 45 |  | 1.0.0 | missing |  |
+| Brit TM45 Bright | Marshall JTM 45 |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
 | Brit TM45 Normal | Marshall JTM 45 |  | 1.0.0 | missing |  |
-| Brit TM45 Patch | Marshall JTM 45 |  | 1.0.0 | missing |  |
-| Brit UBL Lead | Marshall Silver Jubilee |  | 1.3.0 | unverified | _unverified:_ Input Gain, Lead Master, Output Master, Bass, Middle, Treble, Presence, Output |
+| Brit TM45 Patch | Marshall JTM 45 |  | 1.0.0 | verified | Gain 1 (0-10, default 5.0, p1); Gain 2 (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
+| Brit UBL Lead | Marshall Silver Jubilee |  | 1.3.0 | verified | Input Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Lead Master (0-10, default 5.0, p1); Output Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 | Brit UBL Lead Clip | Marshall Silver Jubilee |  | 1.3.0 | unverified | _unverified:_ Input Gain, Lead Master, Output Master, Bass, Middle, Treble, Presence, Output |
-| CA 1Star Clean 100W Normal | Mesa Boogie Lone Star |  | 1.0.0 | unverified | _unverified:_ Bass, Middle, Treble, Eq, Gain, Master, Presence, Output |
+| CA 1Star Clean 100W Normal | Mesa Boogie Lone Star |  | 1.0.0 | verified | Gain (0-10, default 2.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); EQ (select, Normal/Tweed, default Normal, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 | CA 1Star Clean 100W Tweed | Mesa Boogie Lone Star |  | 1.0.0 | unverified | _unverified:_ Bass, Middle, Treble, Eq, Gain, Master, Presence, Output |
 | CA 1Star Clean 50W Normal | Mesa Boogie Lone Star |  | 1.0.0 | unverified | _unverified:_ Bass, Middle, Treble, Eq, Gain, Master, Presence, Output |
 | CA 1Star Clean 50W Tweed | Mesa Boogie Lone Star |  | 1.0.0 | unverified | _unverified:_ Bass, Middle, Treble, Eq, Gain, Master, Presence, Output |
-| CA 1Star Drive 100W Normal | Mesa Boogie Lone Star |  | 1.0.0 | unverified | _unverified:_ Bass, Middle, Treble, Drive, Eq, Gain, Master, Presence, Output |
+| CA 1Star Drive 100W Normal | Mesa Boogie Lone Star |  | 1.0.0 | verified | Drive (0-10, default 5.0, p1); Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); EQ (select, Normal/Tweed, default Normal, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 | CA 1Star Drive 100W Tweed | Mesa Boogie Lone Star |  | 1.0.0 | unverified | _unverified:_ Bass, Middle, Treble, Drive, Eq, Gain, Master, Presence, Output |
 | CA 1Star Drive 50W Normal | Mesa Boogie Lone Star |  | 1.0.0 | unverified | _unverified:_ Bass, Middle, Treble, Drive, Eq, Gain, Master, Presence, Output |
 | CA 1Star Drive 50W Tweed | Mesa Boogie Lone Star |  | 1.0.0 | unverified | _unverified:_ Bass, Middle, Treble, Drive, Eq, Gain, Master, Presence, Output |
-| CA Duo Ch3 Modern | Mesa Boogie Dual Rectifier |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Presence, Master, Output |
+| CA Duo Ch3 Modern | Mesa Boogie Dual Rectifier |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 | CA Duo Ch3 Raw | Mesa Boogie Dual Rectifier |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Presence, Master, Output |
 | CA Duo Ch3 Vintage | Mesa Boogie Dual Rectifier |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Presence, Master, Output |
-| CA John's 2C Ch1 | Mesa Boogie JP2C |  | 2.0.0 | unverified | _unverified:_ Gain, Master, Bass, Middle, Treble, Presence, Output |
-| CA John's 2C Ch2 | Mesa Boogie JP2C |  | 2.0.0 | unverified | _unverified:_ Gain, Gain Pull Switch, Shred Switch, Master, Output, Bass, Middle, Treble, Presence, Presence Pull Switch, page 2: 5 Band EQ |
-| CA John's 2C Ch3 | Mesa Boogie JP2C |  | 2.0.0 | unverified | _unverified:_ Gain, Gain Pull Switch, Shred Switch, Master, Output, Bass, Middle, Treble, Presence, Presence Pull Switch, page 2: 5 Band EQ |
-| CA Tremo Orange | Mesa Boogie Trem-O-Verb |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Mid, Treble, Presence, Master, Output |
+| CA John's 2C Ch1 | Mesa Boogie JP2C |  | 2.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default -4.6, p1); EQ 80Hz (0-10, default 5.0, p2); EQ 240Hz (0-10, default 5.0, p2); EQ 750Hz (0-10, default 5.0, p2); EQ 2200Hz (0-10, default 5.0, p2); EQ 6600Hz (0-10, default 5.0, p2) |
+| CA John's 2C Ch2 | Mesa Boogie JP2C |  | 2.0.0 | verified | Gain (0-10, default 7.7, p1); Bass (0-10, default 0.9, p1); Mid (0-10, default 4.2, p1); Treble (0-10, default 6.3, p1); Presence (0-10, default 5.4, p1); Gain Pull (switch, Off/On, default Off, p1); Pres Pull (switch, Off/On, default On, p1); Shred (switch, Off/On, default Off, p1); Master (0-10, default 3.4, p1); Output (dB, default -5.8, p1); EQ 80Hz (0-10, default 8.0, p2); EQ 240Hz (0-10, default 5.3, p2); EQ 750Hz (0-10, default 2.2, p2); EQ 2200Hz (0-10, default 5.7, p2); EQ 6600Hz (0-10, default 8.3, p2) |
+| CA John's 2C Ch3 | Mesa Boogie JP2C |  | 2.0.0 | verified | Gain (0-10, default 7.7, p1); Bass (0-10, default 2.1, p1); Mid (0-10, default 5.5, p1); Treble (0-10, default 6.3, p1); Presence (0-10, default 7.4, p1); Gain Pull (switch, Off/On, default Off, p1); Pres Pull (switch, Off/On, default Off, p1); Shred (switch, Off/On, default Off, p1); Master (0-10, default 3.4, p1); Output (dB, default -9.0, p1); EQ 80Hz (0-10, default 8.5, p2); EQ 240Hz (0-10, default 6.9, p2); EQ 750Hz (0-10, default 3.9, p2); EQ 2200Hz (0-10, default 5.8, p2); EQ 6600Hz (0-10, default 6.2, p2) |
+| CA Tremo Orange | Mesa Boogie Trem-O-Verb |  | 1.0.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 | CA Tremo Red | Mesa Boogie Trem-O-Verb |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Mid, Treble, Presence, Master, Output |
-| Captain 50 | Morgan SW50 |  | 1.2.0 | unverified | _unverified:_ Bright switch, Low Boost switch, Gain, Bass, Middle, Treble, Master, Output |
+| Captain 50 | Morgan SW50 |  | 1.2.0 | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bright (switch, Off/On, default On, p1); Low Boost (switch, Off/On, default On, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 | Cory Wong D.I. Funk Console |  | Archetype: Cory Wong X | 3.2.0 | verified | Comp (0-10, default 5.0, p1); Attack (switch, Slow/Fast, default Fast, p1); Tube Sat (0-10, default 5.0, p1); High Pass (Hz, default 20, p1); Low Pass (Hz, default 17000, p1); Lows (dB, default 0.0, p1); Lows Freq (switch, 150 Hz/225 Hz, default 225 Hz, p1); Mids (dB, default 0.0, p1); Mids Freq (switch, 600 Hz/900 Hz, default 900 Hz, p1); Highs (dB, default 0.0, p1); Highs Freq (switch, 2.5 kHz/4 kHz, default 4 kHz, p2); Output (dB, default 0.0, p2) |
 | Cory Wong The Amp Snob |  | Archetype: Cory Wong X | 3.2.0 | verified | Volume (0-10, default 5.0, p1); Bright (switch, OFF/ON, default OFF, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Master (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1); Drive (switch, OFF/ON, default OFF, p1) |
 | Cory Wong The Clean Machine |  | Archetype: Cory Wong X | 3.2.0 | verified | Volume (0-10, default 5.0, p1); Bright (switch, OFF/ON, default OFF, p1); Bass (0-10, default 5.0, p1); Middle (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |

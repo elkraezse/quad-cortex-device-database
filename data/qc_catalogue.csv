@@ -1,38 +1,38 @@
 name,category,based_on,plugin,added_in_coros,status,controls
-Bogna Uber Clean,Guitar amps,Bogner Uberschall Rev. Blue,,1.4.0,missing,
-Bogna Uber Lead,Guitar amps,Bogner Uberschall Rev. Blue,,1.4.0,missing,
-Bogna Vishnu 20th Clean,Guitar amps,Bogner Shiva 20th Anniversary,,1.2.0,missing,
-Brit 2203,Guitar amps,Marshall JCM800,,1.0.0,missing,
-Brit 900 Clean,Guitar amps,Marshall JCM900 4100,,1.0.0,missing,
+Bogna Uber Clean,Guitar amps,Bogner Uberschall Rev. Blue,,1.4.0,verified,"Gain (0-10, default 5.5, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 4.0, p1); Output (dB, default 6.0, p1)"
+Bogna Uber Lead,Guitar amps,Bogner Uberschall Rev. Blue,,1.4.0,verified,"Gain (0-10, p1); Bass (0-10, p1); Mid (0-10, p1); Treble (0-10, p1); Presence (0-10, p1); Master (0-10, p1); Output (dB, p1)"
+Bogna Vishnu 20th Clean,Guitar amps,Bogner Shiva 20th Anniversary,,1.2.0,verified,"Gain (0-10, default 3.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bright (switch, Off/On, default On, p1); Presence (0-10, default 5.0, p1); Depth (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 2.0, p1)"
+Brit 2203,Guitar amps,Marshall JCM800,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1)"
+Brit 900 Clean,Guitar amps,Marshall JCM900 4100,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1)"
 Brit 900 Lead,Guitar amps,Marshall JCM900 4100,,1.0.0,missing,
-Brit Plexi 100 Bright,Guitar amps,Marshall Super Lead 100,,1.0.0,missing,
+Brit Plexi 100 Bright,Guitar amps,Marshall Super Lead 100,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1)"
 Brit Plexi 100 Normal,Guitar amps,Marshall Super Lead 100,,1.0.0,missing,
-Brit Plexi 100 Patch,Guitar amps,Marshall Super Lead 100,,1.0.0,missing,
-Brit Plexi 50 Bright,Guitar amps,Marshall Lead 50,,1.0.0,missing,
+Brit Plexi 100 Patch,Guitar amps,Marshall Super Lead 100,,1.0.0,verified,"Gain 1 (0-10, default 5.0, p1); Gain 2 (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1)"
+Brit Plexi 50 Bright,Guitar amps,Marshall Lead 50,,1.0.0,verified,"Gain (0-10, p1); Bass (0-10, p1); Mid (0-10, p1); Treble (0-10, p1); Presence (0-10, p1); Output (dB, p1)"
 Brit Plexi 50 Normal,Guitar amps,Marshall Lead 50,,1.0.0,missing,
 Brit Plexi 50 Patch,Guitar amps,Marshall Lead 50,,1.0.0,missing,
-Brit TM45 Bright,Guitar amps,Marshall JTM 45,,1.0.0,missing,
+Brit TM45 Bright,Guitar amps,Marshall JTM 45,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1)"
 Brit TM45 Normal,Guitar amps,Marshall JTM 45,,1.0.0,missing,
-Brit TM45 Patch,Guitar amps,Marshall JTM 45,,1.0.0,missing,
-Brit UBL Lead,Guitar amps,Marshall Silver Jubilee,,1.3.0,unverified,"Input Gain, Lead Master, Output Master, Bass, Middle, Treble, Presence, Output"
+Brit TM45 Patch,Guitar amps,Marshall JTM 45,,1.0.0,verified,"Gain 1 (0-10, default 5.0, p1); Gain 2 (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1)"
+Brit UBL Lead,Guitar amps,Marshall Silver Jubilee,,1.3.0,verified,"Input Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Lead Master (0-10, default 5.0, p1); Output Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1)"
 Brit UBL Lead Clip,Guitar amps,Marshall Silver Jubilee,,1.3.0,unverified,"Input Gain, Lead Master, Output Master, Bass, Middle, Treble, Presence, Output"
-CA 1Star Clean 100W Normal,Guitar amps,Mesa Boogie Lone Star,,1.0.0,unverified,"Bass, Middle, Treble, Eq, Gain, Master, Presence, Output"
+CA 1Star Clean 100W Normal,Guitar amps,Mesa Boogie Lone Star,,1.0.0,verified,"Gain (0-10, default 2.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); EQ (select, Normal/Tweed, default Normal, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1)"
 CA 1Star Clean 100W Tweed,Guitar amps,Mesa Boogie Lone Star,,1.0.0,unverified,"Bass, Middle, Treble, Eq, Gain, Master, Presence, Output"
 CA 1Star Clean 50W Normal,Guitar amps,Mesa Boogie Lone Star,,1.0.0,unverified,"Bass, Middle, Treble, Eq, Gain, Master, Presence, Output"
 CA 1Star Clean 50W Tweed,Guitar amps,Mesa Boogie Lone Star,,1.0.0,unverified,"Bass, Middle, Treble, Eq, Gain, Master, Presence, Output"
-CA 1Star Drive 100W Normal,Guitar amps,Mesa Boogie Lone Star,,1.0.0,unverified,"Bass, Middle, Treble, Drive, Eq, Gain, Master, Presence, Output"
+CA 1Star Drive 100W Normal,Guitar amps,Mesa Boogie Lone Star,,1.0.0,verified,"Drive (0-10, default 5.0, p1); Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); EQ (select, Normal/Tweed, default Normal, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1)"
 CA 1Star Drive 100W Tweed,Guitar amps,Mesa Boogie Lone Star,,1.0.0,unverified,"Bass, Middle, Treble, Drive, Eq, Gain, Master, Presence, Output"
 CA 1Star Drive 50W Normal,Guitar amps,Mesa Boogie Lone Star,,1.0.0,unverified,"Bass, Middle, Treble, Drive, Eq, Gain, Master, Presence, Output"
 CA 1Star Drive 50W Tweed,Guitar amps,Mesa Boogie Lone Star,,1.0.0,unverified,"Bass, Middle, Treble, Drive, Eq, Gain, Master, Presence, Output"
-CA Duo Ch3 Modern,Guitar amps,Mesa Boogie Dual Rectifier,,1.0.0,unverified,"Gain, Bass, Middle, Treble, Presence, Master, Output"
+CA Duo Ch3 Modern,Guitar amps,Mesa Boogie Dual Rectifier,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1)"
 CA Duo Ch3 Raw,Guitar amps,Mesa Boogie Dual Rectifier,,1.0.0,unverified,"Gain, Bass, Middle, Treble, Presence, Master, Output"
 CA Duo Ch3 Vintage,Guitar amps,Mesa Boogie Dual Rectifier,,1.0.0,unverified,"Gain, Bass, Middle, Treble, Presence, Master, Output"
-CA John's 2C Ch1,Guitar amps,Mesa Boogie JP2C,,2.0.0,unverified,"Gain, Master, Bass, Middle, Treble, Presence, Output"
-CA John's 2C Ch2,Guitar amps,Mesa Boogie JP2C,,2.0.0,unverified,"Gain, Gain Pull Switch, Shred Switch, Master, Output, Bass, Middle, Treble, Presence, Presence Pull Switch, page 2: 5 Band EQ"
-CA John's 2C Ch3,Guitar amps,Mesa Boogie JP2C,,2.0.0,unverified,"Gain, Gain Pull Switch, Shred Switch, Master, Output, Bass, Middle, Treble, Presence, Presence Pull Switch, page 2: 5 Band EQ"
-CA Tremo Orange,Guitar amps,Mesa Boogie Trem-O-Verb,,1.0.0,unverified,"Gain, Bass, Mid, Treble, Presence, Master, Output"
+CA John's 2C Ch1,Guitar amps,Mesa Boogie JP2C,,2.0.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default -4.6, p1); EQ 80Hz (0-10, default 5.0, p2); EQ 240Hz (0-10, default 5.0, p2); EQ 750Hz (0-10, default 5.0, p2); EQ 2200Hz (0-10, default 5.0, p2); EQ 6600Hz (0-10, default 5.0, p2)"
+CA John's 2C Ch2,Guitar amps,Mesa Boogie JP2C,,2.0.0,verified,"Gain (0-10, default 7.7, p1); Bass (0-10, default 0.9, p1); Mid (0-10, default 4.2, p1); Treble (0-10, default 6.3, p1); Presence (0-10, default 5.4, p1); Gain Pull (switch, Off/On, default Off, p1); Pres Pull (switch, Off/On, default On, p1); Shred (switch, Off/On, default Off, p1); Master (0-10, default 3.4, p1); Output (dB, default -5.8, p1); EQ 80Hz (0-10, default 8.0, p2); EQ 240Hz (0-10, default 5.3, p2); EQ 750Hz (0-10, default 2.2, p2); EQ 2200Hz (0-10, default 5.7, p2); EQ 6600Hz (0-10, default 8.3, p2)"
+CA John's 2C Ch3,Guitar amps,Mesa Boogie JP2C,,2.0.0,verified,"Gain (0-10, default 7.7, p1); Bass (0-10, default 2.1, p1); Mid (0-10, default 5.5, p1); Treble (0-10, default 6.3, p1); Presence (0-10, default 7.4, p1); Gain Pull (switch, Off/On, default Off, p1); Pres Pull (switch, Off/On, default Off, p1); Shred (switch, Off/On, default Off, p1); Master (0-10, default 3.4, p1); Output (dB, default -9.0, p1); EQ 80Hz (0-10, default 8.5, p2); EQ 240Hz (0-10, default 6.9, p2); EQ 750Hz (0-10, default 3.9, p2); EQ 2200Hz (0-10, default 5.8, p2); EQ 6600Hz (0-10, default 6.2, p2)"
+CA Tremo Orange,Guitar amps,Mesa Boogie Trem-O-Verb,,1.0.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1)"
 CA Tremo Red,Guitar amps,Mesa Boogie Trem-O-Verb,,1.0.0,unverified,"Gain, Bass, Mid, Treble, Presence, Master, Output"
-Captain 50,Guitar amps,Morgan SW50,,1.2.0,unverified,"Bright switch, Low Boost switch, Gain, Bass, Middle, Treble, Master, Output"
+Captain 50,Guitar amps,Morgan SW50,,1.2.0,verified,"Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bright (switch, Off/On, default On, p1); Low Boost (switch, Off/On, default On, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1)"
 D-Cell H4 Ch1 Bright,Guitar amps,Diezel VH4,,1.0.0,unverified,"Gain, Volume, Bass, Mid, Treble, Presence (4kHz), Deep (80Hz), Bright switch (not on Ch3/Ch4)"
 D-Cell H4 Ch1 Normal,Guitar amps,Diezel VH4,,1.0.0,unverified,"Gain, Volume, Bass, Mid, Treble, Presence (4kHz), Deep (80Hz), Bright switch (not on Ch3/Ch4)"
 D-Cell H4 Ch2 Bright,Guitar amps,Diezel VH4,,1.0.0,unverified,"Gain, Volume, Bass, Mid, Treble, Presence (4kHz), Deep (80Hz), Bright switch (not on Ch3/Ch4)"
