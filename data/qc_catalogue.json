@@ -15992,13 +15992,42 @@
       "based_on": "BOSS CS-3",
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Sustain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "jewel",
@@ -16007,13 +16036,49 @@
       "based_on": "Diamond Compressor",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Comp",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "EQ",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "High Cut",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
+      "pages": 1,
       "notes": null,
-      "coros_verified_on": null
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "legendary_87",
@@ -16057,23 +16122,73 @@
       "source": null,
       "controls_unverified": null,
       "pages": null,
-      "notes": null,
+      "notes": "Screenshot so far only showed the input-routing dropdown (Off/Follow Input/Input 1/Input 2/Input 1-2/Return 1/Return 2/Return 1-2/USB inputs 5-8/USB 5-6/USB 7-8), not the actual compressor controls (Threshold/Ratio/Attack/Release/Makeup/Mix etc.). Still needs a real parameter screenshot before it can be verified.",
       "coros_verified_on": null
     },
     {
       "id": "opto_comp",
-      "name": "Opto Comp",
+      "name": "Opto Comp (M)",
       "category": "Compressor",
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -40.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "knob",
+          "range": "x",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 15.0,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "ms",
+          "default": 400,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Mono variant -- catalogue id kept as 'opto_comp' (pre-existing) but renamed to '(M)' to match the actual Cortex Control sidebar label alongside Opto Comp (ST)/(S/C). Same captured values as VCA Comp (M) in these screenshots -- worth double-checking against a future screenshot rather than assuming coincidence.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "opto_comp_st",
@@ -16107,18 +16222,68 @@
     },
     {
       "id": "solid_state_comp",
-      "name": "Solid State Comp",
+      "name": "Solid State Comp (M)",
       "category": "Compressor",
       "based_on": "SSL Bus",
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -40.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "knob",
+          "range": "0-10 (detented)",
+          "default": 10,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "s",
+          "default": 0.5,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 14.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Mono variant -- catalogue id kept as 'solid_state_comp' (pre-existing) but renamed to '(M)' to match the actual Cortex Control sidebar label alongside Solid State Comp (ST)/(S/C).",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "solid_state_comp_st",
@@ -16152,18 +16317,68 @@
     },
     {
       "id": "vca_comp",
-      "name": "VCA Comp",
+      "name": "VCA Comp (M)",
       "category": "Compressor",
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.0.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Threshold",
+          "type": "knob",
+          "range": "dB",
+          "default": -40.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "knob",
+          "range": "x",
+          "default": 4.0,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 15.0,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "ms",
+          "default": 400,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 8.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Mono variant -- catalogue id kept as 'vca_comp' (pre-existing) but renamed to '(M)' to match the actual Cortex Control sidebar label alongside VCA Comp (ST)/(S/C). Same captured values as Opto Comp (M) in these screenshots -- worth double-checking against a future screenshot rather than assuming coincidence.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "vca_comp_st",
@@ -16202,13 +16417,63 @@
       "based_on": "Darkglass Hyper Luminal",
       "plugin": null,
       "added_in_coros": "4.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Input",
+          "type": "knob",
+          "range": "dB",
+          "default": -15.0,
+          "page": 1
+        },
+        {
+          "name": "Ratio",
+          "type": "knob",
+          "range": "0-10 (detented)",
+          "default": 8,
+          "page": 1
+        },
+        {
+          "name": "Attack",
+          "type": "knob",
+          "range": "ms",
+          "default": 6.0,
+          "page": 1
+        },
+        {
+          "name": "Release",
+          "type": "knob",
+          "range": "s",
+          "default": 0.33,
+          "page": 1
+        },
+        {
+          "name": "Makeup",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Gain Reduction",
+          "type": "knob",
+          "range": "dB (meter)",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Mono variant. Ratio is a detented knob with an info (i) tooltip.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "aggi_sub_octaver",
@@ -16217,13 +16482,49 @@
       "based_on": "Aguilar Octamizer",
       "plugin": null,
       "added_in_coros": "3.3.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Clean Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 30,
+          "page": 1
+        },
+        {
+          "name": "Clean Tone",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50,
+          "page": 1
+        },
+        {
+          "name": "Octave Level",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70,
+          "page": 1
+        },
+        {
+          "name": "Octave Filter",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 70,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Clean Tone shows an info (i) tooltip in Cortex Control.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "chief_oc2",
@@ -16232,13 +16533,42 @@
       "based_on": "BOSS OC-2",
       "plugin": null,
       "added_in_coros": "3.1.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Dry",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Oct 1",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 100.0,
+          "page": 1
+        },
+        {
+          "name": "Oct 2",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 1,
+      "notes": "Only 4 controls.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "minivoicer",
@@ -16247,13 +16577,147 @@
       "based_on": null,
       "plugin": null,
       "added_in_coros": "1.4.0",
-      "controls": null,
-      "verified": false,
-      "source": null,
+      "controls": [
+        {
+          "name": "Mix",
+          "type": "knob",
+          "range": "0-100 %",
+          "default": 50.0,
+          "page": 1
+        },
+        {
+          "name": "V1 Active",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "V1 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "V1 Interval",
+          "type": "select",
+          "range": "interval list",
+          "default": "5th",
+          "page": 1
+        },
+        {
+          "name": "V1 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "10 R",
+          "page": 1
+        },
+        {
+          "name": "Quantize",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "V2 Active",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "V2 Level",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "V2 Interval",
+          "type": "select",
+          "range": "interval list",
+          "default": "-6th",
+          "page": 1
+        },
+        {
+          "name": "V2 Pan",
+          "type": "knob",
+          "range": "L-C-R",
+          "default": "10 L",
+          "page": 1
+        },
+        {
+          "name": "Root",
+          "type": "select",
+          "range": "chromatic note",
+          "default": "A",
+          "page": 2
+        },
+        {
+          "name": "Mode",
+          "type": "select",
+          "range": "Major/Harmonic Minor/Natural Minor/Melodic Minor/Chromatic",
+          "default": "Natural Minor",
+          "page": 2
+        },
+        {
+          "name": "Tuning",
+          "type": "knob",
+          "range": "Hz",
+          "default": 440,
+          "page": 2
+        },
+        {
+          "name": "High Pass",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "Low Pass",
+          "type": "knob",
+          "range": "Off, Hz",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "MIDI",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 2
+        },
+        {
+          "name": "MIDI CH",
+          "type": "select",
+          "range": "Omni/1-16",
+          "default": "Omni",
+          "page": 2
+        },
+        {
+          "name": "Glissando",
+          "type": "time",
+          "range": "ms",
+          "default": 25,
+          "page": 2
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
       "controls_unverified": null,
-      "pages": null,
-      "notes": null,
-      "coros_verified_on": null
+      "pages": 2,
+      "notes": "Page 2: MIDI CH is grayed out (display-only) while MIDI is Off, same pattern as other synced/gated controls elsewhere in the catalogue.",
+      "coros_verified_on": "4.1.0"
     },
     {
       "id": "pitch_correction",
@@ -25835,6 +26299,247 @@
       "verified": true,
       "source": "Cortex Control 4.1.0 screenshot",
       "notes": "Stereo sibling of Digital Delay (M) -- adds Ping Pong (page 1) and Width (page 2); same ducking/dynamics section on page 2.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "bddi",
+      "name": "BDDI",
+      "category": "Bass overdrive",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Blend",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "New category 'Bass overdrive' -- not previously represented in the catalogue. based_on left null pending confirmation of the real-world pedal it emulates.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "douglas_mt_3k",
+      "name": "Douglas MT 3K",
+      "category": "Bass overdrive",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Growl",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Midboost",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Blend",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": null,
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "douglas_vintage_mt",
+      "name": "Douglas Vintage MT",
+      "category": "Bass overdrive",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Drive",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Era",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Level",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Blend",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Only 4 controls -- no Tone knob.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "exotic_bass_z_boost",
+      "name": "Exotic Bass Z Boost",
+      "category": "Bass overdrive",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": null,
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "soviet_fuzz",
+      "name": "Soviet Fuzz",
+      "category": "Bass overdrive",
+      "based_on": null,
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Sustain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Tone",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Volume",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        }
+      ],
+      "controls_unverified": null,
+      "pages": 1,
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "notes": "Only 3 controls.",
       "coros_verified_on": "4.1.0"
     }
   ]

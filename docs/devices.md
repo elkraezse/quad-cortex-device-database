@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**378 devices**: 243 verified, 32 unverified (wiki-sourced), 103 still missing controls.
+**383 devices**: 257 verified, 32 unverified (wiki-sourced), 94 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -268,22 +268,22 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Chief CS3 | BOSS CS-3 |  | 1.4.0 | missing |  |
+| Chief CS3 | BOSS CS-3 |  | 1.4.0 | verified | Sustain (0-10, default 5.0, p1); Attack (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1) |
 | Cory Wong The 4th Position Compressor |  | Archetype: Cory Wong X | 3.2.0 | verified | Compression (0-100 %, default 50, p1); Blend (0-100 %, default 50, p1); Tone (0-100 %, default 50, p1); Volume (0-100 %, default 50, p1); Gain Reduction (meter, dB, p1) |
-| Douglas Shining Comp (M) | Darkglass Hyper Luminal |  | 4.1.0 | missing |  |
-| Jewel | Diamond Compressor |  | 1.0.0 | missing |  |
+| Douglas Shining Comp (M) | Darkglass Hyper Luminal |  | 4.1.0 | verified | Input (dB, default -15.0, p1); Ratio (0-10 (detented), default 8, p1); Attack (ms, default 6.0, p1); Release (s, default 0.33, p1); Makeup (dB, default 0.0, p1); Mix (0-100 %, default 100.0, p1); Gain Reduction (dB (meter), default 0.0, p1) |
+| Jewel | Diamond Compressor |  | 1.0.0 | verified | Comp (0-10, default 5.0, p1); EQ (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1); High Cut (switch, Off/On, default On, p1); Mix (0-100 %, default 100.0, p1) |
 | Legendary 87 | Universal Audio 1176 |  | 1.0.0 | missing |  |
 | Legendary 87 (S/C) | Universal Audio 1176 |  | 3.0.0 | missing |  |
 | Legendary 87 (ST) | Universal Audio 1176 |  | 1.4.0 | missing |  |
 | Nolly Compressor |  | Archetype: Nolly X | 3.2.0 | verified | Comp (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Attack (switch, Snappy/Smooth, default Snappy, p1); Gain Reduction (meter, dB, p1) |
-| Opto Comp |  |  | 1.0.0 | missing |  |
+| Opto Comp (M) |  |  | 1.0.0 | verified | Threshold (dB, default -40.0, p1); Ratio (x, default 4.0, p1); Attack (ms, default 15.0, p1); Release (ms, default 400, p1); Makeup (dB, default 8.0, p1); Mix (0-100 %, default 100.0, p1); Gain Reduction (dB (meter), default 0.0, p1) |
 | Opto Comp (S/C) |  |  | 3.0.0 | missing |  |
 | Opto Comp (ST) |  |  | 1.4.0 | missing |  |
 | Petrucci Compressor |  | Archetype: Petrucci X | 4.1.0 | verified | Comp (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Gain Reduction (meter, dB, p1) |
-| Solid State Comp | SSL Bus |  | 1.0.0 | missing |  |
+| Solid State Comp (M) | SSL Bus |  | 1.0.0 | verified | Threshold (dB, default -40.0, p1); Ratio (0-10 (detented), default 10, p1); Attack (ms, default 5.0, p1); Release (s, default 0.5, p1); Makeup (dB, default 14.0, p1); Mix (0-100 %, default 100.0, p1); Gain Reduction (dB (meter), default 0.0, p1) |
 | Solid State Comp (S/C) | SSL Bus |  | 3.0.0 | missing |  |
 | Solid State Comp (ST) | SSL Bus |  | 1.4.0 | missing |  |
-| VCA Comp |  |  | 1.0.0 | missing |  |
+| VCA Comp (M) |  |  | 1.0.0 | verified | Threshold (dB, default -40.0, p1); Ratio (x, default 4.0, p1); Attack (ms, default 15.0, p1); Release (ms, default 400, p1); Makeup (dB, default 8.0, p1); Mix (0-100 %, default 100.0, p1); Gain Reduction (dB (meter), default 0.0, p1) |
 | VCA Comp (S/C) |  |  | 3.0.0 | missing |  |
 | VCA Comp (ST) |  |  | 1.4.0 | missing |  |
 
@@ -393,11 +393,11 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
-| Aggi Sub Octaver | Aguilar Octamizer |  | 3.3.0 | missing |  |
-| Chief OC2 | BOSS OC-2 |  | 3.1.0 | missing |  |
+| Aggi Sub Octaver | Aguilar Octamizer |  | 3.3.0 | verified | Clean Level (0-100 %, default 30, p1); Clean Tone (0-100 %, default 50, p1); Octave Level (0-100 %, default 70, p1); Octave Filter (0-100 %, default 70, p1); Output (dB, default 0.0, p1) |
+| Chief OC2 | BOSS OC-2 |  | 3.1.0 | verified | Dry (0-100 %, default 50.0, p1); Oct 1 (0-100 %, default 100.0, p1); Oct 2 (0-100 %, default 50.0, p1); Output (dB, default 0.0, p1) |
 | Gojira OCT |  | Archetype: Gojira X | 3.0.0 | verified | DI Level (0-100 %, default 50, p1); Oct 1 (0-100 %, default 50, p1); Oct 2 (0-100 %, default 50, p1) |
 | Gojira WOW |  | Archetype: Gojira X | 3.0.0 | verified | Fatso Mix (0-100 %, default 50.0, p1); Pedal (0-100 %, default 0.0, p1); Mode (select, FATSO / Blade 1 / Blade 2, default FATSO, p1) |
-| Minivoicer |  |  | 1.4.0 | missing |  |
+| Minivoicer |  |  | 1.4.0 | verified | Mix (0-100 %, default 50.0, p1); V1 Active (switch, Off/On, default On, p1); V1 Level (dB, default 0.0, p1); V1 Interval (select, interval list, default 5th, p1); V1 Pan (L-C-R, default 10 R, p1); Quantize (switch, Off/On, default Off, p1); V2 Active (switch, Off/On, default On, p1); V2 Level (dB, default 0.0, p1); V2 Interval (select, interval list, default -6th, p1); V2 Pan (L-C-R, default 10 L, p1); Root (select, chromatic note, default A, p2); Mode (select, Major/Harmonic Minor/Natural Minor/Melodic Minor/Chromatic, default Natural Minor, p2); Tuning (Hz, default 440, p2); High Pass (Off, Hz, default Off, p2); Low Pass (Off, Hz, default Off, p2); MIDI (switch, Off/On, default Off, p2); MIDI CH (select, Omni/1-16, default Omni, p2); Glissando (time, ms, default 25, p2); Output (dB, default 0.0, p2) |
 | Multivoicer | free version from Archetype: Tim Henson X |  | 4.1.0 | missing |  |
 | Pitch Correction |  |  | 3.0.0 | missing |  |
 | Pitch Shifter |  |  | 1.0.0 | missing |  |
@@ -463,3 +463,13 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Device | Based on | Plugin | CorOS | Status | Controls |
 |---|---|---|---|---|---|
 | Mono Synth | free version of Overlord Synth from Archetype: Rabea X |  | 3.3.0 | missing |  |
+
+## Bass overdrive
+
+| Device | Based on | Plugin | CorOS | Status | Controls |
+|---|---|---|---|---|---|
+| BDDI |  |  |  | verified | Blend (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Drive (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1) |
+| Douglas MT 3K |  |  |  | verified | Drive (0-10, default 5.0, p1); Growl (switch, Off/On, default Off, p1); Midboost (switch, Off/On, default Off, p1); Tone (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Blend (0-10, default 5.0, p1) |
+| Douglas Vintage MT |  |  |  | verified | Drive (0-10, default 5.0, p1); Era (0-10, default 5.0, p1); Level (0-10, default 5.0, p1); Blend (0-10, default 5.0, p1) |
+| Exotic Bass Z Boost |  |  |  | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
+| Soviet Fuzz |  |  |  | verified | Sustain (0-10, default 5.0, p1); Tone (0-10, default 5.0, p1); Volume (0-10, default 5.0, p1) |
