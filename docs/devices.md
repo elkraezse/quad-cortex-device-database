@@ -2,7 +2,7 @@
 
 Generated from `data/qc_catalogue.json` (schema v1, updated 2026-08-27).
 
-**355 devices**: 106 verified, 42 unverified (wiki-sourced), 207 still missing controls.
+**368 devices**: 114 verified, 42 unverified (wiki-sourced), 212 still missing controls.
 
 Status legend: **verified** = transcribed from the Cortex Control parameter editor and checked; **unverified** = taken from quadcortex.wiki, not yet checked against the device; **missing** = no control data yet.
 
@@ -107,6 +107,24 @@ Status legend: **verified** = transcribed from the Cortex Control parameter edit
 | Victor Squid Ch2 | Victory Kraken Ch2 |  | 2.1.0 | missing |  |
 | Watt D103 Bright | Hiwatt DR103 |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Master, Presence, Output |
 | Watt D103 Normal | Hiwatt DR103 |  | 1.0.0 | unverified | _unverified:_ Gain, Bass, Middle, Treble, Master, Presence, Output |
+
+## Bass amps
+
+| Device | Based on | Plugin | CorOS | Status | Controls |
+|---|---|---|---|---|---|
+| Amped Flip-Top 6464 | Ampeg B-15N Flip-Top (Portaflex) |  |  | verified | Bass (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Master (0-10, default 1.0, p1); Output (dB, default 0.0, p1) |
+| Amped Flip-Top 6466 | Ampeg B-15N Flip-Top (Portaflex) |  |  | missing |  |
+| Amped Flip-Top 6664 | Ampeg B-15N Flip-Top (Portaflex) |  |  | missing |  |
+| Amped Flip-Top 6666 | Ampeg B-15N Flip-Top (Portaflex) |  |  | missing |  |
+| Amped Super Valve | Ampeg SVT (Super Valve Technology) |  |  | verified | Gain (0-10, default 1.0, p1); Bass (0-10, default 5.0, p1); Midrange (0-10, default 5.0, p1); Frequency (select, stepped/detented, exact positions not confirmed, default 1, p1); Treble (0-10, default 5.0, p1); Ultra Lo (switch, Off/On, default Off, p1); Ultra Hi (switch, Off/On, default Off, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
+| Brit Bass 50 Bright | Marshall Super Bass |  |  | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
+| Brit Bass 50 Normal | Marshall Super Bass |  |  | missing |  |
+| Brit Bass 50 Patch | Marshall Super Bass |  |  | verified | Gain 1 (0-10, default 5.0, p1); Gain 2 (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Output (dB, default 0.0, p1) |
+| CA 400+ Ch1 | Mesa Boogie Bass 400+ |  |  | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); EQ (switch, Off/On, default On, p1); Bright (switch, Off/On, default Off, p1); Bass Shift (switch, Off/On, default Off, p1); Treble Shift (switch, Off/On, default Off, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1); 40 Hz (0-10, default 5.0, p2); 100 Hz (0-10, default 5.0, p2); 250 Hz (0-10, default 5.0, p2); 625 Hz (0-10, default 5.0, p2); 1560 Hz (0-10, default 5.0, p2); 3900 Hz (0-10, default 5.0, p2); 6600 Hz (0-10, default 5.0, p2) |
+| CA 400+ Ch2 | Mesa Boogie Bass 400+ |  |  | missing |  |
+| G800K | Gallien-Krueger 800RB |  |  | verified | Gain (0-10, default 1.0, p1); Bass (0-10, default 5.0, p1); Lo Mid (0-10, default 5.0, p1); Hi Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); -10 dB (switch, Off/On, default Off, p1); Lo Cut (switch, Off/On, default Off, p1); Mid Contour (switch, Off/On, default Off, p1); High Boost (switch, Off/On, default Off, p1); Output (dB, default 0.0, p1) |
+| Watt Bass Mod Bright | Hiwatt bass amplifier |  |  | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
+| Watt Bass Mod Normal | Hiwatt bass amplifier |  |  | verified | Gain (0-10, default 5.0, p1); Bass (0-10, default 5.0, p1); Mid (0-10, default 5.0, p1); Treble (0-10, default 5.0, p1); Presence (0-10, default 5.0, p1); Master (0-10, default 3.0, p1); Output (dB, default 0.0, p1) |
 
 ## Guitar cabinets
 

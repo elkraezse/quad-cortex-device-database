@@ -13147,6 +13147,678 @@
       "pages": 3,
       "notes": "Listed as 'Cab' on the official device list. Unique mic list (VR2, 353, 421, 2500, FET 301, Condenser 2500). Pages 2-3 shared cab layout.",
       "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "amped_flip_top_6464",
+      "name": "Amped Flip-Top 6464",
+      "category": "Bass amps",
+      "based_on": "Ampeg B-15N Flip-Top (Portaflex)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Only 4 controls total, no Gain/Volume knob — matches the real B-15's minimal single-channel panel. Sibling variants 6466/6664/6666 (same list, presumably different tube complements per the naming) not yet screenshotted.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "amped_super_valve",
+      "name": "Amped Super Valve",
+      "category": "Bass amps",
+      "based_on": "Ampeg SVT (Super Valve Technology)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Midrange",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Frequency",
+          "type": "select",
+          "range": "stepped/detented, exact positions not confirmed",
+          "default": "1",
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Ultra Lo",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Ultra Hi",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Frequency is a detented knob (visible click-stop dots) reading a plain integer position, not Hz — real position labels unconfirmed.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "brit_bass_50_bright",
+      "name": "Brit Bass 50 Bright",
+      "category": "Bass amps",
+      "based_on": "Marshall Super Bass",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": null,
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "brit_bass_50_patch",
+      "name": "Brit Bass 50 Patch",
+      "category": "Bass amps",
+      "based_on": "Marshall Super Bass",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Gain 1",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Gain 2",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "\"Patch\" channel blends both inputs, same pattern as the Patch variants seen on several guitar amp families.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "brit_bass_50_normal",
+      "name": "Brit Bass 50 Normal",
+      "category": "Bass amps",
+      "based_on": "Marshall Super Bass",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "verified": false,
+      "source": null,
+      "controls_unverified": null,
+      "pages": null,
+      "notes": null,
+      "coros_verified_on": null
+    },
+    {
+      "id": "ca_400_plus_ch1",
+      "name": "CA 400+ Ch1",
+      "category": "Bass amps",
+      "based_on": "Mesa Boogie Bass 400+",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "EQ",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "On",
+          "page": 1
+        },
+        {
+          "name": "Bright",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Bass Shift",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Treble Shift",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        },
+        {
+          "name": "40 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "100 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "250 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "625 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "1560 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "3900 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        },
+        {
+          "name": "6600 Hz",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 2
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 2,
+      "notes": "Page 2 is a 7-band graphic EQ, gated by the page-1 EQ switch (shown On here).",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "ca_400_plus_ch2",
+      "name": "CA 400+ Ch2",
+      "category": "Bass amps",
+      "based_on": "Mesa Boogie Bass 400+",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "verified": false,
+      "source": null,
+      "controls_unverified": null,
+      "pages": null,
+      "notes": null,
+      "coros_verified_on": null
+    },
+    {
+      "id": "g800k",
+      "name": "G800K",
+      "category": "Bass amps",
+      "based_on": "Gallien-Krueger 800RB",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 1.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Lo Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Hi Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "-10 dB",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Lo Cut",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Mid Contour",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "High Boost",
+          "type": "switch",
+          "range": "Off/On",
+          "default": "Off",
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": null,
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "watt_bass_mod_bright",
+      "name": "Watt Bass Mod Bright",
+      "category": "Bass amps",
+      "based_on": "Hiwatt bass amplifier",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "\"Hiwatt bass amplifier\" based_on is inferred from the Watt=Hiwatt naming convention used elsewhere in this catalogue; the exact real-world model is unconfirmed.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "watt_bass_mod_normal",
+      "name": "Watt Bass Mod Normal",
+      "category": "Bass amps",
+      "based_on": "Hiwatt bass amplifier",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": [
+        {
+          "name": "Gain",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Bass",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Mid",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Treble",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Presence",
+          "type": "knob",
+          "range": "0-10",
+          "default": 5.0,
+          "page": 1
+        },
+        {
+          "name": "Master",
+          "type": "knob",
+          "range": "0-10",
+          "default": 3.0,
+          "page": 1
+        },
+        {
+          "name": "Output",
+          "type": "knob",
+          "range": "dB",
+          "default": 0.0,
+          "page": 1
+        }
+      ],
+      "verified": true,
+      "source": "Cortex Control 4.1.0 screenshot",
+      "controls_unverified": null,
+      "pages": 1,
+      "notes": "Controls and defaults are identical to Watt Bass Mod Bright in the screenshots — confirmed directly, not inferred; unusual for a Bright/Normal pair but that's what both screenshots show.",
+      "coros_verified_on": "4.1.0"
+    },
+    {
+      "id": "amped_flip_top_6466",
+      "name": "Amped Flip-Top 6466",
+      "category": "Bass amps",
+      "based_on": "Ampeg B-15N Flip-Top (Portaflex)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "verified": false,
+      "source": null,
+      "controls_unverified": null,
+      "pages": null,
+      "notes": null,
+      "coros_verified_on": null
+    },
+    {
+      "id": "amped_flip_top_6664",
+      "name": "Amped Flip-Top 6664",
+      "category": "Bass amps",
+      "based_on": "Ampeg B-15N Flip-Top (Portaflex)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "verified": false,
+      "source": null,
+      "controls_unverified": null,
+      "pages": null,
+      "notes": null,
+      "coros_verified_on": null
+    },
+    {
+      "id": "amped_flip_top_6666",
+      "name": "Amped Flip-Top 6666",
+      "category": "Bass amps",
+      "based_on": "Ampeg B-15N Flip-Top (Portaflex)",
+      "plugin": null,
+      "added_in_coros": null,
+      "controls": null,
+      "verified": false,
+      "source": null,
+      "controls_unverified": null,
+      "pages": null,
+      "notes": null,
+      "coros_verified_on": null
     }
   ]
 }

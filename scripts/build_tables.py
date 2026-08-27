@@ -14,7 +14,7 @@ MD = ROOT / "docs" / "devices.md"
 CSV = ROOT / "data" / "qc_catalogue.csv"
 
 CATEGORY_ORDER = [
-    "Guitar amps", "Guitar cabinets", "Guitar overdrive", "Compressor", "EQ",
+    "Guitar amps", "Bass amps", "Guitar cabinets", "Bass cabinets", "Guitar overdrive", "Compressor", "EQ",
     "Delay", "Reverb", "Modulation", "Pitch", "Filter", "Wah", "Morph",
     "Utility", "Synth",
 ]
